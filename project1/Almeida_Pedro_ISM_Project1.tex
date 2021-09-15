@@ -126,7 +126,7 @@ For the given example, the moment equation is as shown in Eq. \ref{moment_equati
 \label{moment_equation_example}
 \end{equation}
 
-Finally, with the moment equation found, the report will integrate it twice as given per Eq. \ref{form3} to find $v(x)$, which can be shown in Eq. \ref{moment_equation_example_int}.
+With the moment equation found, the report will integrate it twice as given per Eq. \ref{form3} to find $v(x)$, which can be shown in Eq. \ref{moment_equation_example_int}.
 
 \begin{equation}
     \begin{split}
@@ -135,6 +135,33 @@ Finally, with the moment equation found, the report will integrate it twice as g
     & EI v(x) = \frac{-P}{6}<x-L>^3 - \frac{M_I}{2}<x-L>^2 + \frac{C_y}{6}<x-2L>^3 - \frac{w}{24}<x-2L>^4 + C_1 x + C_2
     \end{split}
 \label{moment_equation_example_int}
+\end{equation}
+
+The last step in finding the displacement equation is to apply the boundary conditions to find the coefficients of integration $C_1$ and $C_2$, which use the properties of the supports. As given in Fig. \ref{FBD_example}, there are two supports that provide vertical reactions to the beam's displacement. In other words, at the point of contact with each of the supports, the vertical displacement must be equal to zero. As such, we can use the conditions shown in Eqs. \ref{moment_equation_example_coef1} and \ref{moment_equation_example_coef2} to solve for $C_1$ and $C_2$.
+
+\begin{equation}
+    \begin{split}
+    	& v(x=0) = 0  \\
+ 	& \Rightarrow \frac{-P}{6}<(0)-L>^3 - \frac{M_I}{2}<(0)-L>^2 + \frac{C_y}{6}<(0)-2L>^3 - \frac{w}{24}<(0)-2L>^4 + C_1 (0) + C_2 \\
+	& \Rightarrow C_2 = 0 \\
+    \end{split}
+\label{moment_equation_example_coef1}
+\end{equation}
+
+\begin{equation}
+    \begin{split}
+	& v(x=2L) = 0  \\
+ 	& \Rightarrow \frac{-P}{6}<(2L)-L>^3 - \frac{M_I}{2}<(2L)-L>^2 + \frac{C_y}{6}<(2L)-2L>^3 - \frac{w}{24}<(2L)-2L>^4 + C_1 (2L) + C_2 \\
+	& \Rightarrow C_1 = \frac{\frac{PL^3}{6} + \frac{M_I L^2}{2}}{2L} = \frac{PL^2}{12} + \frac{M_I L}{4} \\
+    \end{split}
+\label{moment_equation_example_coef2}
+\end{equation}
+
+Therefore, the final equation for the deflection of the beam can be found as shown in Eq. \ref{moment_equation_example_final} where the unknown coefficients have been solved for.
+
+\begin{equation}
+EI v(x) = \frac{-P}{6}<x-L>^3 - \frac{M_I}{2}<x-L>^2 + \frac{C_y}{6}<x-2L>^3 - \frac{w}{24}<x-2L>^4 + \left( \frac{PL^2}{12} + \frac{M_I L}{4} \right) x
+\label{moment_equation_example_final}
 \end{equation}
 
 \section{Problem Definition} \label{Problems}
