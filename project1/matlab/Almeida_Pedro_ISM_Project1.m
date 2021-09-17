@@ -6,7 +6,7 @@
 
 %% Preparation
 clc; clear; close all;
-s = 2;
+s = 1;
 
 %% Problem 1
 %Constants
@@ -18,7 +18,6 @@ sY = 276e6; %Yield Stress
 I = 0; %
 
 range_x = [0 10];
-range_y_disp = [-3 3];
 
 %Problem Solution
 syms x
