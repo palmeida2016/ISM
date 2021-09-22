@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  16 SEP 2021 23:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  21 SEP 2021 16:45
 entering extended mode
 **./Almeida_Pedro_ISM_Project1.tex
 (Almeida_Pedro_ISM_Project1.tex
@@ -574,7 +574,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
 \c@lstlisting=\count326
-<images/fau_logo.jpeg, id=115, 1204.5pt x 770.88pt>
+<images/fau_logo.jpeg, id=3, 1204.5pt x 770.88pt>
 File: images/fau_logo.jpeg Graphic file (type jpg)
 <use images/fau_logo.jpeg>
 Package pdftex.def Info: images/fau_logo.jpeg  used on input line 36.
@@ -584,7 +584,7 @@ Package pdftex.def Info: images/fau_logo.jpeg  used on input line 36.
 
 {C:/Users/almei/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images/fau_lo
 go.jpeg>]
-<assignment/project1_probs.pdf, id=125, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=13, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf>
 Package pdftex.def Info: assignment/project1_probs.pdf  used on input line 66.
@@ -593,7 +593,7 @@ File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf>
 Package pdftex.def Info: assignment/project1_probs.pdf  used on input line 66.
 (pdftex.def)             Requested size: 614.26506pt x 794.93964pt.
-<assignment/project1_probs.pdf, id=128, page=1, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=16, page=1, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 1>
 Package pdftex.def Info: assignment/project1_probs.pdf , page1 used on input li
@@ -626,7 +626,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page1 used on input li
 ne 66.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [1 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=167, page=2, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=55, page=2, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 2>
 Package pdftex.def Info: assignment/project1_probs.pdf , page2 used on input li
@@ -643,7 +643,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page2 used on input li
 ne 66.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [2 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=173, page=3, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=61, page=3, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 3>
 Package pdftex.def Info: assignment/project1_probs.pdf , page3 used on input li
@@ -660,7 +660,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page3 used on input li
 ne 66.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [3 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=179, page=4, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=67, page=4, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 4>
 Package pdftex.def Info: assignment/project1_probs.pdf , page4 used on input li
@@ -677,7 +677,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page4 used on input li
 ne 66.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [4 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=185, page=5, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=73, page=5, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 5>
 Package pdftex.def Info: assignment/project1_probs.pdf , page5 used on input li
@@ -694,7 +694,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page5 used on input li
 ne 66.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [5 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=191, page=6, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=79, page=6, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 6>
 Package pdftex.def Info: assignment/project1_probs.pdf , page6 used on input li
@@ -714,7 +714,7 @@ ne 66.
 
 pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assignment/project1_dwg.pdf, id=198, 597.23125pt x 845.1575pt>
+<assignment/project1_dwg.pdf, id=86, 597.23125pt x 845.1575pt>
 File: assignment/project1_dwg.pdf Graphic file (type pdf)
 <use assignment/project1_dwg.pdf>
 Package pdftex.def Info: assignment/project1_dwg.pdf  used on input line 67.
@@ -735,7 +735,7 @@ lusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
 lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assignment/project1_dwg.pdf, id=201, page=1, 597.23125pt x 845.1575pt>
+<assignment/project1_dwg.pdf, id=89, page=1, 597.23125pt x 845.1575pt>
 File: assignment/project1_dwg.pdf Graphic file (type pdf)
 <use assignment/project1_dwg.pdf, page 1>
 Package pdftex.def Info: assignment/project1_dwg.pdf , page1 used on input line
@@ -761,28 +761,100 @@ File: assignment/project1_dwg.pdf Graphic file (type pdf)
 Package pdftex.def Info: assignment/project1_dwg.pdf , page1 used on input line
  67.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-[7 <./assignment/project1_dwg.pdf>] (Almeida_Pedro_ISM_Project1.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+[7 <./assignment/project1_dwg.pdf>]
+
+Package hyperref Warning: old toc file detected, not used; run LaTeX again.
+
+\tf@toc=\write4
+\openout4 = `Almeida_Pedro_ISM_Project1.toc'.
+
+
+LaTeX Warning: Reference `Background Theory' on page 8 undefined on input line 
+77.
+
+
+LaTeX Warning: Reference `Background Theory' on page 8 undefined on input line 
+79.
+
+
+LaTeX Warning: Reference `Problems' on page 8 undefined on input line 79.
+
+
+LaTeX Warning: Reference `Solutions' on page 8 undefined on input line 79.
+
+
+LaTeX Warning: Reference `Results' on page 8 undefined on input line 79.
+
+
+LaTeX Warning: Reference `Conclusions' on page 8 undefined on input line 79.
+
+
+LaTeX Warning: Reference `form1' on page 8 undefined on input line 82.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
 
 (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
+
 
 (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-[8])
-\tf@toc=\write4
-\openout4 = `Almeida_Pedro_ISM_Project1.toc'.
+[8]
 
- [9]
-<figures/FBD_example.jpeg, id=261, 803.0pt x 344.28625pt>
-File: figures/FBD_example.jpeg Graphic file (type jpg)
-<use figures/FBD_example.jpeg>
-Package pdftex.def Info: figures/FBD_example.jpeg  used on input line 99.
+LaTeX Warning: Reference `form3' on page 9 undefined on input line 89.
+
+
+LaTeX Warning: Reference `FBD_example' on page 9 undefined on input line 96.
+
+<FBD/FBD_example.jpeg, id=109, 803.0pt x 344.28625pt>
+File: FBD/FBD_example.jpeg Graphic file (type jpg)
+<use FBD/FBD_example.jpeg>
+Package pdftex.def Info: FBD/FBD_example.jpeg  used on input line 99.
 (pdftex.def)             Requested size: 483.69687pt x 207.3876pt.
- [10 <./figures/FBD_example.jpeg>] [11]
+
+LaTeX Warning: Reference `static_equations' on page 9 undefined on input line 1
+04.
+
+[9 <./FBD/FBD_example.jpeg>]
+
+LaTeX Warning: Reference `form1' on page 10 undefined on input line 115.
+
+
+LaTeX Warning: Reference `form3' on page 10 undefined on input line 115.
+
+
+LaTeX Warning: Reference `form3' on page 10 undefined on input line 115.
+
+
+LaTeX Warning: Reference `moment_equation' on page 10 undefined on input line 1
+15.
+
+
+LaTeX Warning: Reference `moment_equation_example' on page 10 undefined on inpu
+t line 122.
+
+
+LaTeX Warning: Reference `form3' on page 10 undefined on input line 129.
+
+
+LaTeX Warning: Reference `moment_equation_example_int' on page 10 undefined on 
+input line 129.
+
+
+LaTeX Warning: Reference `FBD_example' on page 10 undefined on input line 140.
+
+
+LaTeX Warning: Reference `moment_equation_example_coef1' on page 10 undefined o
+n input line 140.
+
+
+LaTeX Warning: Reference `moment_equation_example_coef2' on page 10 undefined o
+n input line 140.
+
+[10]
 Overfull \hbox (5.06535pt too wide) detected at line 149
 []
  []
@@ -791,6 +863,10 @@ Overfull \hbox (5.06535pt too wide) detected at line 149
 Overfull \hbox (45.0372pt too wide) detected at line 158
 []
  []
+
+
+LaTeX Warning: Reference `moment_equation_example_final' on page 11 undefined o
+n input line 160.
 
 
 Overfull \hbox (22.91643pt too wide) detected at line 165
@@ -803,35 +879,104 @@ r/m/n/12 2\OML/cmm/m/it/12 L >[] \OT1/cmr/m/n/12 + [] \OML/cmm/m/it/12 x
  []
 
 
-LaTeX Warning: Reference `' on page 12 undefined on input line 170.
+LaTeX Warning: Reference `FBD_1' on page 11 undefined on input line 170.
 
-[12]
-Overfull \hbox (10.72026pt too wide) detected at line 195
+<FBD/FBD_1.jpg, id=131, 482.80376pt x 219.82124pt>
+File: FBD/FBD_1.jpg Graphic file (type jpg)
+<use FBD/FBD_1.jpg>
+Package pdftex.def Info: FBD/FBD_1.jpg  used on input line 173.
+(pdftex.def)             Requested size: 483.69687pt x 220.2366pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[11]
+Overfull \hbox (10.72026pt too wide) detected at line 214
 []
  []
 
-[13] [14] [15] [16] [17] [18] [19] [20] [21]
+[12 <./FBD/FBD_1.jpg>]
+<FBD/FBD_2.jpg, id=151, 543.02875pt x 199.74625pt>
+File: FBD/FBD_2.jpg Graphic file (type jpg)
+<use FBD/FBD_2.jpg>
+Package pdftex.def Info: FBD/FBD_2.jpg  used on input line 219.
+(pdftex.def)             Requested size: 483.69687pt x 177.92903pt.
+<FBD/FBD_3.jpg, id=152, 512.91624pt x 219.82124pt>
+File: FBD/FBD_3.jpg Graphic file (type jpg)
+<use FBD/FBD_3.jpg>
+Package pdftex.def Info: FBD/FBD_3.jpg  used on input line 227.
+(pdftex.def)             Requested size: 483.69687pt x 207.29947pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FBD/FBD_4.jpg, id=153, 523.9575pt x 200.75pt>
+File: FBD/FBD_4.jpg Graphic file (type jpg)
+<use FBD/FBD_4.jpg>
+Package pdftex.def Info: FBD/FBD_4.jpg  used on input line 235.
+(pdftex.def)             Requested size: 483.69687pt x 185.32938pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FBD/FBD_5.jpg, id=154, 493.845pt x 218.8175pt>
+File: FBD/FBD_5.jpg Graphic file (type jpg)
+<use FBD/FBD_5.jpg>
+Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 243.
+(pdftex.def)             Requested size: 483.69687pt x 214.31947pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FBD/FBD_6.jpg, id=155, 483.8075pt x 210.7875pt>
+File: FBD/FBD_6.jpg Graphic file (type jpg)
+<use FBD/FBD_6.jpg>
+Package pdftex.def Info: FBD/FBD_6.jpg  used on input line 251.
+(pdftex.def)             Requested size: 483.69687pt x 210.74838pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FBD/FBD_7.jpg, id=156, 492.84125pt x 210.7875pt>
+File: FBD/FBD_7.jpg Graphic file (type jpg)
+<use FBD/FBD_7.jpg>
+Package pdftex.def Info: FBD/FBD_7.jpg  used on input line 259.
+(pdftex.def)             Requested size: 483.69687pt x 206.88554pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[13 <./FBD/FBD_2.jpg>] [14 <./FBD/FBD_3.jpg> <./FBD/FBD_4.jpg>]
+Overfull \vbox (29.47711pt too high) has occurred while \output is active []
+
+
+[15 <./FBD/FBD_5.jpg> <./FBD/FBD_6.jpg>] [16 <./FBD/FBD_7.jpg>] [17] [18]
+[19] [20] [21]
 No file Almeida_Pedro_ISM_Project1.bbl.
 [22] (Almeida_Pedro_ISM_Project1.aux)
 
 LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `Almeida_Pedro_ISM_Project1.out' has not chan
-ged.
-(rerunfilecheck)             Checksum: 613F9B9DB32DEDAC96E6322944CDE6C3;3060.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `Almeida_Pedro_ISM_Project1.out' has chang
+ed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Almeida_Pedro_ISM_Project1.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  613F9B9DB32DEDAC96E6322944CDE6C3;3060.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 27 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14069 strings out of 478927
- 216177 string characters out of 2852535
- 656762 words of memory out of 3000000
- 31630 multiletter control sequences out of 15000+600000
+ 14103 strings out of 478927
+ 216527 string characters out of 2852535
+ 654014 words of memory out of 3000000
+ 31650 multiletter control sequences out of 15000+600000
  409940 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,17n,81p,719b,1842s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,17n,81p,728b,1835s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX
@@ -846,9 +991,9 @@ fb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 onts/cm/cmsy10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Almeida_Pedro_ISM_Project1.pdf (23 pages, 973185 bytes).
+Output written on Almeida_Pedro_ISM_Project1.pdf (23 pages, 1092198 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
- 300 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 295 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

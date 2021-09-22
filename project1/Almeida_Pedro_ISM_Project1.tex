@@ -96,7 +96,7 @@ The second form of the deflection equation can be given by Eq. \ref{form3}. The 
 The first step to find the static forces acting on a beam includes the decomposition of the applied and reaction forces onto a Free Body Diagram (FBD). To define the FBD, the report must first determine the type of supports acting on the beam. For a simply supported beam, the pin support creates a reaction $x$ and $y$ directions, while the roller support only creates a reaction in the $y$ direction. For a wall support, the beam must have a reaction in the $x$ and $y$ directions in addition to a moment reaction. Fig. \ref{FBD_example} shows an example of a FBD decomposition.
 
 \begin{figure}[h]
-\includegraphics[width=\textwidth]{figures/FBD_example.jpeg}
+\includegraphics[width=\textwidth]{FBD/FBD_example.jpeg}
 \caption{Example Free Body Diagram}
 \label{FBD_example}
 \end{figure}
@@ -167,7 +167,13 @@ EI v(x) = \frac{-P}{6}<x-L>^3 - \frac{M_I}{2}<x-L>^2 + \frac{C_y}{6}<x-2L>^3 - \
 \section{Problem Definition} \label{Problems}
 \subsection{Problem 1}
 
-As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{}.
+As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{FBD_1}.
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{FBD/FBD_1.jpg}
+\caption{Free Body Diagram for Problem 1}
+\label{FBD_1}
+\end{figure}
 
 \begin{equation}
 \begin{split}
@@ -179,7 +185,20 @@ As given by the project assignment, the first project constitutes of a simply su
 	& R_b = \frac{9}{10} \\
 	& R_a = \frac{11}{10} \\
 \end{split}
-\label{problem1_reactions}
+\label{problem1_reaction_equation}
+\end{equation}
+
+\begin{equation}
+\begin{split}
+	&\uparrow \sum F_y = R_a - 2(1) + 2(1) - 2(1) + 2(1) - 2(1) + 2(1) - 2(1) + 2(1) - 2(1) + R_b = 0 \\
+ 	&\rightarrow \sum F_x = 0 \\
+ 	&\circlearrowleft \sum M_A = -2(1)\left(\frac{1}{2}\right) + 2(1)\left(\frac{3}{2}\right) - 2(1)\left(\frac{5}{2}\right) + 2(1)\left(\frac{7}{2}\right) - 2(1)\left(\frac{9}{2}\right) + 2(1)\left(\frac{11}{2}\right) \\ 
+	& - 2(1)\left(\frac{13}{2}\right) + 2(1)\left(\frac{15}{2}\right) - 2(1)\left(\frac{17}{2}\right) + R_b(10) = 0 \\
+	& \\
+	& R_b = \frac{9}{10} \\
+	& R_a = \frac{11}{10} \\
+\end{split}
+\label{problem1_reaction_solution}
 \end{equation}
 
 \begin{equation}
@@ -195,17 +214,52 @@ As given by the project assignment, the first project constitutes of a simply su
 \end{equation}
 
 \subsection{Problem 2}
-\lipsum[1]
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{FBD/FBD_2.jpg}
+\caption{Free Body Diagram for Problem 2}
+\label{FBD_2}
+\end{figure}
+
 \subsection{Problem 3}
-\lipsum[1]
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{FBD/FBD_3.jpg}
+\caption{Free Body Diagram for Problem 3}
+\label{FBD_3}
+\end{figure}
+
 \subsection{Problem 4}
-\lipsum[1]
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{FBD/FBD_4.jpg}
+\caption{Free Body Diagram for Problem 4}
+\label{FBD_4}
+\end{figure}
+
 \subsection{Problem 5}
-\lipsum[1]
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{FBD/FBD_5.jpg}
+\caption{Free Body Diagram for Problem 5}
+\label{FBD_5}
+\end{figure}
+
 \subsection{Problem 6}
-\lipsum[1]
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{FBD/FBD_6.jpg}
+\caption{Free Body Diagram for Problem 6}
+\label{FBD_6}
+\end{figure}
+
 \subsection{Problem 7}
-\lipsum[1]
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{FBD/FBD_7.jpg}
+\caption{Free Body Diagram for Problem 7}
+\label{FBD_7}
+\end{figure}
 
 
 \section{Problem Solution} \label{Solutions}
