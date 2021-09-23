@@ -123,7 +123,7 @@ Once the support reactions have been found, the engineer proceeds by selecting E
 For the given example, the moment equation is as shown in Eq. \ref{moment_equation_example}. In the equation, any term found containing $<x-x_0>^n$ conveys the force represented only acts starting from point $x_0$; that is, if the beam were to be segmented prior to $x_0$ such that $x<x_0$, the moment generated would be equal to zero. As such, $<x-x_0>^n$ evaluates to $(x-x_0)^n$ if $x>=x_0$ or $0$ if $x<x_0$.
 
 \begin{equation}
-    M(x) = -P<x-L>^1 - M_I<x-L>^0 + C_y<x-2L>^1 - \frac{w}{2}<x-2L>^2
+    M(x) = -P\left<x-L\right>^1 - M_I\left<x-L\right>^0 + C_y\left<x-2L\right>^1 - \frac{w}{2}\left<x-2L\right>^2
 \label{moment_equation_example}
 \end{equation}
 
@@ -131,9 +131,9 @@ With the moment equation found, the report will integrate it twice as given per 
 
 \begin{equation}
     \begin{split}
-    & EI \frac{\delta^2 v}{\delta x^2} = -P<x-L>^1 - M_I<x-L>^0 + C_y<x-2L>^1 - \frac{w}{2}<x-2L>^2 \\
-    & EI \frac{\delta v}{\delta x} = \frac{-P}{2}<x-L>^2 - M_I<x-L>^1 + \frac{C_y}{2}<x-2L>^2 -  \frac{w}{6}<x-2L>^3 + C_1\\
-    & EI v(x) = \frac{-P}{6}<x-L>^3 - \frac{M_I}{2}<x-L>^2 + \frac{C_y}{6}<x-2L>^3 - \frac{w}{24}<x-2L>^4 + C_1 x + C_2
+    & EI \frac{\delta^2 v}{\delta x^2} = -P\left<x-L\right>^1 - M_I\left<x-L\right>^0 + C_y\left<x-2L\right>^1 - \frac{w}{2}\left<x-2L\right>^2 \\
+    & EI \frac{\delta v}{\delta x} = \frac{-P}{2}\left<x-L\right>^2 - M_I\left<x-L\right>^1 + \frac{C_y}{2}\left<x-2L\right>^2 -  \frac{w}{6}\left<x-2L\right>^3 + C_1\\
+    & EI v(x) = \frac{-P}{6}\left<x-L\right>^3 - \frac{M_I}{2}\left<x-L\right>^2 + \frac{C_y}{6}\left<x-2L\right>^3 - \frac{w}{24}\left<x-2L\right>^4 + C_1 x + C_2
     \end{split}
 \label{moment_equation_example_int}
 \end{equation}
@@ -143,7 +143,7 @@ The last step in finding the displacement equation is to apply the boundary cond
 \begin{equation}
     \begin{split}
     	& v(x=0) = 0  \\
- 	& \Rightarrow \frac{-P}{6}<(0)-L>^3 - \frac{M_I}{2}<(0)-L>^2 + \frac{C_y}{6}<(0)-2L>^3 - \frac{w}{24}<(0)-2L>^4 + C_1 (0) + C_2 \\
+ 	& \Rightarrow \frac{-P}{6}\left<(0)-L\right>^3 - \frac{M_I}{2}\left<(0)-L\right>^2 + \frac{C_y}{6}\left<(0)-2L\right>^3 - \frac{w}{24}\left<(0)-2L\right>^4 + C_1 (0) + C_2 \\
 	& \Rightarrow C_2 = 0 \\
     \end{split}
 \label{moment_equation_example_coef1}
@@ -152,7 +152,7 @@ The last step in finding the displacement equation is to apply the boundary cond
 \begin{equation}
     \begin{split}
 	& v(x=2L) = 0  \\
- 	& \Rightarrow \frac{-P}{6}<(2L)-L>^3 - \frac{M_I}{2}<(2L)-L>^2 + \frac{C_y}{6}<(2L)-2L>^3 - \frac{w}{24}<(2L)-2L>^4 + C_1 (2L) + C_2 \\
+ 	& \Rightarrow \frac{-P}{6}\left<(2L)-L\right>^3 - \frac{M_I}{2}\left<(2L)-L\right>^2 + \frac{C_y}{6}\left<(2L)-2L\right>^3 - \frac{w}{24}\left<(2L)-2L\right>^4 + C_1 (2L) + C_2 \\
 	& \Rightarrow C_1 = \frac{\frac{PL^3}{6} + \frac{M_I L^2}{2}}{2L} = \frac{PL^2}{12} + \frac{M_I L}{4} \\
     \end{split}
 \label{moment_equation_example_coef2}
@@ -161,7 +161,7 @@ The last step in finding the displacement equation is to apply the boundary cond
 Therefore, the final equation for the deflection of the beam can be found as shown in Eq. \ref{moment_equation_example_final} where the unknown coefficients have been solved for.
 
 \begin{equation}
-EI v(x) = \frac{-P}{6}<x-L>^3 - \frac{M_I}{2}<x-L>^2 + \frac{C_y}{6}<x-2L>^3 - \frac{w}{24}<x-2L>^4 + \left( \frac{PL^2}{12} + \frac{M_I L}{4} \right) x
+EI v(x) = \frac{-P}{6}\left<x-L\right>^3 - \frac{M_I}{2}\left<x-L\right>^2 + \frac{C_y}{6}\left<x-2L\right>^3 - \frac{w}{24}\left<x-2L\right>^4 + \left( \frac{PL^2}{12} + \frac{M_I L}{4} \right) x
 \label{moment_equation_example_final}
 \end{equation}
 
@@ -176,18 +176,7 @@ As given by the project assignment, the first project constitutes of a simply su
 \label{FBD_1}
 \end{figure}
 
-\begin{equation}
-\begin{split}
-	&\uparrow \sum F_y = R_a - 2(1) + 2(1) - 2(1) + 2(1) - 2(1) + 2(1) - 2(1) + 2(1) - 2(1) + R_b = 0 \\
- 	&\rightarrow \sum F_x = 0 \\
- 	&\circlearrowleft \sum M_A = -2(1)\left(\frac{1}{2}\right) + 2(1)\left(\frac{3}{2}\right) - 2(1)\left(\frac{5}{2}\right) + 2(1)\left(\frac{7}{2}\right) - 2(1)\left(\frac{9}{2}\right) + 2(1)\left(\frac{11}{2}\right) \\ 
-	& - 2(1)\left(\frac{13}{2}\right) + 2(1)\left(\frac{15}{2}\right) - 2(1)\left(\frac{17}{2}\right) + R_b(10) = 0 \\
-	& \\
-	& R_b = \frac{9}{10} \\
-	& R_a = \frac{11}{10} \\
-\end{split}
-\label{problem1_reaction_equation}
-\end{equation}
+With the Free-Body Diagram completed, the report employs the static equations to find the reaction forces at each of the supports as shown in Eq. \ref{problem1_reaction_equation}.
 
 \begin{equation}
 \begin{split}
@@ -195,32 +184,144 @@ As given by the project assignment, the first project constitutes of a simply su
  	&\rightarrow \sum F_x = 0 \\
  	&\circlearrowleft \sum M_A = -2(1)\left(\frac{1}{2}\right) + 2(1)\left(\frac{3}{2}\right) - 2(1)\left(\frac{5}{2}\right) + 2(1)\left(\frac{7}{2}\right) - 2(1)\left(\frac{9}{2}\right) + 2(1)\left(\frac{11}{2}\right) \\ 
 	& - 2(1)\left(\frac{13}{2}\right) + 2(1)\left(\frac{15}{2}\right) - 2(1)\left(\frac{17}{2}\right) + R_b(10) = 0 \\
-	& \\
+\end{split}
+\label{problem1_reaction_equation}
+\end{equation}
+
+Given the problem is statically determinate, the static equations are sufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem1_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reactionary forces are those in the vertical direction, which will be named $R_a$ and $R_b$ henceforth.
+
+\begin{equation}
+\begin{split}
 	& R_b = \frac{9}{10} \\
 	& R_a = \frac{11}{10} \\
 \end{split}
 \label{problem1_reaction_solution}
 \end{equation}
 
+With the reactions determined, the moment and deflection equations can be constructed as shown in Eq. \ref{problem1_equations}.
+
 \begin{equation}
     \begin{split}
-    & EI \frac{\delta^2 v}{\delta x^2} = \frac{11}{10}<x-0>^1 - <x-0>^2 +  2<x-1>^2 - 2<x-2>^2 +  2<x-3>^2 \\
-    & - 2<x-4>^2  +  2<x-5>^2 - 2<x-6>^2  +  2<x-7>^2 - 2<x-8>^2 +  <x-9>^2  \\
-    & EI \frac{\delta v}{\delta x} =  \frac{11}{20}<x-0>^2 - \frac{1}{3}<x-0>^3 +  \frac{2}{3}<x-1>^3 - \frac{2}{3}<x-2>^3 +  \frac{2}{3}<x-3>^3 \\
-    & - \frac{2}{3}<x-4>^3  +  \frac{2}{3}<x-5>^3 - \frac{2}{3}<x-6>^3  +  \frac{2}{3}<x-7>^3 - \frac{2}{3}<x-8>^3 +  \frac{1}{3}<x-9>^3  \\
-    & EI v(x) = \frac{11}{60}<x-0>^3 - \frac{1}{12}<x-0>^4 +  \frac{1}{6}<x-1>^4 - \frac{1}{6}<x-2>^4 +  \frac{1}{6}<x-3>^4 \\
-    & - \frac{1}{6}<x-4>^4  +  \frac{1}{6}<x-5>^4 - \frac{1}{6}<x-6>^4  +  \frac{1}{6}<x-7>^4 - \frac{1}{6}<x-8>^4 +  \frac{1}{12}<x-9>^4  \\
+& EI \frac{\delta^2 v}{\delta x^2} = \frac{11}{10}\left<x-0\right>^1 - \left<x-0\right>^2 +  2\left<x-1\right>^2 - 2\left<x-2\right>^2 +  2\left<x-3\right>^2 - 2\left<x-4\right>^2  \\
+& +  2\left<x-5\right>^2 - 2\left<x-6\right>^2  +  2\left<x-7\right>^2 - 2\left<x-8\right>^2 + \left <x-9\right>^2 \\
+& \\
+& EI \frac{\delta v}{\delta x} =  \frac{11}{20}\left<x-0\right>^2 - \frac{1}{3}\left<x-0\right>^3 +  \frac{2}{3}\left<x-1\right>^3 - \frac{2}{3}\left<x-2\right>^3 +  \frac{2}{3}\left<x-3\right>^3 - \frac{2}{3}\left<x-4\right>^3 \\
+&  +  \frac{2}{3}\left<x-5\right>^3 - \frac{2}{3}\left<x-6\right>^3  +  \frac{2}{3}\left<x-7\right>^3 - \frac{2}{3}\left<x-8\right>^3 +  \frac{1}{3}\left<x-9\right>^3 + C_1\\
+& \\
+& EI v(x) = \frac{11}{60}\left<x-0\right>^3 - \frac{1}{12}\left<x-0\right>^4 +  \frac{1}{6}\left<x-1\right>^4 - \frac{1}{6}\left<x-2\right>^4 + \frac{1}{6}\left<x-3\right>^4 - \frac{1}{6}\left<x-4\right>^4  \\      
+& +  \frac{1}{6}\left<x-5\right>^4 - \frac{1}{6}\left<x-6\right>^4  +  \frac{1}{6}\left<x-7\right>^4 - \frac{1}{6}\left<x-8\right>^4 +  \frac{1}{12}\left<x-9\right>^4 + C_1x + C_2 \\
     \end{split}
 \label{problem1_equations}
 \end{equation}
 
+Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the two vertical supports at A and B guarantee the deflection at these points is equal to zero, as shown in Eq. \ref{problem1_constants_of_integration}
+
+\begin{equation}
+\begin{split}
+	& v(0) = 0 \\
+	& v(10) = 0 \\
+\end{split}
+\label{problem1_constants_of_integration}
+\end{equation}
+
+Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem1_constants_of_integration_solution}.
+
+\begin{equation}
+\begin{split}
+	& C_2 = 0 \\
+	& C_1 = \frac{209}{240} \\
+\end{split}
+\label{problem1_constants_of_integration_solution}
+\end{equation}
+
+After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem1_final_equation}.
+
+\begin{equation}
+\begin{split}
+  & EI v(x) = \frac{11}{60}\left<x-0\right>^3 - \frac{1}{12}\left<x-0\right>^4 +  \frac{1}{6}\left<x-1\right>^4 - \frac{1}{6}\left<x-2\right>^4 + \frac{1}{6}\left<x-3\right>^4 - \frac{1}{6}\left<x-4\right>^4 \\  	  
+&   +  \frac{1}{6}\left<x-5\right>^4 - \frac{1}{6}\left<x-6\right>^4  +  \frac{1}{6}\left<x-7\right>^4 - \frac{1}{6}\left<x-8\right>^4 +  \frac{1}{12}\left<x-9\right>^4 + \frac{209}{240}x\\
+\end{split}
+\label{problem1_final_equation}
+\end{equation}
+
+
 \subsection{Problem 2}
+
+As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{FBD_2}.
 
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{FBD/FBD_2.jpg}
 \caption{Free Body Diagram for Problem 2}
 \label{FBD_2}
 \end{figure}
+
+With the Free-Body Diagram completed, the report employs the static equations to find the reaction forces at each of the supports as shown in Eq. \ref{problem2_reaction_equation}.
+
+\begin{equation}
+\begin{split}
+	&\uparrow \sum F_y = R_{ay} = 0 \\
+ 	&\rightarrow \sum F_x = R_{ax} = 0 \\
+ 	&\circlearrowleft \sum M_A = -50 - 2 - 4 - 6 - 8 + 8 + 6 + 4 + 2 + M_a = 0
+\end{split}
+\label{problem2_reaction_equation}
+\end{equation}
+
+Given the problem is statically determinate, the static equations are sufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem2_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reaction is the reactionary moment, which will be named $M_a$ henceforth.
+
+\begin{equation}
+\begin{split}
+	& M_a = 50 \\
+	& R_{ax} = 0 \\
+	& R_{ay} = 0 \\
+\end{split}
+\label{problem2_reaction_solution}
+\end{equation}
+
+With the reactions determined, the moment and deflection equations can be constructed as shown in Eq. \ref{problem2_equations}.
+
+\begin{equation}
+    \begin{split}
+& EI \frac{\delta^2 v}{\delta x^2} = - 50\left<x-0\right>^0 - 2\left<x-1\right>^0 - 4\left<x-2\right>^0 - 6\left<x-3\right>^0 - 8\left<x-4\right>^0   +  8\left<x-5\right>^0 \\
+& + 6\left<x-6\right>^0 +  4\left<x-7\right>^0 + 2\left<x-8\right>^0 \\
+& \\
+& EI \frac{\delta v}{\delta x} = - 50\left<x-0\right>^1 - 2\left<x-1\right>^1 - 4\left<x-2\right>^1 -  6\left<x-3\right>^1 - 8\left<x-4\right>^1   +  8\left<x-5\right>^1 \\
+& + 6\left<x-6\right>^1 +  4\left<x-7\right>^1 + 2\left<x-8\right>^1 + C_1 \\
+& \\
+& EI v(x) = - 25\left<x-0\right>^2 - \left<x-1\right>^2 - 2\left<x-2\right>^2 -  3\left<x-3\right>^2 - 4\left<x-4\right>^2   +  4\left<x-5\right>^2 \\
+& + 3\left<x-6\right>^2  +  2\left<x-7\right>^2 + \left<x-8\right>^2 + C_1 x + C_2 \\
+    \end{split}
+\label{problem2_equations}
+\end{equation}
+
+Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the fixed at A guarantees the deflection and slope at A is equal to zero, as shown in Eq. \ref{problem1_constants_of_integration}.
+
+\begin{equation}
+\begin{split}
+	& v(10) = 0 \\
+	& \frac{\delta v(10)}{\delta x} = 0 \\
+\end{split}
+\label{problem1_constants_of_integration}
+\end{equation}
+
+Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem1_constants_of_integration_solution}.
+
+\begin{equation}
+\begin{split}
+	& C_2 = -2770 \\
+	& C_1 = 560 \\
+\end{split}
+\label{problem1_constants_of_integration_solution}
+\end{equation}
+
+After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem1_final_equation}.
+
+\begin{equation}
+\begin{split}
+  & EI v(x) = - 25\left<x-0\right>^2 - \left<x-1\right>^2 - 2\left<x-2\right>^2 -  3\left<x-3\right>^2 - 4\left<x-4\right>^2   +  4\left<x-5\right>^2 \\
+& + 3\left<x-6\right>^2  +  2\left<x-7\right>^2 + \left<x-8\right>^2 + 560 x - 2770 \\
+\end{split}
+\label{problem1_final_equation}
+\end{equation}
 
 \subsection{Problem 3}
 

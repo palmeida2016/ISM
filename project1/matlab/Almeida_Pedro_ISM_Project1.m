@@ -6,23 +6,24 @@
 
 %% Preparation
 clc; clear; close all;
-s = 1;
+s = 2;
+range_x = [0 10];
 
 %% Problem 1
+figure(1)
+
 %Constants
-L = 2; %Beam Length
+L = 10; %Beam Length
 E = 69.9e9; %Young's Modulus
 v_allowed = L/500; %Allowed Displacement
 k = 1.5; %Safety Factor
 sY = 276e6; %Yield Stress
 I = 0; %
 
-range_x = [0 10];
-
 %Problem Solution
 syms x
 
-%Displacement Plot
+%Shear Force Plot
 subplot(3,1,1)
 shear = .55*s*pw(x,0,0) -s*pw(x,0,1) + 2*s*pw(x,1,1) - 2*s*pw(x,2,1) + 2*s*pw(x,3,1) - 2*s*pw(x,4,1) + 2*s*pw(x,5,1) - 2*s*pw(x,6,1) + 2*s*pw(x,7,1) - 2*s*pw(x,8,1) + s*pw(x,9,1) + 0.45*s*pw(x,10,0);
 fplot(shear, range_x);
@@ -48,3 +49,39 @@ ylabel('Displacement [m]')
 
 
 %% Problem 2
+figure(2)
+
+%Constants
+L = 10; %Beam Length
+E = 69.9e9; %Young's Modulus
+v_allowed = L/400; %Allowed Displacement
+k = 1.5; %Safety Factor
+sY = 276e6; %Yield Stress
+I = 0; %
+
+%Problem Solution
+syms x
+
+%Shear Force Plot
+subplot(3,1,1)
+shear = 0;
+fplot(shear, range_x);
+title('Shear Force vs. x');
+xlabel('x [m]')
+ylabel('Force [N]')
+
+%Moment Plot
+subplot(3,1,2)
+moment = -50*pw(x,0,0) -s*pw(x,1,0) -2*s*pw(x,2,0) - 3*s*pw(x,3,0) - 4*s*pw(x,4,0) + 4*s*pw(x,5,0) + 3*s*pw(x,6,0) + 2*s*pw(x,7,0) + s*pw(x,8,0) + 50*pw(x,10,0);
+fplot(moment, range_x);
+title('Moment vs. x');
+xlabel('x [m]')
+ylabel('Moment [Nm]')
+
+%Displacement Plot
+subplot(3,1,3)
+displacement = -25*pw(x,0,2) -(s/2)*pw(x,1,2) -2*(s/2)*pw(x,2,2) - 3*(s/2)*pw(x,3,2) - 4*(s/2)*pw(x,4,2) + 4*(s/2)*pw(x,5,2) + 3*(s/2)*pw(x,6,2) + 2*(s/2)*pw(x,7,2) + (s/2)*pw(x,8,2) + 560*pw(x,0,1) - 2770 + 25*pw(x,10,2);
+fplot(displacement, range_x);
+title('Displacement vs. x');
+xlabel('x [m]')
+ylabel('Displacement [m]')
