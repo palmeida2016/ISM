@@ -7,8 +7,8 @@
 %% Preparation
 clc; clear; close all;
 s = 2;
-range_x = [0 11];
-run_problems = [1 2 3];
+range_x = [0 10];
+run_problems = [3];
 
 
 %% Problem 1
@@ -117,9 +117,8 @@ if any(run_problems(:) == 3)
     ylabel('Force [N]')
 
     %Moment Plot
-    
     subplot(3,1,2)
-    moment = ((23*s + 5940)/60)*pw(x,0,1) - s*pw(x,1,1) + s*pw(x,2,1) - s*pw(x,3,1) + s*pw(x,4,1) - (s+10)*pw(x,5,0) - 35*pw(x,6,2) + 35*pw(x,8,2) - (s/6)*pw(x,9,3) + ((7*s+2460)/60)*pw(x,10,1);
+    moment = ((23*s + 5940)/60)*pw(x,0,0) - s*pw(x,1,0) + s*pw(x,2,0) - s*pw(x,3,0) + s*pw(x,4,0) - 70*pw(x,6,1) + 70*pw(x,8,1) - (s/2)*pw(x,9,2) + ((7*s+2460)/60)*pw(x,10,0);
     fplot(moment, range_x);
     title('Moment vs. x');
     xlabel('x [m]')
