@@ -1,30 +1,30 @@
-\babel@toc {english}{}
-\contentsline {section}{\numberline {1}Introduction}{9}{section.1}
-\contentsline {section}{\numberline {2}Background Theory}{9}{section.2}
-\contentsline {section}{\numberline {3}Problem Definition}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}Problem 1}{12}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Problem 2}{15}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Problem 3}{17}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Problem 4}{17}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Problem 5}{18}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Problem 6}{18}{subsection.3.6}
-\contentsline {subsection}{\numberline {3.7}Problem 7}{18}{subsection.3.7}
-\contentsline {section}{\numberline {4}Problem Solution}{18}{section.4}
-\contentsline {subsection}{\numberline {4.1}Problem 1}{18}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Problem 2}{19}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Problem 3}{20}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Problem 4}{20}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Problem 5}{20}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}Problem 6}{21}{subsection.4.6}
-\contentsline {subsection}{\numberline {4.7}Problem 7}{21}{subsection.4.7}
-\contentsline {section}{\numberline {5}Results and Discussion}{22}{section.5}
-\contentsline {subsection}{\numberline {5.1}Problem 1}{22}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Problem 2}{22}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Problem 3}{22}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Problem 4}{23}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Problem 5}{23}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Problem 6}{24}{subsection.5.6}
-\contentsline {subsection}{\numberline {5.7}Problem 7}{24}{subsection.5.7}
-\contentsline {section}{\numberline {6}Conclusions}{24}{section.6}
-\contentsline {section}{\numberline {7}Appendix}{24}{section.7}
-\contentsline {section}{References}{25}{section*.2}
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{9}{section.1}%
+\contentsline {section}{\numberline {2}Background Theory}{9}{section.2}%
+\contentsline {section}{\numberline {3}Problem Definition}{12}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Problem 1}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Problem 2}{15}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Problem 3}{17}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Problem 4}{19}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Problem 5}{19}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Problem 6}{20}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Problem 7}{20}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Problem Solution}{20}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Problem 1}{20}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Problem 2}{21}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Problem 3}{21}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Problem 4}{22}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Problem 5}{22}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Problem 6}{22}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Problem 7}{23}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Results and Discussion}{23}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Problem 1}{23}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Problem 2}{24}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Problem 3}{24}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Problem 4}{24}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Problem 5}{25}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Problem 6}{25}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.7}Problem 7}{26}{subsection.5.7}%
+\contentsline {section}{\numberline {6}Conclusions}{26}{section.6}%
+\contentsline {section}{\numberline {7}Appendix}{26}{section.7}%
+\contentsline {section}{References}{27}{section*.2}%
