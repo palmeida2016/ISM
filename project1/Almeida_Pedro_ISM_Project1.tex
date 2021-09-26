@@ -357,7 +357,7 @@ Given the problem is statically determinate, the static equations are sufficient
 \label{problem3_reaction_solution}
 \end{equation}
 
-With the reactions determined, the moment and deflection equations can be constructed as shown in Eq. \ref{problem1_equations}.
+With the reactions determined, the moment and deflection equations can be constructed as shown in Eq. \ref{problem3_equations}.
 
 \begin{equation}
     \begin{split}
@@ -403,7 +403,13 @@ After plugging in the boundary conditions, the report finds the deflection equat
 \label{problem3_final_equation}
 \end{equation}
 
+
+
+
+
 \subsection{Problem 4}
+
+As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{FBD_4}.
 
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{FBD/FBD_4.jpg}
@@ -411,13 +417,154 @@ After plugging in the boundary conditions, the report finds the deflection equat
 \label{FBD_4}
 \end{figure}
 
+With the Free-Body Diagram completed, the report employs the static equations to find the reaction forces at each of the supports as shown in Eq. \ref{problem4_reaction_equation}.
+
+\begin{equation}
+\begin{split}
+	&\uparrow \sum F_y = R_{ay} -2 -4 -6 -8 -10 -8 -6 -4 -2 = 0 \\
+ 	&\rightarrow \sum F_x = R_{ax} = 0 \\
+ 	&\circlearrowleft \sum M_A = M_a -2(1) -4(2) -6(3) -8(4) -10(5) -8(6) -6(7)- 4(8) -2(9) = 0
+\end{split}
+\label{problem4_reaction_equation}
+\end{equation}
+
+Given the problem is statically determinate, the static equations are sufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem4_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reactions are the reactionary moment and vertical reaction, which will be named $M_a$ and $R_a$ henceforth.
+
+\begin{equation}
+\begin{split}
+	& M_a = -250 \\
+	& R_{ax} = 0 \\
+	& R_{ay} = 50 \\
+\end{split}
+\label{problem4_reaction_solution}
+\end{equation}
+
+With the reactions determined, the moment and deflection equations can be constructed as shown in Eq. \ref{problem4_equations}.
+
+\begin{equation}
+    \begin{split}
+& EI \frac{\delta^2 v}{\delta x^2} = 50\left<x-0\right>^1 - 250\left<x-0\right>^0 - 2\left<x-1\right>^1 - 4\left<x-2\right>^1 - 6\left<x-3\right>^1 - 8\left<x-4\right>^1 \\
+& - 10\left<x-5\right>^1 -  8\left<x-6\right>^1 - 6\left<x-7\right>^1 -  4\left<x-8\right>^1 - 2\left<x-9\right>^1 \\
+& \\
+& EI \frac{\delta v}{\delta x} = 25\left<x-0\right>^2 - 250\left<x-0\right>^1 - \left<x-1\right>^2 - 2\left<x-2\right>^2 - 3\left<x-3\right>^2 - 4\left<x-4\right>^2\\
+& - 5\left<x-5\right>^2 -  4\left<x-6\right>^2 - 3\left<x-7\right>^2 -  2\left<x-8\right>^2 - \left<x-9\right>^2 + C_1 \\
+& \\
+& EI v(x) = \frac{25}{6}\left<x-0\right>^3 - 125\left<x-0\right>^2 - \frac{1}{3}\left<x-1\right>^3 - \frac{2}{3}\left<x-2\right>^3 - \left<x-3\right>^3 - \frac{4}{3}\left<x-4\right>^3\\
+& - \frac{5}{3}\left<x-5\right>^3  -  \frac{4}{3}\left<x-6\right>^3 - \left<x-7\right>^3 -  \frac{2}{3}\left<x-8\right>^3 - \frac{1}{3}\left<x-9\right>^3  + C_1 x + C_2 \\
+    \end{split}
+\label{problem4_equations}
+\end{equation}
+
+Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the fixed at A guarantees the deflection and slope at A is equal to zero, as shown in Eq. \ref{problem4_constants_of_integration}.
+
+\begin{equation}
+\begin{split}
+	& v(0) = 0 \\
+	& \frac{\delta v(0)}{\delta x} = 0 \\
+\end{split}
+\label{problem4_constants_of_integration}
+\end{equation}
+
+Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem4_constants_of_integration_solution}.
+
+\begin{equation}
+\begin{split}
+	& C_2 = 0 \\
+	& C_1 = 0 \\
+\end{split}
+\label{problem4_constants_of_integration_solution}
+\end{equation}
+
+After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem4_final_equation}.
+
+\begin{equation}
+\begin{split}
+  & EI v(x) = \frac{25}{6}\left<x-0\right>^3 - 125\left<x-0\right>^2 - \frac{1}{3}\left<x-1\right>^3 - \frac{2}{3}\left<x-2\right>^3 - \left<x-3\right>^3 - \frac{4}{3}\left<x-4\right>^3\\
+& - \frac{5}{3}\left<x-5\right>^3  -  \frac{4}{3}\left<x-6\right>^3 - \left<x-7\right>^3 -  \frac{2}{3}\left<x-8\right>^3 - \frac{1}{3}\left<x-9\right>^3 \\
+\end{split}
+\label{problem4_final_equation}
+\end{equation}
+
+
+
 \subsection{Problem 5}
+
+As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{FBD_5}.
 
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{FBD/FBD_5.jpg}
 \caption{Free Body Diagram for Problem 5}
 \label{FBD_5}
 \end{figure}
+
+With the Free-Body Diagram completed, the report employs the static equations to find the reaction forces at each of the supports as shown in Eq. \ref{problem5_reaction_equation}.
+
+\begin{equation}
+\begin{split}
+	&\uparrow \sum F_y = R_a - 2 - 4 - 100(4) -4 -2 + R_b = 0 \\
+ 	&\rightarrow \sum F_x = R_{ax} = 0 \\
+ 	&\circlearrowleft \sum M_A = -2(1) - 4(2) -100(4)(5) - 4(8) - 2(9) + R_{by}(10) = 0 \\
+\end{split}
+\label{problem5_reaction_equation}
+\end{equation}
+
+Given the problem is statically determinate, the static equations are sufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem5_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reactionary forces are those in the vertical direction, which will be named $R_a$ and $R_b$ henceforth.
+
+\begin{equation}
+\begin{split}
+	& R_b = 206 \\
+	& R_a = 206 \\
+\end{split}
+\label{problem5_reaction_solution}
+\end{equation}
+
+With the reactions determined, the moment and deflection equations can be constructed as shown in Eq. \ref{problem5_equations}.
+
+\begin{equation}
+    \begin{split}
+& EI \frac{\delta^2 v}{\delta x^2} = 206\left<x-0\right>^1 - 2\left<x-1\right>^1 -  4\left<x-2\right>^2 - 50\left<x-3\right>^2 + 50\left<x-7\right>^1 \\
+& - 2\left<x-8\right>^1 -  4\left<x-9\right>^1 \\
+& \\
+& EI \frac{\delta v}{\delta x} = 103\left<x-0\right>^2 - \left<x-1\right>^2 -  2\left<x-2\right>^2 - \frac{50}{3}\left<x-3\right>^3 + \frac{50}{3}\left<x-7\right>^3 \\
+& - \left<x-8\right>^2 -  2\left<x-9\right>^2  + C_1\\
+& \\
+& EI v(x) = \frac{103}{3}\left<x-0\right>^3 - \frac{1}{3}\left<x-1\right>^3 -  \frac{2}{3}\left<x-2\right>^3 - \frac{25}{6}\left<x-3\right>^4 + \frac{25}{6}\left<x-7\right>^4 \\
+& - \frac{1}{3}\left<x-8\right>^3 -  \frac{2}{3}\left<x-9\right>^3 + C_1x + C_2 \\
+    \end{split}
+\label{problem5_equations}
+\end{equation}
+
+Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the two vertical supports at A and B guarantee the deflection at these points is equal to zero, as shown in Eq. \ref{problem5_constants_of_integration}.
+
+\begin{equation}
+\begin{split}
+	& v(0) = 0 \\
+	& v(10) = 0 \\
+\end{split}
+\label{problem5_constants_of_integration}
+\end{equation}
+
+Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem5_constants_of_integration_solution}.
+
+\begin{equation}
+\begin{split}
+	& C_2 = 0 \\
+	& C_1 = \frac{-7223}{3} \\
+\end{split}
+\label{problem5_constants_of_integration_solution}
+\end{equation}
+
+After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem5_final_equation}.
+
+\begin{equation}
+\begin{split}
+  & EI v(x) = \frac{103}{3}\left<x-0\right>^3 - \frac{1}{3}\left<x-1\right>^3 -  \frac{2}{3}\left<x-2\right>^3 - \frac{25}{6}\left<x-3\right>^4 + \frac{25}{6}\left<x-7\right>^4 \\
+& - \frac{1}{3}\left<x-8\right>^3 -  \frac{2}{3}\left<x-9\right>^3 - \frac{-7223}{3}x\\
+\end{split}
+\label{problem5_final_equation}
+\end{equation}
+
+
 
 \subsection{Problem 6}
 
