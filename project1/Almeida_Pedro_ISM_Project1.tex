@@ -77,7 +77,7 @@ One of the most important processes in designing beams is the structural analysi
 
 The standard method to solve for beam deflection for beams with continuous cross sectional areas relies on partitions; the designer splits the beam into multiple subsections where loads are applied. The resulting cross sections are then each modeled separately. The singularity equations for beam deflection, by contrast, allow for the reduction of the multiple deflection equations into a single continuous equation. The method will be discussed thoroughly in the \nameref{Background Theory} section.
 
-The report will comprise of the \nameref{Background Theory} section discussing the required equations and methods to solve the problems, the \nameref{Problems} section discussing each of the problems presented in the project, the \nameref{Solutions} section discussing the steps used to arrive to each solution, the \nameref{Results} containing the important plots for each of the problems given, and the \nameref{Conclusions} section to summarize findings and discuss improvements.
+The report will comprise of the \nameref{Background Theory} section discussing the required equations and methods to solve the problems, the \nameref{Problems} section discussing each of the problems presented in the project, the \nameref{Results} containing the important plots for each of the problems given, and the \nameref{Conclusions} section to summarize findings and discuss improvements.
 
 \section{Background Theory} \label{Background Theory}
 To find the deflection equation for a statically determinate beam under loading, there are two principal ways to approach the problem, both of which lead to the same result. The first method, shown in Eq. \ref{form1}, uses the loading function $w(x)$ to reach the deflection. The form is especially useful for beams under non-linear loading functions. However, due to the required quadruple integration to reach $v(x)$, engineers commonly use a second form.
@@ -245,6 +245,7 @@ After plugging in the boundary conditions, the report finds the deflection equat
 \end{equation}
 
 
+
 \subsection{Problem 2}
 
 As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{FBD_2}.
@@ -261,7 +262,7 @@ With the Free-Body Diagram completed, the report employs the static equations to
 \begin{split}
 	&\uparrow \sum F_y = R_{ay} = 0 \\
  	&\rightarrow \sum F_x = R_{ax} = 0 \\
- 	&\circlearrowleft \sum M_A = -50 - 2 - 4 - 6 - 8 + 8 + 6 + 4 + 2 + M_a = 0
+ 	&\circlearrowleft \sum M_A = 50 + 2 + 4 + 6 + 8 - 8 - 6 - 4 - 2 - M_a = 0
 \end{split}
 \label{problem2_reaction_equation}
 \end{equation}
@@ -270,7 +271,7 @@ Given the problem is statically determinate, the static equations are sufficient
 
 \begin{equation}
 \begin{split}
-	& M_a = 50 \\
+	& M_a = -50 \\
 	& R_{ax} = 0 \\
 	& R_{ay} = 0 \\
 \end{split}
@@ -281,46 +282,46 @@ With the reactions determined, the moment and deflection equations can be constr
 
 \begin{equation}
     \begin{split}
-& EI \frac{\delta^2 v}{\delta x^2} = - 50\left<x-0\right>^0 - 2\left<x-1\right>^0 - 4\left<x-2\right>^0 - 6\left<x-3\right>^0 - 8\left<x-4\right>^0   +  8\left<x-5\right>^0 \\
-& + 6\left<x-6\right>^0 +  4\left<x-7\right>^0 + 2\left<x-8\right>^0 \\
+& EI \frac{\delta^2 v}{\delta x^2} = 50\left<x-0\right>^0 + 2\left<x-1\right>^0 + 4\left<x-2\right>^0 + 6\left<x-3\right>^0 + 8\left<x-4\right>^0   -  8\left<x-5\right>^0 \\
+& - 6\left<x-6\right>^0 -  4\left<x-7\right>^0 - 2\left<x-8\right>^0 \\
 & \\
-& EI \frac{\delta v}{\delta x} = - 50\left<x-0\right>^1 - 2\left<x-1\right>^1 - 4\left<x-2\right>^1 -  6\left<x-3\right>^1 - 8\left<x-4\right>^1   +  8\left<x-5\right>^1 \\
-& + 6\left<x-6\right>^1 +  4\left<x-7\right>^1 + 2\left<x-8\right>^1 + C_1 \\
+& EI \frac{\delta v}{\delta x} = 50\left<x-0\right>^1 + 2\left<x-1\right>^1 + 4\left<x-2\right>^1 +  6\left<x-3\right>^1 + 8\left<x-4\right>^1   -  8\left<x-5\right>^1 \\
+& - 6\left<x-6\right>^1 -  4\left<x-7\right>^1 - 2\left<x-8\right>^1 + C_1 \\
 & \\
-& EI v(x) = - 25\left<x-0\right>^2 - \left<x-1\right>^2 - 2\left<x-2\right>^2 -  3\left<x-3\right>^2 - 4\left<x-4\right>^2   +  4\left<x-5\right>^2 \\
-& + 3\left<x-6\right>^2  +  2\left<x-7\right>^2 + \left<x-8\right>^2 + C_1 x + C_2 \\
+& EI v(x) = 25\left<x-0\right>^2 + \left<x-1\right>^2 + 2\left<x-2\right>^2 +  3\left<x-3\right>^2 + 4\left<x-4\right>^2   -  4\left<x-5\right>^2 \\
+& - 3\left<x-6\right>^2  -  2\left<x-7\right>^2 - \left<x-8\right>^2 + C_1 x + C_2 \\
     \end{split}
 \label{problem2_equations}
 \end{equation}
 
-Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the fixed at A guarantees the deflection and slope at A is equal to zero, as shown in Eq. \ref{problem1_constants_of_integration}.
+Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the fixed at A guarantees the deflection and slope at A is equal to zero, as shown in Eq. \ref{problem2_constants_of_integration}.
 
 \begin{equation}
 \begin{split}
 	& v(10) = 0 \\
 	& \frac{\delta v(10)}{\delta x} = 0 \\
 \end{split}
-\label{problem1_constants_of_integration}
+\label{problem2_constants_of_integration}
 \end{equation}
 
-Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem1_constants_of_integration_solution}.
+Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem2_constants_of_integration_solution}.
 
 \begin{equation}
 \begin{split}
-	& C_2 = -2770 \\
-	& C_1 = 560 \\
+	& C_2 = 2770 \\
+	& C_1 = -560 \\
 \end{split}
-\label{problem1_constants_of_integration_solution}
+\label{problem2_constants_of_integration_solution}
 \end{equation}
 
-After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem1_final_equation}.
+After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem2_final_equation}.
 
 \begin{equation}
 \begin{split}
-  & EI v(x) = - 25\left<x-0\right>^2 - \left<x-1\right>^2 - 2\left<x-2\right>^2 -  3\left<x-3\right>^2 - 4\left<x-4\right>^2   +  4\left<x-5\right>^2 \\
-& + 3\left<x-6\right>^2  +  2\left<x-7\right>^2 + \left<x-8\right>^2 + 560 x - 2770 \\
+  & EI v(x) = 25\left<x-0\right>^2 + \left<x-1\right>^2 + 2\left<x-2\right>^2 + 3\left<x-3\right>^2 + 4\left<x-4\right>^2  -  4\left<x-5\right>^2 \\
+& - 3\left<x-6\right>^2  -  2\left<x-7\right>^2 - \left<x-8\right>^2 - 560 x + 2770 \\
 \end{split}
-\label{problem1_final_equation}
+\label{problem2_final_equation}
 \end{equation}
 
 
@@ -361,45 +362,45 @@ With the reactions determined, the moment and deflection equations can be constr
 \begin{equation}
     \begin{split}
 & EI \frac{\delta^2 v}{\delta x^2} = \frac{1237}{30}\left<x-0\right>^1 - 2\left<x-1\right>^1 +  2\left<x-2\right>^1 - 2\left<x-3\right>^1 +  2\left<x-4\right>^1 \\
-& - 12\left<x-5\right>^0 -  35\left<x-6\right>^2 + 35\left<x-8\right>^2  - \frac{2}{3}\left<x-9\right>^3 \\
+& + 12\left<x-5\right>^0 -  35\left<x-6\right>^2 + 35\left<x-8\right>^2  - \frac{1}{3}\left<x-9\right>^3 \\
 & \\
-& EI \frac{\delta v}{\delta x} = \frac{1237}{60}\left<x-0\right>^2 - \left<x-1\right>^2 +  \left<x-2\right>^2 - \left<x-3\right>^2 +  \left<x-4\right>^2 - 12\left<x-5\right>^1\\
-& -  \frac{35}{3}\left<x-6\right>^3 + \frac{35}{3}\left<x-8\right>^3  - \frac{1}{6}\left<x-9\right>^4 + C_1 \\
+& EI \frac{\delta v}{\delta x} = \frac{1237}{60}\left<x-0\right>^2 - \left<x-1\right>^2 +  \left<x-2\right>^2 - \left<x-3\right>^2 +  \left<x-4\right>^2 + 12\left<x-5\right>^1\\
+& -  \frac{35}{3}\left<x-6\right>^3 + \frac{35}{3}\left<x-8\right>^3  - \frac{1}{12}\left<x-9\right>^4 + C_1 \\
 & \\
 & EI v(x) =\frac{1237}{180}\left<x-0\right>^3 - \frac{1}{3}\left<x-1\right>^3 +  \frac{1}{3}\left<x-2\right>^3 - \frac{1}{3}\left<x-3\right>^3 +  \frac{1}{3}\left<x-4\right>^3\\
-& - 6\left<x-5\right>^2 -  \frac{35}{12}\left<x-6\right>^4 + \frac{35}{12}\left<x-8\right>^4  - \frac{1}{30}\left<x-9\right>^5 + C_1x + C_2 \\ \\
+& + 6\left<x-5\right>^2 -  \frac{35}{12}\left<x-6\right>^4 + \frac{35}{12}\left<x-8\right>^4  - \frac{1}{60}\left<x-9\right>^5 + C_1x + C_2 \\ \\
     \end{split}
-\label{problem1_equations}
+\label{problem3_equations}
 \end{equation}
 
-Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the two vertical supports at A and B guarantee the deflection at these points is equal to zero, as shown in Eq. \ref{problem1_constants_of_integration}
+Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the two vertical supports at A and B guarantee the deflection at these points is equal to zero, as shown in Eq. \ref{problem3_constants_of_integration}.
 
 \begin{equation}
 \begin{split}
 	& v(0) = 0 \\
 	& v(10) = 0 \\
 \end{split}
-\label{problem1_constants_of_integration}
+\label{problem3_constants_of_integration}
 \end{equation}
 
-Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem1_constants_of_integration_solution}.
+Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem3_constants_of_integration_solution}.
 
 \begin{equation}
 \begin{split}
 	& C_2 = 0 \\
-	& C_1 = \frac{531677}{900} \\
+	& C_1 = \frac{-1117357}{1800} \\
 \end{split}
-\label{problem1_constants_of_integration_solution}
+\label{problem3_constants_of_integration_solution}
 \end{equation}
 
-After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem1_final_equation}.
+After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem3_final_equation}.
 
 \begin{equation}
 \begin{split}
-  & EI v(x) = \frac{11}{60}\left<x-0\right>^3 - \frac{1}{12}\left<x-0\right>^4 +  \frac{1}{6}\left<x-1\right>^4 - \frac{1}{6}\left<x-2\right>^4 + \frac{1}{6}\left<x-3\right>^4 - \frac{1}{6}\left<x-4\right>^4 \\  	  
-&   +  \frac{1}{6}\left<x-5\right>^4 - \frac{1}{6}\left<x-6\right>^4  +  \frac{1}{6}\left<x-7\right>^4 - \frac{1}{6}\left<x-8\right>^4 +  \frac{1}{12}\left<x-9\right>^4 + \frac{209}{240}x\\
+  & EI v(x) = \frac{1237}{180}\left<x-0\right>^3 - \frac{1}{3}\left<x-1\right>^3 +  \frac{1}{3}\left<x-2\right>^3 - \frac{1}{3}\left<x-3\right>^3 +  \frac{1}{3}\left<x-4\right>^3\\
+& + 6\left<x-5\right>^2 -  \frac{35}{12}\left<x-6\right>^4 + \frac{35}{12}\left<x-8\right>^4  - \frac{1}{60}\left<x-9\right>^5 + \frac{-1117357}{1800}x\\
 \end{split}
-\label{problem1_final_equation}
+\label{problem3_final_equation}
 \end{equation}
 
 \subsection{Problem 4}
@@ -435,25 +436,18 @@ After plugging in the boundary conditions, the report finds the deflection equat
 \end{figure}
 
 
-\section{Problem Solution} \label{Solutions}
-\subsection{Problem 1}
-\lipsum[1]
-\subsection{Problem 2}
-\lipsum[1]
-\subsection{Problem 3}
-\lipsum[1]
-\subsection{Problem 4}
-\lipsum[1]
-\subsection{Problem 5}
-\lipsum[1]
-\subsection{Problem 6}
-\lipsum[1]
-\subsection{Problem 7}
-\lipsum[1]
+
 
 \section{Results and Discussion} \label{Results}
 \subsection{Problem 1}
-\lipsum[1]
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{results/solution1.jpg}
+\caption{Shear Force, Moment, and Displacement Diagram for Problem 1}
+\label{Solution_1}
+\end{figure}
+
+
 \subsection{Problem 2}
 \lipsum[1]
 \subsection{Problem 3}
