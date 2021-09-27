@@ -568,11 +568,105 @@ After plugging in the boundary conditions, the report finds the deflection equat
 
 \subsection{Problem 6}
 
+As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{FBD_6}.
+
 \begin{figure}[h]
 \includegraphics[width=\textwidth]{FBD/FBD_6.jpg}
 \caption{Free Body Diagram for Problem 6}
 \label{FBD_6}
 \end{figure}
+
+With the Free-Body Diagram completed, the report employs the static equations to find the reaction forces at each of the supports as shown in Eq. \ref{problem6_reaction_equation}.
+
+\begin{equation}
+\begin{split}
+	&\uparrow \sum F_y = R_a - 100 - 2 - 100 -2 + 100 + 200 + 300 + R_b = 0 \\
+ 	&\rightarrow \sum F_x = R_{ax} = 0 \\
+ 	&\circlearrowleft \sum M_A = -100(1) - 2(2) -100(3) - 2(4) +100(6) + 200(7) + 300(8) + R_{by}(10) = 0 \\
+\end{split}
+\label{problem6_reaction_equation}
+\end{equation}
+
+Given the problem is statically determinate, the static equations are sufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem6_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reactionary forces are those in the vertical direction, which will be named $R_a$ and $R_b$ henceforth.
+
+\begin{equation}
+\begin{split}
+	& R_b = -\frac{1994}{5} \\
+	& R_a = \frac{14}{5} \\
+\end{split}
+\label{problem6_reaction_solution}
+\end{equation}
+
+Unlike previous problem, the beam's Modulus of Elasticity $E$ and Area Moment of Inertia $I$ vary throughout the beam. As such, prior to writing the moment and deflection equations, we must first construct an equivalent Free Body Diagram by adding forces and moments. The original shear force and moment diagrams are shown in Fig. \ref{noneq6}.
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{results/noneq6.jpg}
+\caption{Shear Force and Moment Diagrams assuming $EI$ for non-constant $EI$.}
+\label{noneq6}
+\end{figure}
+
+As given in Fig. \ref{FBD_6}, at the interval $0<x<5$, the beam has the term $2EI$ compared to the interval $5<x<10$. To construct the equivalent diagram, the report will multiply all the forces acting on the right side ($x>5$) by two such that the $EI$ terms match, creating Fig. \ref{eq6} with constant $EI$.
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{results/eq6.jpg}
+\caption{Shear Force and Moment Diagrams for constant $EI$}
+\label{eq6}
+\end{figure}
+
+With the equivalent Shear Force and Moment Diagrams, the report constructs a new FBD with an equivalent stiffness $2EI$ shown in Fig. \ref{FBD_6_new}. The FBD will be used to generate the displacement equations shown in Eq. \ref{problem6_equations}.
+
+\begin{figure}[h]
+\includegraphics[width=\textwidth]{FBD/FBD_6_new.jpg}
+\caption{Free Body Diagram for Problem 6 with Equivalent Stiffness}
+\label{FBD_6_new}
+\end{figure}
+
+\begin{equation}
+    \begin{split}
+& 2EI \frac{\delta^2 v}{\delta x^2} = \frac{14}{5}\left<x-0\right>^1 - 100\left<x-1\right>^1 -  2\left<x-2\right>^1 - 100\left<x-3\right>^1 - 2\left<x-4\right>^1 \\
+& - \frac{1006}{5}\left<x-5\right>^1 - 594\left<x-5\right>^0 + 200\left<x-6\right>^1 + 400\left<x-7\right>^1 + 600\left<x-8\right>^1 \\
+& \\
+& 2EI \frac{\delta v}{\delta x} = \frac{7}{5}\left<x-0\right>^2 - 50\left<x-1\right>^2 -  1\left<x-2\right>^2 - 50\left<x-3\right>^2 - \left<x-4\right>^2 \\
+& - \frac{503}{5}\left<x-5\right>^2 - 594\left<x-5\right>^1 + 100\left<x-6\right>^2 + 200\left<x-7\right>^2 + 300\left<x-8\right>^2 + C_1 \\
+& \\
+& 2EI v(x) = \frac{7}{15}\left<x-0\right>^3 - \frac{50}{3}\left<x-1\right>^3 -  \frac{1}{3}\left<x-2\right>^3 - \frac{50}{3}\left<x-3\right>^3 - \frac{1}{3}\left<x-4\right>^3 \\
+& - \frac{503}{15}\left<x-5\right>^3 - 297\left<x-5\right>^2 + \frac{100}{3}\left<x-6\right>^3 + \frac{200}{3}\left<x-7\right>^2 + 100\left<x-8\right>^3 + C_1x + C_2\\
+    \end{split}
+\label{problem6_equations}
+\end{equation}
+
+Following the integration of the singularity moment equation, the report solves for the two constants of integration through the use of boundary conditions. As given in the problem description, the two vertical supports at A and B guarantee the deflection at these points is equal to zero, as shown in Eq. \ref{problem6_constants_of_integration}.
+
+\begin{equation}
+\begin{split}
+	& v(0) = 0 \\
+	& v(10) = 0 \\
+\end{split}
+\label{problem6_constants_of_integration}
+\end{equation}
+
+Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem6_constants_of_integration_solution}.
+
+\begin{equation}
+\begin{split}
+	& C_2 = 0 \\
+	& C_1 = \frac{12263}{5} \\
+\end{split}
+\label{problem6_constants_of_integration_solution}
+\end{equation}
+
+After plugging in the boundary conditions, the report finds the deflection equation shown in Eq. \ref{problem6_final_equation}.
+
+\begin{equation}
+\begin{split}
+  & 2EI v(x) = \frac{7}{15}\left<x-0\right>^3 - \frac{50}{3}\left<x-1\right>^3 -  \frac{1}{3}\left<x-2\right>^3 - \frac{50}{3}\left<x-3\right>^3 - \frac{1}{3}\left<x-4\right>^3 \\
+  & - \frac{503}{15}\left<x-5\right>^3 - 297\left<x-5\right>^2 + \frac{100}{3}\left<x-6\right>^3 + \frac{200}{3}\left<x-7\right>^2 + 100\left<x-8\right>^3 + \frac{12263}{5}x\\
+\end{split}
+\label{problem6_final_equation}
+\end{equation}
+
+
+
 
 \subsection{Problem 7}
 

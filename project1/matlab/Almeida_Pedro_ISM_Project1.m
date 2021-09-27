@@ -8,7 +8,7 @@
 clc; clear; close all;
 s = 2;
 range_x = [0 10];
-run_problems = [1 2 3 4 5];
+run_problems = [62];
 
 
 %% Problem 1
@@ -209,6 +209,79 @@ if any(run_problems(:) == 5)
     %Displacement Plot
     subplot(3,1,3)
     displacement = ((3*s + 200)/6)*pw(x,0,3) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - (25/6)*pw(x,3,4) + (25/6)*pw(x,7,4) - 2*(s/6)*pw(x,8,3)- (s/6)*pw(x,9,3) + (-(41*s)/2 - 7100/3)*pw(x,0,1) + ((3*s+200)/6)*pw(x,10,3);
+    fplot(displacement, range_x);
+    title('Displacement vs. x');
+    xlabel('x [m]')
+    ylabel('Displacement [m]')
+end
+
+
+%% Problem 6_1
+if any(run_problems(:) == 61)
+    figure(6)
+
+    %Constants
+    L = 10; %Beam Length
+    E = 69.9e9; %Young's Modulus
+    v_allowed = L/400; %Allowed Displacement
+    k = 1.5; %Safety Factor
+    sY = 276e6; %Yield Stress
+    I = 0; %
+
+    %Problem Solution
+    syms x
+
+    %Shear Force Plot
+    subplot(2,1,1)
+    shear = ((7*s)/5)*pw(x,0,0) - 100*pw(x,1,0) - s*pw(x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) + 100*pw(x,6,0) + 200*pw(x,7,0) + 300*pw(x,8,0) + (((3*s)/5) - 400)*pw(x,10,0);
+    fplot(shear, range_x);
+    title('Shear Force vs. x');
+    xlabel('x [m]')
+    ylabel('Force [N]')
+
+    %Moment Plot
+    subplot(2,1,2)
+    moment = ((7*s)/5)*pw(x,0,1) - 100*pw(x,1,1) - s*pw(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) + 100*pw(x,6,1) + 200*pw(x,7,1) + 300*pw(x,8,1) + (((3*s)/5) - 400)*pw(x,10,1);
+    fplot(moment, range_x);
+    title('Moment vs. x');
+    xlabel('x [m]')
+    ylabel('Moment [Nm]')
+end
+
+%% Problem 6_2
+if any(run_problems(:) == 62)
+    figure(7)
+
+    %Constants
+    L = 10; %Beam Length
+    E = 69.9e9; %Young's Modulus
+    v_allowed = L/400; %Allowed Displacement
+    k = 1.5; %Safety Factor
+    sY = 276e6; %Yield Stress
+    I = 0; %
+
+    %Problem Solution
+    syms x
+
+    %Shear Force Plot
+    subplot(3,1,1)
+    shear = ((7*s)/5)*pw(x,0,0) - 100*pw(x,1,0) - s*pw(x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) - ((3*s)/5 + 200)*pw(x,5,0) + 2*100*pw(x,6,0) + 2*200*pw(x,7,0) + 2*300*pw(x,8,0) + 2*(((3*s)/5) - 400)*pw(x,10,0);
+    fplot(shear, range_x);
+    title('Shear Force vs. x');
+    xlabel('x [m]')
+    ylabel('Force [N]')
+
+    %Moment Plot
+    subplot(3,1,2)
+    moment = ((7*s)/5)*pw(x,0,1) - 100*pw(x,1,1) - s*pw(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) - ((3*s)/5 + 200)*pw(x,5,1) + (3*s - 600)*pw(x,5,0) + 2*100*pw(x,6,1) + 2*200*pw(x,7,1) + 2*300*pw(x,8,1) + 2*(((3*s)/5) - 400)*pw(x,10,1);
+    fplot(moment, range_x);
+    title('Moment vs. x');
+    xlabel('x [m]')
+    ylabel('Moment [Nm]')
+    
+    %Displacement Plot
+    subplot(3,1,3)
+    displacement = ((7*s)/30)*pw(x,0,3) - (100/6)*pw(x,1,3) - (s/6)*pw(x,2,3) - (100/6)*pw(x,3,3) - (s/6)*pw(x,4,3) - (((3*s)/5 + 200)/6)*pw(x,5,3) + ((3*s - 600)/2)*pw(x,5,2) + 2*(100/6)*pw(x,6,3) + 2*(200/6)*pw(x,7,3) + 2*(300/6)*pw(x,8,3) + (-(137*s)/10 + 2480)*pw(x,0,1) + 2*((((3*s)/5) - 400)/6)*pw(x,10,3);
     fplot(displacement, range_x);
     title('Displacement vs. x');
     xlabel('x [m]')
