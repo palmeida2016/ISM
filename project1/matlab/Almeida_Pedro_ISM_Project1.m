@@ -8,7 +8,7 @@
 clc; clear; close all;
 s = 2;
 range_x = [0 10];
-run_problems = [62];
+run_problems = [3];
 
 
 %% Problem 1
