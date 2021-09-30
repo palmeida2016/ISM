@@ -18,7 +18,10 @@
 \usepackage{setspace}
 \usepackage{fancyhdr}
 \usepackage{cite}
-\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{float}
+
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -169,13 +172,31 @@ EI v(x) = \frac{-P}{6}\left<x-L\right>^3 - \frac{M_I}{2}\left<x-L\right>^2 + \fr
 \section{Problem Definition} \label{Problems}
 \subsection{Problem 1}
 
-As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{FBD_1}.
+As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{prob1}.
 
-\begin{figure}[h]
-\includegraphics[width=\textwidth]{FBD/FBD_1.jpg}
-\caption{Free Body Diagram for Problem 1}
-\label{FBD_1}
+\begin{figure}[H]
+\centering
+   \begin{subfigure}[b]{\textwidth}
+   \centering
+   \includegraphics[width=0.8\textwidth]{problems/prob_1.jpg}
+   \caption{Given Diagram for Problem 1}
+   \label{prob1:prob} 
+\end{subfigure}
+\begin{subfigure}[b]{\textwidth}
+   \centering   
+   \includegraphics[width=0.8\textwidth]{FBD/FBD_1.jpg}
+   \caption{Free Body Diagram for Problem 1}
+   \label{prob1:FBD}
+\end{subfigure}
+\begin{subfigure}[b]{\textwidth}
+   \centering   
+   \includegraphics[width=0.8\textwidth]{results/solution_1.jpg}
+   \caption{Shear Force, Moment, and Displacement Diagram for Problem 1}
+   \label{prob1:solution}
+\end{subfigure}
+\label{prob1}
 \end{figure}
+
 
 With the Free-Body Diagram completed, the report employs the static equations to find the reaction forces at each of the supports as shown in Eq. \ref{problem1_reaction_equation}.
 
@@ -684,7 +705,7 @@ After plugging in the boundary conditions, the report finds the deflection equat
 \subsection{Problem 1}
 
 \begin{figure}[h]
-\includegraphics[width=\textwidth]{results/solution1.jpg}
+\includegraphics[width=\textwidth]{results/solution_1.jpg}
 \caption{Shear Force, Moment, and Displacement Diagram for Problem 1}
 \label{Solution_1}
 \end{figure}
