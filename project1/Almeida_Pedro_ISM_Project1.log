@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  30 SEP 2021 01:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.29)  1 OCT 2021 10:05
 entering extended mode
 **./Almeida_Pedro_ISM_Project1.tex
 (Almeida_Pedro_ISM_Project1.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(/home/palmeida/.miktex/texmfs/install/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(/home/palmeida/.miktex/texmfs/install/tex/latex/base/size10.clo
 File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count182
@@ -21,52 +21,53 @@ File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
-) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+)
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip49
+
 For additional information on amsmath, use the `?' option.
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen141
 ))
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen142
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count190
@@ -107,13 +108,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count268
@@ -129,17 +130,17 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks24
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
+(/home/palmeida/.miktex/texmfs/install/tex/generic/babel/babel.sty
 Package: babel 2021/07/22 3.63 The Babel package
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
+(/home/palmeida/.miktex/texmfs/install/tex/generic/babel/babel.def
 File: babel.def 2021/07/22 3.63 Babel common definitions
 \babel@savecnt=\count271
 \U@D=\dimen158
-\l@unhyphenated=\language79
+\l@unhyphenated=\language1
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(/home/palmeida/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count272
@@ -147,87 +148,76 @@ File: babel.def 2021/07/22 3.63 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(/home/palmeida/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
-df
+(/home/palmeida/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-Package babel Info: Hyphen rules for 'canadian' set to \l@english
-(babel)             (\language0). Reported on input line 102.
-Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 105.
-Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language73). Reported on input line 108.
 ))
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
-.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
-ty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
-ty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
-keys.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.st
+y
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
-ty
+) (/home/palmeida/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
-) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+)
+(/home/palmeida/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
-.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen159
 \Hy@linkcounter=\count273
 \Hy@pagecounter=\count274
- (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+
+(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langp
-atches.def
+(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/hyperref-langpatches.
+def
 File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
-)
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+) (/home/palmeida/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count275
- (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+
+(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -241,18 +231,17 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
 \c@Hy@tempcnt=\count276
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen160
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
-.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -269,7 +258,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -278,10 +267,11 @@ package with kernel methods
 \c@Hfootnote=\count280
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+
+(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
@@ -289,12 +279,12 @@ with kernel methods
 \Fld@listcount=\count281
 \c@bookmark@seq@number=\count282
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
-echeck.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.
+sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
-ounter.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.
+sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -303,21 +293,18 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip52
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 9.
-
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
+ (/home/palmeida/.miktex/texmfs/install/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
-) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
-eys2e.sty
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+) (/home/palmeida/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.s
+ty (/home/palmeida/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
 Package: expl3 2021-08-27 L3 programming layer (loader) 
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
+(/home/palmeida/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box52
@@ -328,12 +315,11 @@ Package: lipsum 2021-08-01 v2.5 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count284
 \l__lipsum_a_int=\count285
 \l__lipsum_b_int=\count286
-
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
-
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+ (/home/palmeida/.miktex/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex))
+(/home/palmeida/.miktex/texmfs/install/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
+
+(/home/palmeida/.miktex/texmfs/install/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count287
@@ -355,13 +341,13 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count303
 \c@blind@pangrammax=\count304
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count305
 \calc@Bcount=\count306
@@ -374,15 +360,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count307
 \calc@Cskip=\skip55
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen165
 \ESO@tempdimb=\dimen166
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -400,7 +386,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pageheight=\dimen168
 \AM@fboxrule=\dimen169
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+(/home/palmeida/.miktex/texmfs/install/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count308
@@ -410,12 +396,13 @@ File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks26
 \c@AM@survey=\count310
 \AM@templatesizebox=\box54
-) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
+)
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen170
 \epsfysize=\dimen171
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/listings/listings.sty
 \lst@mode=\count311
 \lst@gtempboxa=\box55
 \lst@token=\toks27
@@ -429,30 +416,32 @@ Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \lst@lineno=\count316
 \lst@maxwidth=\dimen175
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count317
 \lst@skipnumbers=\count318
 \lst@framebox=\box56
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+(/home/palmeida/.miktex/texmfs/install/tex/latex/listings/listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
-y
+))
+(/home/palmeida/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+)
+(/home/palmeida/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip56
@@ -464,15 +453,16 @@ rs
 \f@nch@O@erf=\skip62
 \f@nch@O@olf=\skip63
 \f@nch@O@orf=\skip64
-) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
+)
+(/home/palmeida/.miktex/texmfs/install/tex/latex/cite/cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/caption/caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/caption/caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen176
 \captionmargin@=\dimen177
@@ -488,11 +478,12 @@ Package caption Info: Standard document class detected.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 \c@subfigure=\count321
 \c@subtable=\count322
-) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+)
+(/home/palmeida/.miktex/texmfs/install/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count323
 \float@exts=\toks28
@@ -500,7 +491,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks29
 \@floatcapt=\box58
 )
-No file Almeida_Pedro_ISM_Project1.aux.
+(Almeida_Pedro_ISM_Project1.aux)
 \openout1 = `Almeida_Pedro_ISM_Project1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
@@ -522,8 +513,7 @@ LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(/home/palmeida/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count324
 \scratchdimen=\dimen183
@@ -537,14 +527,11 @@ ii
 \makeMPintoPDFobject=\count329
 \everyMPtoPDFconversion=\toks31
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(/home/palmeida/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -582,14 +569,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 33.
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
-lestring.sty
+(/home/palmeida/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestrin
+g.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count330
@@ -597,13 +584,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
+ (Almeida_Pedro_ISM_Project1.out) (Almeida_Pedro_ISM_Project1.out)
 \@outlinefile=\write3
 \openout3 = `Almeida_Pedro_ISM_Project1.out'.
 
 
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(/home/palmeida/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+
+(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -612,17 +601,16 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<images/fau_logo.jpeg, id=3, 1204.5pt x 770.88pt>
+<images/fau_logo.jpeg, id=59, 1204.5pt x 770.88pt>
 File: images/fau_logo.jpeg Graphic file (type jpg)
 <use images/fau_logo.jpeg>
 Package pdftex.def Info: images/fau_logo.jpeg  used on input line 41.
 (pdftex.def)             Requested size: 110.96556pt x 71.01122pt.
+ [1
 
-[1
-
-{C:/Users/almei/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images/fau_lo
-go.jpeg>]
-<assignment/project1_probs.pdf, id=14, 614.26657pt x 794.94157pt>
+{/home/palmeida/.miktex/texmfs/data/pdftex/config/pdftex.map} <./images/fau_log
+o.jpeg>]
+<assignment/project1_probs.pdf, id=70, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf>
 Package pdftex.def Info: assignment/project1_probs.pdf  used on input line 71.
@@ -631,7 +619,7 @@ File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf>
 Package pdftex.def Info: assignment/project1_probs.pdf  used on input line 71.
 (pdftex.def)             Requested size: 614.26506pt x 794.93964pt.
-<assignment/project1_probs.pdf, id=17, page=1, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=73, page=1, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 1>
 Package pdftex.def Info: assignment/project1_probs.pdf , page1 used on input li
@@ -664,7 +652,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page1 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [1 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=56, page=2, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=112, page=2, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 2>
 Package pdftex.def Info: assignment/project1_probs.pdf , page2 used on input li
@@ -681,7 +669,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page2 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [2 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=62, page=3, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=118, page=3, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 3>
 Package pdftex.def Info: assignment/project1_probs.pdf , page3 used on input li
@@ -698,7 +686,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page3 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [3 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=68, page=4, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=124, page=4, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 4>
 Package pdftex.def Info: assignment/project1_probs.pdf , page4 used on input li
@@ -715,7 +703,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page4 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [4 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=74, page=5, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=130, page=5, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 5>
 Package pdftex.def Info: assignment/project1_probs.pdf , page5 used on input li
@@ -732,7 +720,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page5 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [5 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=80, page=6, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=136, page=6, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 6>
 Package pdftex.def Info: assignment/project1_probs.pdf , page6 used on input li
@@ -750,30 +738,30 @@ ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [6 <./assignment/project1_probs.pdf>]
 
-pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
-lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assignment/project1_dwg.pdf, id=87, 597.23125pt x 845.1575pt>
+pdfTeX warning: miktex-pdftex (file ./assignment/project1_dwg.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<assignment/project1_dwg.pdf, id=143, 597.23125pt x 845.1575pt>
 File: assignment/project1_dwg.pdf Graphic file (type pdf)
 <use assignment/project1_dwg.pdf>
 Package pdftex.def Info: assignment/project1_dwg.pdf  used on input line 72.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
-pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
-lusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: miktex-pdftex (file ./assignment/project1_dwg.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
 File: assignment/project1_dwg.pdf Graphic file (type pdf)
 <use assignment/project1_dwg.pdf>
 Package pdftex.def Info: assignment/project1_dwg.pdf  used on input line 72.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
-pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
-lusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: miktex-pdftex (file ./assignment/project1_dwg.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
-lusion: found PDF version <1.7>, but at most version <1.5> allowed
-<assignment/project1_dwg.pdf, id=90, page=1, 597.23125pt x 845.1575pt>
+pdfTeX warning: miktex-pdftex (file ./assignment/project1_dwg.pdf): PDF inclusi
+on: found PDF version <1.7>, but at most version <1.5> allowed
+<assignment/project1_dwg.pdf, id=146, page=1, 597.23125pt x 845.1575pt>
 File: assignment/project1_dwg.pdf Graphic file (type pdf)
 <use assignment/project1_dwg.pdf, page 1>
 Package pdftex.def Info: assignment/project1_dwg.pdf , page1 used on input line
@@ -800,382 +788,145 @@ Package pdftex.def Info: assignment/project1_dwg.pdf , page1 used on input line
  72.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
 [7 <./assignment/project1_dwg.pdf>]
+Overfull \hbox (4.10764pt too wide) in paragraph at lines 75--76
+\OT1/cmr/m/it/12 determine uniform or stepped beam designs to determine the loa
+d's effect on the beam's deflection.
+ []
+
+(Almeida_Pedro_ISM_Project1.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
+
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
+
+(/home/palmeida/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write4
 \openout4 = `Almeida_Pedro_ISM_Project1.toc'.
 
-
-
-LaTeX Warning: Reference `Background Theory' on page 8 undefined on input line 
-82.
-
-
-LaTeX Warning: Reference `Background Theory' on page 8 undefined on input line 
-84.
-
-
-LaTeX Warning: Reference `Problems' on page 8 undefined on input line 84.
-
-
-LaTeX Warning: Reference `Results' on page 8 undefined on input line 84.
-
-
-LaTeX Warning: Reference `Conclusions' on page 8 undefined on input line 84.
-
-
-LaTeX Warning: Reference `form1' on page 8 undefined on input line 87.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 87.
-
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 87.
-
-
-(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-[8]
-
-LaTeX Warning: Reference `form3' on page 9 undefined on input line 94.
-
-
-LaTeX Warning: Reference `FBD_example' on page 9 undefined on input line 101.
-
-<FBD/FBD_example.jpeg, id=110, 803.0pt x 344.28625pt>
+ [8]
+[9]
+<FBD/FBD_example.jpeg, id=195, 803.0pt x 344.28625pt>
 File: FBD/FBD_example.jpeg Graphic file (type jpg)
 <use FBD/FBD_example.jpeg>
 Package pdftex.def Info: FBD/FBD_example.jpeg  used on input line 104.
 (pdftex.def)             Requested size: 483.69687pt x 207.3876pt.
-
-LaTeX Warning: Reference `static_equations' on page 9 undefined on input line 1
-09.
-
-[9 <./FBD/FBD_example.jpeg>]
-
-LaTeX Warning: Reference `form1' on page 10 undefined on input line 120.
-
-
-LaTeX Warning: Reference `form3' on page 10 undefined on input line 120.
-
-
-LaTeX Warning: Reference `form3' on page 10 undefined on input line 120.
-
-
-LaTeX Warning: Reference `moment_equation' on page 10 undefined on input line 1
-20.
-
-
-LaTeX Warning: Reference `moment_equation_example' on page 10 undefined on inpu
-t line 127.
-
-
-LaTeX Warning: Reference `form3' on page 10 undefined on input line 134.
-
-
-LaTeX Warning: Reference `moment_equation_example_int' on page 10 undefined on 
-input line 134.
-
-
-LaTeX Warning: Reference `FBD_example' on page 10 undefined on input line 145.
-
-
-LaTeX Warning: Reference `moment_equation_example_coef1' on page 10 undefined o
-n input line 145.
-
-
-LaTeX Warning: Reference `moment_equation_example_coef2' on page 10 undefined o
-n input line 145.
-
-[10]
-
-LaTeX Warning: Reference `moment_equation_example_final' on page 11 undefined o
-n input line 165.
-
-
-LaTeX Warning: Reference `prob1' on page 11 undefined on input line 175.
-
-<problems/prob_1.jpg, id=132, 439.6425pt x 222.8325pt>
-File: problems/prob_1.jpg Graphic file (type jpg)
-<use problems/prob_1.jpg>
-Package pdftex.def Info: problems/prob_1.jpg  used on input line 181.
-(pdftex.def)             Requested size: 386.95897pt x 196.134pt.
-<FBD/FBD_1.jpg, id=133, 482.80376pt x 219.82124pt>
-File: FBD/FBD_1.jpg Graphic file (type jpg)
-<use FBD/FBD_1.jpg>
-Package pdftex.def Info: FBD/FBD_1.jpg  used on input line 187.
-(pdftex.def)             Requested size: 386.95897pt x 176.18929pt.
-<results/solution_1.jpg, id=134, 562.1pt x 421.575pt>
-File: results/solution_1.jpg Graphic file (type jpg)
-<use results/solution_1.jpg>
-Package pdftex.def Info: results/solution_1.jpg  used on input line 193.
-(pdftex.def)             Requested size: 386.95897pt x 290.21805pt.
-[11]
-Overfull \vbox (4.30959pt too high) has occurred while \output is active []
-
-
-[12 <./problems/prob_1.jpg> <./FBD/FBD_1.jpg> <./results/solution_1.jpg>]
-
-LaTeX Warning: Reference `problem1_reaction_equation' on page 13 undefined on i
-nput line 201.
-
-
-LaTeX Warning: Reference `problem1_reaction_solution' on page 13 undefined on i
-nput line 213.
-
-
-LaTeX Warning: Reference `problem1_equations' on page 13 undefined on input lin
-e 223.
-
-
-LaTeX Warning: Reference `problem1_constants_of_integration' on page 13 undefin
-ed on input line 239.
-
-[13]
-
-LaTeX Warning: Reference `problem1_constants_of_integration_solution' on page 1
-4 undefined on input line 249.
-
-
-LaTeX Warning: Reference `problem1_final_equation' on page 14 undefined on inpu
-t line 259.
-
-
-LaTeX Warning: Reference `FBD_2' on page 14 undefined on input line 273.
-
-<FBD/FBD_2.jpg, id=160, 543.02875pt x 199.74625pt>
+ [10 <./FBD/FBD_example.jpeg>] [11] [12] [13]
+<FBD/FBD_2.jpg, id=258, 543.02875pt x 199.74625pt>
 File: FBD/FBD_2.jpg Graphic file (type jpg)
 <use FBD/FBD_2.jpg>
-Package pdftex.def Info: FBD/FBD_2.jpg  used on input line 276.
+Package pdftex.def Info: FBD/FBD_2.jpg  used on input line 266.
 (pdftex.def)             Requested size: 483.69687pt x 177.92903pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `problem2_reaction_equation' on page 14 undefined on i
-nput line 281.
-
-
-LaTeX Warning: Reference `problem2_reaction_solution' on page 14 undefined on i
-nput line 292.
-
-[14]
-
-LaTeX Warning: Reference `problem2_equations' on page 15 undefined on input lin
-e 303.
-
-
-LaTeX Warning: Reference `problem2_constants_of_integration' on page 15 undefin
-ed on input line 319.
-
-[15 <./FBD/FBD_2.jpg>]
-
-LaTeX Warning: Reference `problem2_constants_of_integration_solution' on page 1
-6 undefined on input line 329.
-
-
-LaTeX Warning: Reference `problem2_final_equation' on page 16 undefined on inpu
-t line 339.
-
-
-LaTeX Warning: Reference `FBD_3' on page 16 undefined on input line 353.
-
-<FBD/FBD_3.jpg, id=177, 512.91624pt x 219.82124pt>
+ [14 <./FBD/FBD_2.jpg>]
+[15]
+<FBD/FBD_3.jpg, id=280, 512.91624pt x 219.82124pt>
 File: FBD/FBD_3.jpg Graphic file (type jpg)
 <use FBD/FBD_3.jpg>
-Package pdftex.def Info: FBD/FBD_3.jpg  used on input line 356.
+Package pdftex.def Info: FBD/FBD_3.jpg  used on input line 346.
 (pdftex.def)             Requested size: 483.69687pt x 207.29947pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `problem3_reaction_equation' on page 16 undefined on i
-nput line 361.
-
-
-LaTeX Warning: Reference `problem3_reaction_solution' on page 16 undefined on i
-nput line 372.
-
-[16]
-
-LaTeX Warning: Reference `problem3_equations' on page 17 undefined on input lin
-e 382.
-
-[17 <./FBD/FBD_3.jpg>]
-
-LaTeX Warning: Reference `problem3_constants_of_integration' on page 18 undefin
-ed on input line 398.
-
-
-LaTeX Warning: Reference `problem3_constants_of_integration_solution' on page 1
-8 undefined on input line 408.
-
-
-LaTeX Warning: Reference `problem3_final_equation' on page 18 undefined on inpu
-t line 418.
-
-[18]
-
-LaTeX Warning: Reference `FBD_4' on page 19 undefined on input line 434.
-
-<FBD/FBD_4.jpg, id=201, 523.9575pt x 200.75pt>
+ [16 <./FBD/FBD_3.jpg>] [17]
+<FBD/FBD_4.jpg, id=302, 523.9575pt x 200.75pt>
 File: FBD/FBD_4.jpg Graphic file (type jpg)
 <use FBD/FBD_4.jpg>
-Package pdftex.def Info: FBD/FBD_4.jpg  used on input line 437.
+Package pdftex.def Info: FBD/FBD_4.jpg  used on input line 427.
 (pdftex.def)             Requested size: 483.69687pt x 185.32938pt.
 
-LaTeX Warning: Reference `problem4_reaction_equation' on page 19 undefined on i
-nput line 442.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Reference `problem4_reaction_solution' on page 19 undefined on i
-nput line 453.
-
-[19 <./FBD/FBD_4.jpg>]
-
-LaTeX Warning: Reference `problem4_equations' on page 20 undefined on input lin
-e 464.
-
-
-LaTeX Warning: Reference `problem4_constants_of_integration' on page 20 undefin
-ed on input line 480.
-
-
-LaTeX Warning: Reference `problem4_constants_of_integration_solution' on page 2
-0 undefined on input line 490.
-
-[20]
-
-LaTeX Warning: Reference `problem4_final_equation' on page 21 undefined on inpu
-t line 500.
-
-
-LaTeX Warning: Reference `FBD_5' on page 21 undefined on input line 514.
-
-<FBD/FBD_5.jpg, id=217, 493.845pt x 218.8175pt>
+[18] [19 <./FBD/FBD_4.jpg>]
+<FBD/FBD_5.jpg, id=326, 493.845pt x 218.8175pt>
 File: FBD/FBD_5.jpg Graphic file (type jpg)
 <use FBD/FBD_5.jpg>
-Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 517.
+Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 507.
 (pdftex.def)             Requested size: 483.69687pt x 214.31947pt.
 
-LaTeX Warning: Reference `problem5_reaction_equation' on page 21 undefined on i
-nput line 522.
 
-[21 <./FBD/FBD_5.jpg>]
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Reference `problem5_reaction_solution' on page 22 undefined on i
-nput line 533.
-
-
-LaTeX Warning: Reference `problem5_equations' on page 22 undefined on input lin
-e 543.
-
-
-LaTeX Warning: Reference `problem5_constants_of_integration' on page 22 undefin
-ed on input line 559.
-
-[22]
-
-LaTeX Warning: Reference `problem5_constants_of_integration_solution' on page 2
-3 undefined on input line 569.
-
-
-LaTeX Warning: Reference `problem5_final_equation' on page 23 undefined on inpu
-t line 579.
-
-
-LaTeX Warning: Reference `FBD_6' on page 23 undefined on input line 593.
-
-<FBD/FBD_6.jpg, id=233, 483.8075pt x 210.7875pt>
+[20] [21 <./FBD/FBD_5.jpg>]
+<FBD/FBD_6.jpg, id=349, 483.8075pt x 210.7875pt>
 File: FBD/FBD_6.jpg Graphic file (type jpg)
 <use FBD/FBD_6.jpg>
-Package pdftex.def Info: FBD/FBD_6.jpg  used on input line 596.
+Package pdftex.def Info: FBD/FBD_6.jpg  used on input line 586.
 (pdftex.def)             Requested size: 483.69687pt x 210.74838pt.
 
-LaTeX Warning: Reference `problem6_reaction_equation' on page 23 undefined on i
-nput line 601.
 
-[23 <./FBD/FBD_6.jpg>]
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Reference `problem6_reaction_solution' on page 24 undefined on i
-nput line 612.
-
-
-LaTeX Warning: Reference `noneq6' on page 24 undefined on input line 622.
-
-<results/noneq6.jpg, id=243, 562.1pt x 421.575pt>
+[22]
+<results/noneq6.jpg, id=362, 562.1pt x 421.575pt>
 File: results/noneq6.jpg Graphic file (type jpg)
 <use results/noneq6.jpg>
-Package pdftex.def Info: results/noneq6.jpg  used on input line 625.
+Package pdftex.def Info: results/noneq6.jpg  used on input line 615.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `FBD_6' on page 24 undefined on input line 630.
-
-
-LaTeX Warning: Reference `eq6' on page 24 undefined on input line 630.
-
-<results/eq6.jpg, id=244, 562.1pt x 421.575pt>
+<results/eq6.jpg, id=365, 562.1pt x 421.575pt>
 File: results/eq6.jpg Graphic file (type jpg)
 <use results/eq6.jpg>
-Package pdftex.def Info: results/eq6.jpg  used on input line 633.
+Package pdftex.def Info: results/eq6.jpg  used on input line 623.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `FBD_6_new' on page 24 undefined on input line 638.
-
-
-LaTeX Warning: Reference `problem6_equations' on page 24 undefined on input lin
-e 638.
-
-<FBD/FBD_6_new.jpg, id=245, 492.84125pt x 210.7875pt>
+<FBD/FBD_6_new.jpg, id=368, 492.84125pt x 210.7875pt>
 File: FBD/FBD_6_new.jpg Graphic file (type jpg)
 <use FBD/FBD_6_new.jpg>
-Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 641.
+Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 631.
 (pdftex.def)             Requested size: 483.69687pt x 206.88554pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24]
-
-LaTeX Warning: Reference `problem6_constants_of_integration' on page 25 undefin
-ed on input line 660.
-
-[25 <./results/noneq6.jpg>]
-
-LaTeX Warning: Reference `problem6_constants_of_integration_solution' on page 2
-6 undefined on input line 670.
-
-
-LaTeX Warning: Reference `problem6_final_equation' on page 26 undefined on inpu
-t line 680.
-
-[26 <./results/eq6.jpg>]
-<FBD/FBD_7.jpg, id=267, 492.84125pt x 210.7875pt>
+[23 <./FBD/FBD_6.jpg>] [24 <./results/noneq6.jpg>] [25 <./results/eq6.jpg>]
+<FBD/FBD_7.jpg, id=394, 492.84125pt x 210.7875pt>
 File: FBD/FBD_7.jpg Graphic file (type jpg)
 <use FBD/FBD_7.jpg>
-Package pdftex.def Info: FBD/FBD_7.jpg  used on input line 696.
+Package pdftex.def Info: FBD/FBD_7.jpg  used on input line 686.
 (pdftex.def)             Requested size: 483.69687pt x 206.88554pt.
+<problems/prob_1.jpg, id=395, 439.6425pt x 222.8325pt>
+File: problems/prob_1.jpg Graphic file (type jpg)
+<use problems/prob_1.jpg>
+Package pdftex.def Info: problems/prob_1.jpg  used on input line 697.
+(pdftex.def)             Requested size: 386.95897pt x 196.134pt.
+<FBD/FBD_1.jpg, id=396, 482.80376pt x 219.82124pt>
+File: FBD/FBD_1.jpg Graphic file (type jpg)
+<use FBD/FBD_1.jpg>
+Package pdftex.def Info: FBD/FBD_1.jpg  used on input line 703.
+(pdftex.def)             Requested size: 386.95897pt x 176.18929pt.
+<results/solution_1.jpg, id=397, 595.22375pt x 431.6125pt>
 File: results/solution_1.jpg Graphic file (type jpg)
 <use results/solution_1.jpg>
-Package pdftex.def Info: results/solution_1.jpg  used on input line 708.
-(pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
+Package pdftex.def Info: results/solution_1.jpg  used on input line 709.
+(pdftex.def)             Requested size: 386.95897pt x 280.5909pt.
+
+[26 <./FBD/FBD_6_new.jpg> <./FBD/FBD_7.jpg>] [27]
+Overfull \vbox (58.65388pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[28 <./problems/prob_1.jpg> <./FBD/FBD_1.jpg> <./results/solution_1.jpg>]
 
-[27 <./FBD/FBD_6_new.jpg> <./FBD/FBD_7.jpg>] [28] [29]
+Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
+(lipsum)                'english' will be used instead.
 
-LaTeX Warning: Citation `book' on page 30 undefined on input line 728.
 
-[30] (Almeida_Pedro_ISM_Project1.bbl) [31] (Almeida_Pedro_ISM_Project1.aux)
+Overfull \hbox (11.14291pt too wide) in paragraph at lines 718--718
+\OT1/cmr/m/n/12 nonummy eget, consectetuer id, vulputate a, magna. Donec vehicu
+la augue eu neque. Pellentesque
+ []
 
-LaTeX Warning: There were undefined references.
 
+Overfull \hbox (11.14291pt too wide) in paragraph at lines 721--721
+\OT1/cmr/m/n/12 nonummy eget, consectetuer id, vulputate a, magna. Donec vehicu
+la augue eu neque. Pellentesque
+ []
+
+(Almeida_Pedro_ISM_Project1.bbl) [29] (Almeida_Pedro_ISM_Project1.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
@@ -1186,40 +937,39 @@ ed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `Almeida_Pedro_ISM_Project1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  24B883074D213E60DA6781011050B8A6;2287.
+(rerunfilecheck)             Before: EFD7098F35C8EE2647C71757B33C18C7;1464
+(rerunfilecheck)             After:  D3E0B09D6638C2C4F8EC52CADCAC5E03;1570.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15640 strings out of 478927
- 245494 string characters out of 2852535
- 681551 words of memory out of 3000000
- 33125 multiletter control sequences out of 15000+600000
+ 15657 strings out of 480864
+ 244049 string characters out of 2904105
+ 681062 words of memory out of 3000000
+ 32901 multiletter control sequences out of 15000+600000
  411938 words of font info for 60 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 70i,17n,81p,728b,1996s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmbx12.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/almei/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/almei/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/almei/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/a
-lmei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
-/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
-.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmr6.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr8.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/almei/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Almeida_Pedro_ISM_Project1.pdf (32 pages, 1261652 bytes).
+ 0 hyphenation exceptions out of 8191
+ 70i,17n,81p,719b,1993s stack positions out of 5000i,500n,10000p,200000b,80000s
+</home/palmeida/.miktex/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/public/ams
+fonts/cm/cmex10.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmmi10.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/public
+/amsfonts/cm/cmmi12.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/publ
+ic/amsfonts/cm/cmmi6.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr6.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr8.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmr9.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></home/palmeida/.miktex/texmfs/install/fonts/type
+1/public/amsfonts/cm/cmti12.pfb></home/palmeida/.miktex/texmfs/install/fonts/ty
+pe1/public/amsfonts/symbols/msam10.pfb>
+Output written on Almeida_Pedro_ISM_Project1.pdf (30 pages, 1280953 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 113 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 499 PDF objects out of 1000 (max. 8388607)
+ 105 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 

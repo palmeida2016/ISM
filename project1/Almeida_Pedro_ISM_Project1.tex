@@ -81,10 +81,10 @@ One of the most important processes in designing beams is the structural analysi
 
 The standard method to solve for beam deflection for beams with continuous cross sectional areas relies on partitions; the designer splits the beam into multiple subsections where loads are applied. The resulting cross sections are then each modeled separately. The singularity equations for beam deflection, by contrast, allow for the reduction of the multiple deflection equations into a single continuous equation. The method will be discussed thoroughly in the \nameref{Background Theory} section.
 
-The report will comprise of the \nameref{Background Theory} section discussing the required equations and methods to solve the problems, the \nameref{Problems} section discussing each of the problems presented in the project, the \nameref{Results} containing the important plots for each of the problems given, and the \nameref{Conclusions} section to summarize findings and discuss improvements.
+The report will comprise of the \nameref{Background Theory} section discussing the required equations and methods to solve the problems, the \nameref{Problems} section discussing each of the problems presented in the project, \nameref{Results} where problem solutions are discussed, and the \nameref{Conclusions} section to summarize findings and discuss improvements.
 
 \section{Background Theory} \label{Background Theory}
-To find the deflection equation for a statically determinate beam under loading, there are two principal ways to approach the problem, both of which lead to the same result. The first method, shown in Eq. \ref{form1}, uses the loading function $w(x)$ to reach the deflection. The form is especially useful for beams under non-linear loading functions. However, due to the required quadruple integration to reach $v(x)$, engineers commonly use a second form.
+To find the deflection equation for a statically determinate beam under loading, there are two principal ways to approach the problem, both of which lead to the same result \cite{book}. The first method, shown in Eq. \ref{form1}, uses the loading function $w(x)$ to reach the deflection. The form is especially useful for beams under non-linear loading functions. However, due to the required quadruple integration to reach $v(x)$, engineers commonly use a second form.
 
 \begin{equation}
     EI \frac{\delta^4 v}{\delta x^4} = w(x)
@@ -169,33 +169,13 @@ EI v(x) = \frac{-P}{6}\left<x-L\right>^3 - \frac{M_I}{2}\left<x-L\right>^2 + \fr
 \label{moment_equation_example_final}
 \end{equation}
 
+
+
+
 \section{Problem Definition} \label{Problems}
 \subsection{Problem 1}
 
-As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{prob1}.
-
-\begin{figure}[H]
-\centering
-   \begin{subfigure}[b]{\textwidth}
-   \centering
-   \includegraphics[width=0.8\textwidth]{problems/prob_1.jpg}
-   \caption{Given Diagram for Problem 1}
-   \label{prob1:prob} 
-\end{subfigure}
-\begin{subfigure}[b]{\textwidth}
-   \centering   
-   \includegraphics[width=0.8\textwidth]{FBD/FBD_1.jpg}
-   \caption{Free Body Diagram for Problem 1}
-   \label{prob1:FBD}
-\end{subfigure}
-\begin{subfigure}[b]{\textwidth}
-   \centering   
-   \includegraphics[width=0.8\textwidth]{results/solution_1.jpg}
-   \caption{Shear Force, Moment, and Displacement Diagram for Problem 1}
-   \label{prob1:solution}
-\end{subfigure}
-\label{prob1}
-\end{figure}
+As given by the project assignment, the first project constitutes of a simply supported beam subject to a series of area loads as shown in Fig. \ref{prob1:prob}. By substituting the equivalent reaction forces, the report generates the FBD shown in Fig. \ref{prob1:FBD}.
 
 
 With the Free-Body Diagram completed, the report employs the static equations to find the reaction forces at each of the supports as shown in Eq. \ref{problem1_reaction_equation}.
@@ -266,7 +246,17 @@ After plugging in the boundary conditions, the report finds the deflection equat
 \label{problem1_final_equation}
 \end{equation}
 
+Using the deflection equation, the report finds the maximum displacement occurs at $x = 5.8959 m$, which has a downward displacement of $6.3530/EI$ as shown in Fig. \ref{prob1:results}. Given the maximum displacement allowed $v_a = L/500$, or 0.02 meters, and a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem1_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, the W250 X 32.7 I-Beam would satisfy both the strength and stiffness requirements.
 
+\begin{equation}
+\begin{split}
+& I < \frac{v_{max}}{Ev_a} \\
+& I < 4.544\,{mm}^2 \\
+& A > \frac{F_{max}}{\sigma_{allowed}} = \frac{F_{max}}{\sigma_Y k}\\
+& A > 2.657\,{mm}^2 \\
+\end{split}
+\label{problem1_beam_geo}
+\end{equation}
 
 \subsection{Problem 2}
 
@@ -698,34 +688,33 @@ After plugging in the boundary conditions, the report finds the deflection equat
 \label{FBD_7}
 \end{figure}
 
-
-
-
-\section{Results and Discussion} \label{Results}
+\section{Results}\label{Results}
 \subsection{Problem 1}
-
-\begin{figure}[h]
-\includegraphics[width=\textwidth]{results/solution_1.jpg}
-\caption{Shear Force, Moment, and Displacement Diagram for Problem 1}
-\label{Solution_1}
+\begin{figure}[H]
+\centering
+   \begin{subfigure}[b]{\textwidth}
+   \centering
+   \includegraphics[width=0.8\textwidth]{problems/prob_1.jpg}
+   \caption{Given Diagram for Problem 1}
+   \label{prob1:prob} 
+\end{subfigure}
+\begin{subfigure}[b]{\textwidth}
+   \centering   
+   \includegraphics[width=0.8\textwidth]{FBD/FBD_1.jpg}
+   \caption{Free Body Diagram for Problem 1}
+   \label{prob1:FBD}
+\end{subfigure}
+\begin{subfigure}[b]{\textwidth}
+   \centering   
+   \includegraphics[width=0.8\textwidth]{results/solution_1.jpg}
+   \caption{Shear Force, Moment, and Displacement Diagram for Problem 1}
+   \label{prob1:results}
+\end{subfigure}
+\label{prob1}
 \end{figure}
 
-
-\subsection{Problem 2}
-\lipsum[1]
-\subsection{Problem 3}
-\lipsum[1]
-\subsection{Problem 4}
-\lipsum[1]
-\subsection{Problem 5}
-\lipsum[1]
-\subsection{Problem 6}
-\lipsum[1]
-\subsection{Problem 7}
-\lipsum[1]
-
 \section{Conclusions} \label{Conclusions}
-testing \cite{book}
+\lipsum[1]
 
 \section{Appendix}
 \lipsum[1]
