@@ -779,7 +779,7 @@ Using the deflection equation, the report finds the maximum displacement occurs 
 \begin{split}
 & I > \frac{v_{max}}{Ev_a} \\
 & I > 4.544 * 10^6\,{mm}^2 \\
-& I > \frac{M_{max}}{\frac{1}{2}\sigma_{allowed}} = \frac{M_{max}}{\frac{1}{2}\sigma_Y k}\\
+& I > \frac{M_{max}}{\frac{1}{2}\sigma_{allowed}} = \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
 & I > 11.984 * 10^6\,{mm}^2 \\
 \end{split}
 \label{problem1_beam_geo}
@@ -818,7 +818,7 @@ Using the deflection equation, the report finds the maximum displacement occurs 
 \begin{split}
 & \frac{\pi r^4}{4} > \frac{v_{max}}{Ev_a} \\
 & r > 0.2120\,m \\
-& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y k}\\
+& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
 & r > 0.1764\,m \\
 \end{split}
 \label{problem2_beam_geo}
@@ -883,7 +883,7 @@ Using the deflection equation, the report finds the maximum displacement occurs 
 \begin{split}
 & \frac{\pi r^4}{4} > \frac{v_{max}}{Ev_a} \\
 & r > 0.2540\,m \\
-& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y k}\\
+& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
 & r > 0.2606\,m \\
 \end{split}
 \label{problem4_beam_geo}
@@ -921,7 +921,7 @@ Using the deflection equation, the report finds the maximum displacement occurs 
 \begin{split}
 & \frac{\pi r^4}{4} > \frac{v_{max}}{Ev_a} \\
 & r > 0.2472\,m \\
-& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y k}\\
+& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
 & r > 0.3497\,m \\
 \end{split}
 \label{problem5_beam_geo}
@@ -960,7 +960,7 @@ Using the deflection equation, the report finds the maximum displacement occurs 
 \begin{split}
 & \frac{\pi r^4}{4} > \frac{v_{max}}{Ev_a} \\
 & r > 0.3053\,m \\
-& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y k}\\
+& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
 & r > 0.3969\,m \\
 \end{split}
 \label{problem6_beam_geo}
@@ -997,15 +997,16 @@ Using the deflection equation, the report finds the maximum displacement occurs 
 \begin{split}
 & \frac{\pi r^4}{4} > \frac{v_{max}}{Ev_a} \\
 & r > 0.1304\,m \\
-& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y k}\\
+& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
 & r > 0.1718\,m \\
 \end{split}
 \label{problem7_beam_geo}
 \end{equation}
 
 \section{Conclusions} \label{Conclusions}
-The 
+The project provided excellent practice for real-life working conditions in beam deflection. It is often the case in large projects that communication stands as the greatest barrier towards completion, which was perfectly demonstrated through the project. From discussions of misunderstandings with the professor to design choices based on abstract loads, the project greatly improved my understanding of beam deflection and how to troubleshoot all issues that may arise from it. In addition to the theoretical modeling, the modeling of the beam on MATLAB allowed for the improvement of the ability to convey ideas clearly and objectively.
 
+Future projects should consider decreasing the workload on students by substituting a large number of problems with a complex central problem that incorporates all the required skills; in addition to removing some of the repetition, the problem would more closely model real life's working conditions.
 \section{Appendix}
 \subsection{Main MATLAB Plotting}
 \begin{verbatim*}

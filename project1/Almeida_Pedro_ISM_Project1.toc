@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {6}Appendix}{48}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Main MATLAB Plotting}{48}{subsection.6.1}%
 \contentsline {subsection}{\numberline {6.2}Piecewise Function}{61}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}getMoment Function}{61}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.3}getMoment Function}{62}{subsection.6.3}%
 \contentsline {subsection}{\numberline {6.4}getRadius Function}{62}{subsection.6.4}%
 \contentsline {subsection}{\numberline {6.5}getMax Function}{62}{subsection.6.5}%
 \contentsline {section}{References}{63}{section*.20}%
