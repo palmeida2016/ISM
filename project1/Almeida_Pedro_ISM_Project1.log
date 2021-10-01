@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.9.29)  1 OCT 2021 10:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  1 OCT 2021 18:08
 entering extended mode
 **./Almeida_Pedro_ISM_Project1.tex
 (Almeida_Pedro_ISM_Project1.tex
 LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-08-27>
-(/home/palmeida/.miktex/texmfs/install/tex/latex/base/article.cls
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(/home/palmeida/.miktex/texmfs/install/tex/latex/base/size10.clo
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count182
@@ -21,53 +21,52 @@ File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/base/inputenc.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/graphicx.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/keyval.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/graphics.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/trig.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics-def/pdftex.def
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen139
 \Gin@req@width=\dimen140
-)
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amsmath.sty
+) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/04/20 v2.17j AMS math features
 \@mathmargin=\skip49
-
 For additional information on amsmath, use the `?' option.
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amstext.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amsgen.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks19
 \ex@=\dimen141
 ))
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amsbsy.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen142
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsmath/amsopn.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count190
@@ -108,13 +107,13 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/geometry/geometry.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/iftex/ifvtex.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/iftex/iftex.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \Gm@cnth=\count268
@@ -130,17 +129,17 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks24
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/geometry/geometry.cfg))
-(/home/palmeida/.miktex/texmfs/install/tex/generic/babel/babel.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/07/22 3.63 The Babel package
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/babel/babel.def
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.def
 File: babel.def 2021/07/22 3.63 Babel common definitions
 \babel@savecnt=\count271
 \U@D=\dimen158
-\l@unhyphenated=\language1
+\l@unhyphenated=\language79
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/babel/txtbabel.def)
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 )
 \bbl@dirlevel=\count272
@@ -148,76 +147,87 @@ File: babel.def 2021/07/22 3.63 Babel common definitions
 *************************************
 * Local config file bblopts.cfg used
 *
-(/home/palmeida/.miktex/texmfs/install/tex/latex/arabi/bblopts.cfg
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/babel-english/english.ldf
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
 Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
 ))
-(/home/palmeida/.miktex/texmfs/install/tex/latex/tools/indentfirst.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/hyperref.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/infwarerr/infwarerr.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/home/palmeida/.miktex/texmfs/install/tex/generic/kvsetkeys/kvsetkeys.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/generic/kvdefinekeys/kvdefinekeys.st
-y
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/home/palmeida/.miktex/texmfs/install/tex/generic/pdfescape/pdfescape.sty
-Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/hycolor/hycolor.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/letltxmacro/letltxmacro.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/auxhook/auxhook.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/kvoptions/kvoptions.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 )
 \@linkdim=\dimen159
 \Hy@linkcounter=\count273
 \Hy@pagecounter=\count274
-
-(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/pd1enc.def
+ (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/hyperref-langpatches.
-def
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref-langp
+atches.def
 File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
 nguages
-) (/home/palmeida/.miktex/texmfs/install/tex/generic/intcalc/intcalc.sty
+)
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/generic/etexcmds/etexcmds.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count275
-
-(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/puenc.def
+ (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -231,17 +241,18 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4445.
 \c@Hy@tempcnt=\count276
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/url/url.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4804.
 \XeTeXLinkMargin=\dimen160
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/bitset/bitset.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/bigintcalc/bigintcalc.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -258,7 +269,7 @@ Package hyperref Info: PDF/A mode OFF on input line 6106.
 LaTeX Info: Redefining \ref on input line 6146.
 LaTeX Info: Redefining \pageref on input line 6150.
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -267,11 +278,10 @@ package with kernel methods
 \c@Hfootnote=\count280
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
-
-(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/hpdftex.def
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/base/atveryend-ltx.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
 e
 with kernel methods
@@ -279,12 +289,12 @@ with kernel methods
 \Fld@listcount=\count281
 \c@bookmark@seq@number=\count282
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/rerunfilecheck/rerunfilecheck.
-sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(/home/palmeida/.miktex/texmfs/install/tex/generic/uniquecounter/uniquecounter.
-sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -293,18 +303,21 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip52
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 9.
- (/home/palmeida/.miktex/texmfs/install/tex/latex/tocbibind/tocbibind.sty
+
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/tocbibind\tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has section divisions on input line 50.
 
 Package tocbibind Note: Using section or other style headings.
 
-) (/home/palmeida/.miktex/texmfs/install/tex/latex/lipsum/lipsum.sty
-(/home/palmeida/.miktex/texmfs/install/tex/latex/l3packages/l3keys2e/l3keys2e.s
-ty (/home/palmeida/.miktex/texmfs/install/tex/latex/l3kernel/expl3.sty
+) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2021-08-27 L3 programming layer (loader) 
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count283
 \l__pdf_internal_box=\box52
@@ -315,11 +328,12 @@ Package: lipsum 2021-08-01 v2.5 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count284
 \l__lipsum_a_int=\count285
 \l__lipsum_b_int=\count286
- (/home/palmeida/.miktex/texmfs/install/tex/latex/lipsum/lipsum.ltd.tex))
-(/home/palmeida/.miktex/texmfs/install/tex/latex/blindtext/blindtext.sty
-Package: blindtext 2012/01/06 V2.0 blindtext-Package
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/tools/xspace.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
 \c@blindtext=\count287
@@ -341,13 +355,13 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \c@blind@pangramcount=\count303
 \c@blind@pangrammax=\count304
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/pdfpages/pdfpages.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2021/03/06 v0.5t Insert pages of external PDF documents (AM)
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/base/ifthen.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/tools/calc.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count305
 \calc@Bcount=\count306
@@ -360,15 +374,15 @@ LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count307
 \calc@Cskip=\skip55
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/eso-pic/eso-pic.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen165
 \ESO@tempdimb=\dimen166
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/xcolor/xcolor.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics-cfg/color.cfg
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -386,7 +400,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 \AM@pageheight=\dimen168
 \AM@fboxrule=\dimen169
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/pdfpages/pppdftex.def
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count308
@@ -396,13 +410,12 @@ File: pppdftex.def 2021/03/06 v0.5t Pdfpages driver for pdfTeX (AM)
 \AM@toc@title=\toks26
 \c@AM@survey=\count310
 \AM@templatesizebox=\box54
-)
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/epsfig.sty
+) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\epsfig.sty
 Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \epsfxsize=\dimen170
 \epsfysize=\dimen171
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/listings/listings.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count311
 \lst@gtempboxa=\box55
 \lst@token=\toks27
@@ -416,32 +429,30 @@ Package: epsfig 2017/06/25 v1.7b (e)psfig emulation (SPQR)
 \lst@lineno=\count316
 \lst@maxwidth=\dimen175
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/listings/lstmisc.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count317
 \lst@skipnumbers=\count318
 \lst@framebox=\box56
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/listings/listings.cfg
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
-
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsfonts/amssymb.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(/home/palmeida/.miktex/texmfs/install/tex/latex/setspace/setspace.sty
+)) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.st
+y
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(/home/palmeida/.miktex/texmfs/install/tex/latex/fancyhdr/fancyhdr.sty
+) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
 rs
 \f@nch@headwidth=\skip56
@@ -453,16 +464,15 @@ rs
 \f@nch@O@erf=\skip62
 \f@nch@O@olf=\skip63
 \f@nch@O@orf=\skip64
-)
-(/home/palmeida/.miktex/texmfs/install/tex/latex/cite/cite.sty
+) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
 LaTeX Info: Redefining \cite on input line 302.
 LaTeX Info: Redefining \nocite on input line 332.
 Package: cite 2015/02/27  v 5.5
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/caption/caption.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/caption/caption3.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
 \captionmargin=\dimen176
 \captionmargin@=\dimen177
@@ -478,12 +488,11 @@ Package caption Info: Standard document class detected.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/caption/subcaption.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
 \c@subfigure=\count321
 \c@subtable=\count322
-)
-(/home/palmeida/.miktex/texmfs/install/tex/latex/float/float.sty
+) (C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count323
 \float@exts=\toks28
@@ -513,7 +522,8 @@ LaTeX Font Info:    ... okay on input line 33.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
 LaTeX Font Info:    ... okay on input line 33.
 
-(/home/palmeida/.miktex/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count324
 \scratchdimen=\dimen183
@@ -527,11 +537,14 @@ LaTeX Font Info:    ... okay on input line 33.
 \makeMPintoPDFobject=\count329
 \everyMPtoPDFconversion=\toks31
 )
-(/home/palmeida/.miktex/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-(/home/palmeida/.miktex/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 *geometry* driver: auto-detecting
@@ -569,14 +582,14 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 33.
-(/home/palmeida/.miktex/texmfs/install/tex/latex/hyperref/nameref.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/refcount/refcount.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(/home/palmeida/.miktex/texmfs/install/tex/generic/gettitlestring/gettitlestrin
-g.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count330
@@ -589,10 +602,9 @@ LaTeX Info: Redefining \nameref on input line 33.
 \openout3 = `Almeida_Pedro_ISM_Project1.out'.
 
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/pdflscape/pdflscape.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(/home/palmeida/.miktex/texmfs/install/tex/latex/graphics/lscape.sty
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -601,16 +613,17 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-<images/fau_logo.jpeg, id=59, 1204.5pt x 770.88pt>
+<images/fau_logo.jpeg, id=107, 1204.5pt x 770.88pt>
 File: images/fau_logo.jpeg Graphic file (type jpg)
 <use images/fau_logo.jpeg>
 Package pdftex.def Info: images/fau_logo.jpeg  used on input line 41.
 (pdftex.def)             Requested size: 110.96556pt x 71.01122pt.
- [1
 
-{/home/palmeida/.miktex/texmfs/data/pdftex/config/pdftex.map} <./images/fau_log
-o.jpeg>]
-<assignment/project1_probs.pdf, id=70, 614.26657pt x 794.94157pt>
+[1
+
+{C:/Users/almei/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images/fau_lo
+go.jpeg>]
+<assignment/project1_probs.pdf, id=118, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf>
 Package pdftex.def Info: assignment/project1_probs.pdf  used on input line 71.
@@ -619,7 +632,7 @@ File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf>
 Package pdftex.def Info: assignment/project1_probs.pdf  used on input line 71.
 (pdftex.def)             Requested size: 614.26506pt x 794.93964pt.
-<assignment/project1_probs.pdf, id=73, page=1, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=121, page=1, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 1>
 Package pdftex.def Info: assignment/project1_probs.pdf , page1 used on input li
@@ -652,7 +665,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page1 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [1 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=112, page=2, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=160, page=2, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 2>
 Package pdftex.def Info: assignment/project1_probs.pdf , page2 used on input li
@@ -669,7 +682,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page2 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [2 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=118, page=3, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=166, page=3, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 3>
 Package pdftex.def Info: assignment/project1_probs.pdf , page3 used on input li
@@ -686,7 +699,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page3 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [3 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=124, page=4, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=172, page=4, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 4>
 Package pdftex.def Info: assignment/project1_probs.pdf , page4 used on input li
@@ -703,7 +716,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page4 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [4 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=130, page=5, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=178, page=5, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 5>
 Package pdftex.def Info: assignment/project1_probs.pdf , page5 used on input li
@@ -720,7 +733,7 @@ Package pdftex.def Info: assignment/project1_probs.pdf , page5 used on input li
 ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [5 <./assignment/project1_probs.pdf>]
-<assignment/project1_probs.pdf, id=136, page=6, 614.26657pt x 794.94157pt>
+<assignment/project1_probs.pdf, id=184, page=6, 614.26657pt x 794.94157pt>
 File: assignment/project1_probs.pdf Graphic file (type pdf)
 <use assignment/project1_probs.pdf, page 6>
 Package pdftex.def Info: assignment/project1_probs.pdf , page6 used on input li
@@ -738,30 +751,30 @@ ne 71.
 (pdftex.def)             Requested size: 597.75931pt x 773.57903pt.
  [6 <./assignment/project1_probs.pdf>]
 
-pdfTeX warning: miktex-pdftex (file ./assignment/project1_dwg.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<assignment/project1_dwg.pdf, id=143, 597.23125pt x 845.1575pt>
+pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<assignment/project1_dwg.pdf, id=191, 597.23125pt x 845.1575pt>
 File: assignment/project1_dwg.pdf Graphic file (type pdf)
 <use assignment/project1_dwg.pdf>
 Package pdftex.def Info: assignment/project1_dwg.pdf  used on input line 72.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
-pdfTeX warning: miktex-pdftex (file ./assignment/project1_dwg.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
 File: assignment/project1_dwg.pdf Graphic file (type pdf)
 <use assignment/project1_dwg.pdf>
 Package pdftex.def Info: assignment/project1_dwg.pdf  used on input line 72.
 (pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
 
 
-pdfTeX warning: miktex-pdftex (file ./assignment/project1_dwg.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: miktex-pdftex (file ./assignment/project1_dwg.pdf): PDF inclusi
-on: found PDF version <1.7>, but at most version <1.5> allowed
-<assignment/project1_dwg.pdf, id=146, page=1, 597.23125pt x 845.1575pt>
+pdfTeX warning: miktex-pdftex.exe (file ./assignment/project1_dwg.pdf): PDF inc
+lusion: found PDF version <1.7>, but at most version <1.5> allowed
+<assignment/project1_dwg.pdf, id=194, page=1, 597.23125pt x 845.1575pt>
 File: assignment/project1_dwg.pdf Graphic file (type pdf)
 <use assignment/project1_dwg.pdf, page 1>
 Package pdftex.def Info: assignment/project1_dwg.pdf , page1 used on input line
@@ -787,189 +800,453 @@ File: assignment/project1_dwg.pdf Graphic file (type pdf)
 Package pdftex.def Info: assignment/project1_dwg.pdf , page1 used on input line
  72.
 (pdftex.def)             Requested size: 597.25711pt x 845.19412pt.
-[7 <./assignment/project1_dwg.pdf>]
-Overfull \hbox (4.10764pt too wide) in paragraph at lines 75--76
-\OT1/cmr/m/it/12 determine uniform or stepped beam designs to determine the loa
-d's effect on the beam's deflection.
- []
-
-(Almeida_Pedro_ISM_Project1.toc
+[7 <./assignment/project1_dwg.pdf>] (Almeida_Pedro_ISM_Project1.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 5.
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsfonts/umsa.fd
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 5.
 
-(/home/palmeida/.miktex/texmfs/install/tex/latex/amsfonts/umsb.fd
+(C:\Users\almei\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+)
+[8])
 \tf@toc=\write4
 \openout4 = `Almeida_Pedro_ISM_Project1.toc'.
 
- [8]
-[9]
-<FBD/FBD_example.jpeg, id=195, 803.0pt x 344.28625pt>
+ [9]
+<FBD/FBD_example.jpeg, id=254, 803.0pt x 344.28625pt>
 File: FBD/FBD_example.jpeg Graphic file (type jpg)
 <use FBD/FBD_example.jpeg>
 Package pdftex.def Info: FBD/FBD_example.jpeg  used on input line 104.
 (pdftex.def)             Requested size: 483.69687pt x 207.3876pt.
- [10 <./FBD/FBD_example.jpeg>] [11] [12] [13]
-<FBD/FBD_2.jpg, id=258, 543.02875pt x 199.74625pt>
-File: FBD/FBD_2.jpg Graphic file (type jpg)
-<use FBD/FBD_2.jpg>
-Package pdftex.def Info: FBD/FBD_2.jpg  used on input line 266.
-(pdftex.def)             Requested size: 483.69687pt x 177.92903pt.
- [14 <./FBD/FBD_2.jpg>]
-[15]
-<FBD/FBD_3.jpg, id=280, 512.91624pt x 219.82124pt>
-File: FBD/FBD_3.jpg Graphic file (type jpg)
-<use FBD/FBD_3.jpg>
-Package pdftex.def Info: FBD/FBD_3.jpg  used on input line 346.
-(pdftex.def)             Requested size: 483.69687pt x 207.29947pt.
- [16 <./FBD/FBD_3.jpg>] [17]
-<FBD/FBD_4.jpg, id=302, 523.9575pt x 200.75pt>
-File: FBD/FBD_4.jpg Graphic file (type jpg)
-<use FBD/FBD_4.jpg>
-Package pdftex.def Info: FBD/FBD_4.jpg  used on input line 427.
-(pdftex.def)             Requested size: 483.69687pt x 185.32938pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[18] [19 <./FBD/FBD_4.jpg>]
-<FBD/FBD_5.jpg, id=326, 493.845pt x 218.8175pt>
+ [10 <./FBD/FBD_example.jpeg>] [11] [12] [13] [14] [15] [16] [17]
+[18] [19]
+<FBD/FBD_5.jpg, id=383, 493.845pt x 218.8175pt>
 File: FBD/FBD_5.jpg Graphic file (type jpg)
 <use FBD/FBD_5.jpg>
-Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 507.
+Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 477.
 (pdftex.def)             Requested size: 483.69687pt x 214.31947pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[20] [21 <./FBD/FBD_5.jpg>]
-<FBD/FBD_6.jpg, id=349, 483.8075pt x 210.7875pt>
+ [20 <./FBD/FBD_5.jpg>] [21]
+<FBD/FBD_6.jpg, id=407, 483.8075pt x 210.7875pt>
 File: FBD/FBD_6.jpg Graphic file (type jpg)
 <use FBD/FBD_6.jpg>
-Package pdftex.def Info: FBD/FBD_6.jpg  used on input line 586.
+Package pdftex.def Info: FBD/FBD_6.jpg  used on input line 556.
 (pdftex.def)             Requested size: 483.69687pt x 210.74838pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[22]
-<results/noneq6.jpg, id=362, 562.1pt x 421.575pt>
+ [22 <./FBD/FBD_6.jpg>]
+<results/noneq6.jpg, id=419, 562.1pt x 421.575pt>
 File: results/noneq6.jpg Graphic file (type jpg)
 <use results/noneq6.jpg>
-Package pdftex.def Info: results/noneq6.jpg  used on input line 615.
+Package pdftex.def Info: results/noneq6.jpg  used on input line 585.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<results/eq6.jpg, id=365, 562.1pt x 421.575pt>
+<results/eq6.jpg, id=422, 562.1pt x 421.575pt>
 File: results/eq6.jpg Graphic file (type jpg)
 <use results/eq6.jpg>
-Package pdftex.def Info: results/eq6.jpg  used on input line 623.
+Package pdftex.def Info: results/eq6.jpg  used on input line 593.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<FBD/FBD_6_new.jpg, id=368, 492.84125pt x 210.7875pt>
+<FBD/FBD_6_new.jpg, id=425, 492.84125pt x 210.7875pt>
 File: FBD/FBD_6_new.jpg Graphic file (type jpg)
 <use FBD/FBD_6_new.jpg>
-Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 631.
+Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 601.
 (pdftex.def)             Requested size: 483.69687pt x 206.88554pt.
+[23 <./results/noneq6.jpg>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[23 <./FBD/FBD_6.jpg>] [24 <./results/noneq6.jpg>] [25 <./results/eq6.jpg>]
-<FBD/FBD_7.jpg, id=394, 492.84125pt x 210.7875pt>
+[24 <./results/eq6.jpg>] [25 <./FBD/FBD_6_new.jpg>]
+<FBD/FBD_7.jpg, id=451, 492.84125pt x 210.7875pt>
 File: FBD/FBD_7.jpg Graphic file (type jpg)
 <use FBD/FBD_7.jpg>
-Package pdftex.def Info: FBD/FBD_7.jpg  used on input line 686.
+Package pdftex.def Info: FBD/FBD_7.jpg  used on input line 657.
 (pdftex.def)             Requested size: 483.69687pt x 206.88554pt.
-<problems/prob_1.jpg, id=395, 439.6425pt x 222.8325pt>
+ [26 <./FBD/FBD_7.jpg>]
+<results/noneq7.jpg, id=463, 562.1pt x 421.575pt>
+File: results/noneq7.jpg Graphic file (type jpg)
+<use results/noneq7.jpg>
+Package pdftex.def Info: results/noneq7.jpg  used on input line 686.
+(pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
+<results/eq7.jpg, id=466, 562.1pt x 421.575pt>
+File: results/eq7.jpg Graphic file (type jpg)
+<use results/eq7.jpg>
+Package pdftex.def Info: results/eq7.jpg  used on input line 694.
+(pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<FBD/FBD_7_new.jpg, id=469, 493.845pt x 210.7875pt>
+File: FBD/FBD_7_new.jpg Graphic file (type jpg)
+<use FBD/FBD_7_new.jpg>
+Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 702.
+(pdftex.def)             Requested size: 483.69687pt x 206.45454pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27 <./results/noneq7.jpg>] [28 <./results/eq7.jpg>]
+<problems/prob_1.jpg, id=485, 439.6425pt x 222.8325pt>
 File: problems/prob_1.jpg Graphic file (type jpg)
 <use problems/prob_1.jpg>
-Package pdftex.def Info: problems/prob_1.jpg  used on input line 697.
-(pdftex.def)             Requested size: 386.95897pt x 196.134pt.
-<FBD/FBD_1.jpg, id=396, 482.80376pt x 219.82124pt>
+Package pdftex.def Info: problems/prob_1.jpg  used on input line 757.
+(pdftex.def)             Requested size: 338.58632pt x 171.61555pt.
+<FBD/FBD_1.jpg, id=486, 482.80376pt x 219.82124pt>
 File: FBD/FBD_1.jpg Graphic file (type jpg)
 <use FBD/FBD_1.jpg>
-Package pdftex.def Info: FBD/FBD_1.jpg  used on input line 703.
+Package pdftex.def Info: FBD/FBD_1.jpg  used on input line 763.
 (pdftex.def)             Requested size: 386.95897pt x 176.18929pt.
-<results/solution_1.jpg, id=397, 595.22375pt x 431.6125pt>
+<results/solution_1.jpg, id=487, 562.1pt x 421.575pt>
 File: results/solution_1.jpg Graphic file (type jpg)
 <use results/solution_1.jpg>
-Package pdftex.def Info: results/solution_1.jpg  used on input line 709.
-(pdftex.def)             Requested size: 386.95897pt x 280.5909pt.
-
-[26 <./FBD/FBD_6_new.jpg> <./FBD/FBD_7.jpg>] [27]
-Overfull \vbox (58.65388pt too high) has occurred while \output is active []
-
-
-[28 <./problems/prob_1.jpg> <./FBD/FBD_1.jpg> <./results/solution_1.jpg>]
-
-Package lipsum Warning: Unknown language 'latin'. Hyphenation patterns for
-(lipsum)                'english' will be used instead.
+Package pdftex.def Info: results/solution_1.jpg  used on input line 769.
+(pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
+ [29 <./FBD/FBD_7_new.jpg>] [30]
+Overfull \vbox (69.1525pt too high) has occurred while \output is active []
 
 
-Overfull \hbox (11.14291pt too wide) in paragraph at lines 718--718
-\OT1/cmr/m/n/12 nonummy eget, consectetuer id, vulputate a, magna. Donec vehicu
-la augue eu neque. Pellentesque
+[31 <./problems/prob_1.jpg> <./FBD/FBD_1.jpg> <./results/solution_1.jpg>]
+<problems/prob_2.jpg, id=507, 473.77pt x 193.72375pt>
+File: problems/prob_2.jpg Graphic file (type jpg)
+<use problems/prob_2.jpg>
+Package pdftex.def Info: problems/prob_2.jpg  used on input line 795.
+(pdftex.def)             Requested size: 338.58632pt x 138.4523pt.
+<FBD/FBD_2.jpg, id=508, 543.02875pt x 199.74625pt>
+File: FBD/FBD_2.jpg Graphic file (type jpg)
+<use FBD/FBD_2.jpg>
+Package pdftex.def Info: FBD/FBD_2.jpg  used on input line 801.
+(pdftex.def)             Requested size: 386.95897pt x 142.34506pt.
+<results/solution_2.jpg, id=509, 562.1pt x 421.575pt>
+File: results/solution_2.jpg Graphic file (type jpg)
+<use results/solution_2.jpg>
+Package pdftex.def Info: results/solution_2.jpg  used on input line 807.
+(pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
+
+[32] [33 <./problems/prob_2.jpg> <./FBD/FBD_2.jpg> <./results/solution_2.jpg>]
+<problems/prob_3.jpg, id=521, 467.7475pt x 222.8325pt>
+File: problems/prob_3.jpg Graphic file (type jpg)
+<use problems/prob_3.jpg>
+Package pdftex.def Info: problems/prob_3.jpg  used on input line 833.
+(pdftex.def)             Requested size: 338.58632pt x 161.30971pt.
+<FBD/FBD_3.jpg, id=522, 512.91624pt x 219.82124pt>
+File: FBD/FBD_3.jpg Graphic file (type jpg)
+<use FBD/FBD_3.jpg>
+Package pdftex.def Info: FBD/FBD_3.jpg  used on input line 839.
+(pdftex.def)             Requested size: 386.95897pt x 165.84158pt.
+<results/solution_3.jpg, id=523, 562.1pt x 421.575pt>
+File: results/solution_3.jpg Graphic file (type jpg)
+<use results/solution_3.jpg>
+Package pdftex.def Info: results/solution_3.jpg  used on input line 845.
+(pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
+
+[34] [35]
+Overfull \vbox (13.2775pt too high) has occurred while \output is active []
+
+
+[36 <./problems/prob_3.jpg> <./FBD/FBD_3.jpg> <./results/solution_3.jpg>]
+<problems/prob_4.jpg, id=540, 452.69125pt x 203.76125pt>
+File: problems/prob_4.jpg Graphic file (type jpg)
+<use problems/prob_4.jpg>
+Package pdftex.def Info: problems/prob_4.jpg  used on input line 860.
+(pdftex.def)             Requested size: 338.58632pt x 152.40082pt.
+<FBD/FBD_4.jpg, id=541, 523.9575pt x 200.75pt>
+File: FBD/FBD_4.jpg Graphic file (type jpg)
+<use FBD/FBD_4.jpg>
+Package pdftex.def Info: FBD/FBD_4.jpg  used on input line 866.
+(pdftex.def)             Requested size: 386.95897pt x 148.26472pt.
+<results/solution_4.jpg, id=542, 562.1pt x 421.575pt>
+File: results/solution_4.jpg Graphic file (type jpg)
+<use results/solution_4.jpg>
+Package pdftex.def Info: results/solution_4.jpg  used on input line 872.
+(pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
+
+[37] [38 <./problems/prob_4.jpg> <./FBD/FBD_4.jpg> <./results/solution_4.jpg>]
+<problems/prob_5.jpg, id=553, 447.6725pt x 222.8325pt>
+File: problems/prob_5.jpg Graphic file (type jpg)
+<use problems/prob_5.jpg>
+Package pdftex.def Info: problems/prob_5.jpg  used on input line 899.
+(pdftex.def)             Requested size: 338.58632pt x 168.53842pt.
+File: FBD/FBD_5.jpg Graphic file (type jpg)
+<use FBD/FBD_5.jpg>
+Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 905.
+(pdftex.def)             Requested size: 386.95897pt x 171.45491pt.
+<results/solution_5.jpg, id=554, 562.1pt x 421.575pt>
+File: results/solution_5.jpg Graphic file (type jpg)
+<use results/solution_5.jpg>
+Package pdftex.def Info: results/solution_5.jpg  used on input line 911.
+(pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
+
+[39] [40]
+Overfull \vbox (26.11954pt too high) has occurred while \output is active []
+
+
+[41 <./problems/prob_5.jpg> <./results/solution_5.jpg>]
+<problems/prob_6.jpg, id=571, 437.635pt x 212.795pt>
+File: problems/prob_6.jpg Graphic file (type jpg)
+<use problems/prob_6.jpg>
+Package pdftex.def Info: problems/prob_6.jpg  used on input line 938.
+(pdftex.def)             Requested size: 338.58632pt x 164.63516pt.
+File: FBD/FBD_6_new.jpg Graphic file (type jpg)
+<use FBD/FBD_6_new.jpg>
+Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 944.
+(pdftex.def)             Requested size: 386.95897pt x 165.51036pt.
+<results/solution_6.jpg, id=572, 562.1pt x 421.575pt>
+File: results/solution_6.jpg Graphic file (type jpg)
+<use results/solution_6.jpg>
+Package pdftex.def Info: results/solution_6.jpg  used on input line 950.
+(pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
+ [42] [43]
+Overfull \vbox (16.27173pt too high) has occurred while \output is active []
+
+
+[44 <./problems/prob_6.jpg> <./results/solution_6.jpg>]
+<problems/prob_7.jpg, id=589, 417.56pt x 212.795pt>
+File: problems/prob_7.jpg Graphic file (type jpg)
+<use problems/prob_7.jpg>
+Package pdftex.def Info: problems/prob_7.jpg  used on input line 975.
+(pdftex.def)             Requested size: 338.58632pt x 172.55782pt.
+File: FBD/FBD_7_new.jpg Graphic file (type jpg)
+<use FBD/FBD_7_new.jpg>
+Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 981.
+(pdftex.def)             Requested size: 386.95897pt x 165.163pt.
+<results/solution_7.jpg, id=590, 562.1pt x 421.575pt>
+File: results/solution_7.jpg Graphic file (type jpg)
+<use results/solution_7.jpg>
+Package pdftex.def Info: results/solution_7.jpg  used on input line 987.
+(pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
+ [45] [46]
+Overfull \vbox (23.84702pt too high) has occurred while \output is active []
+
+
+[47 <./problems/prob_7.jpg> <./results/solution_7.jpg>] [48]
+Overfull \hbox (813.05377pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     shear = 1000*(.55*s*pw(x,0,0) -s*pw(x,0,1) + 2*s*pw(x,1,
+1) - 2*s*pw(x,2,1) + 2*s*pw(x,3,1) - 2*s*pw(x,4,1) + 2*s*pw(x,5,1) - 2*s*pw(x,6
+,1) + 2*s*pw(x,7,1) - 2*s*pw(x,8,1) + s*pw(x,9,1) + 0.45*s*pw(x,10,0));[] 
  []
 
 
-Overfull \hbox (11.14291pt too wide) in paragraph at lines 721--721
-\OT1/cmr/m/n/12 nonummy eget, consectetuer id, vulputate a, magna. Donec vehicu
-la augue eu neque. Pellentesque
+Overfull \hbox (1072.4039pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*(0.55*s*pw(x,0,1) -(s/2)*pw(x,0,2) + 2*(s/
+2)*pw(x,1,2) - 2*(s/2)*pw(x,2,2) + 2*(s/2)*pw(x,3,2) - 2*(s/2)*pw(x,4,2) + 2*(s
+/2)*pw(x,5,2) - 2*(s/2)*pw(x,6,2) + 2*(s/2)*pw(x,7,2) - 2*(s/2)*pw(x,8,2) + (s/
+2)*pw(x,9,2) + 0.45*s*pw(x,10,1));[] 
  []
 
-(Almeida_Pedro_ISM_Project1.bbl) [29] (Almeida_Pedro_ISM_Project1.aux)
+[49]
+Overfull \hbox (1405.85406pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     displacement = 1000*(0.55*(s/6)*pw(x,0,3) -(s/24)*pw(x,0
+,4) + 2*(s/24)*pw(x,1,4) - 2*(s/24)*pw(x,2,4) + 2*(s/24)*pw(x,3,4) - 2*(s/24)*p
+w(x,4,4) + 2*(s/24)*pw(x,5,4) - 2*(s/24)*pw(x,6,4) + 2*(s/24)*pw(x,7,4) - 2*(s/
+24)*pw(x,8,4) + (s/24)*pw(x,9,4) - (209/240)*s*pw(x,0,1) + 0.45*(s/6)*pw(x,10,3
+))/(E*I);[] 
+ []
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+[50]
+Overfull \hbox (584.57866pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*(50*pw(x,0,0) + s*pw(x,1,0) + 2*s*pw(x,2,0
+) + 3*s*pw(x,3,0) + 4*s*pw(x,4,0) - 4*s*pw(x,5,0) - 3*s*pw(x,6,0) - 2*s*pw(x,7,
+0) - s*pw(x,8,0) - 50*pw(x,10,0));[] 
+ []
 
 
-Package rerunfilecheck Warning: File `Almeida_Pedro_ISM_Project1.out' has chang
-ed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Overfull \hbox (1134.15393pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     displacement = (1000*(25*pw(x,0,2) + (s/2)*pw(x,1,2) + 2
+*(s/2)*pw(x,2,2) + 3*(s/2)*pw(x,3,2) + 4*(s/2)*pw(x,4,2) - 4*(s/2)*pw(x,5,2) - 
+3*(s/2)*pw(x,6,2) - 2*(s/2)*pw(x,7,2) - (s/2)*pw(x,8,2) + (-500 - 30*s)*pw(x,0,
+1) + (2500 + 135*s) - 25*pw(x,10,2)))/(E*I);[] 
+ []
 
-Package rerunfilecheck Info: Checksums for `Almeida_Pedro_ISM_Project1.out':
-(rerunfilecheck)             Before: EFD7098F35C8EE2647C71757B33C18C7;1464
-(rerunfilecheck)             After:  D3E0B09D6638C2C4F8EC52CADCAC5E03;1570.
+[51]
+Overfull \hbox (627.80368pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/60 + 41)*pw(x,0,0) - s*pw(x,1,0) + 
+s*pw(x,2,0) - s*pw(x,3,0) + s*pw(x,4,0) - 70*pw(x,6,1) + 70*pw(x,8,1) - (s/2)*p
+w(x,9,2)  + ((23*s)/60 + 99)*pw(x,10,0));[] 
+ []
+
+
+Overfull \hbox (745.12874pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/60 + 41)*pw(x,0,1) - s*pw(x,1,1) +
+ s*pw(x,2,1) - s*pw(x,3,1) + s*pw(x,4,1) + (s+10)*pw(x,5,0) - 35*pw(x,6,2) + 35
+*pw(x,8,2) - (s/6)*pw(x,9,3) + ((23*s)/60 + 99)*pw(x,10,1));[] 
+ []
+
+[52]
+Overfull \hbox (1319.40402pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     displacement = (1000*((((7*s)/60 + 41)/6)*pw(x,0,3) - (s
+/6)*pw(x,1,3) + (s/6)*pw(x,2,3) - (s/6)*pw(x,3,3) + (s/6)*pw(x,4,3) + ((s+10)/2
+)*pw(x,5,2) - (35/12)*pw(x,6,4) + (35/12)*pw(x,8,4) - (s/120)*pw(x,9,5) + ((914
+3*s)/3600 - (3755/6))*pw(x,0,1) + (((23*s)/60 + 99)/6)*pw(x,10,3)))/(E*I);[] 
+ []
+
+[53]
+Overfull \hbox (590.75366pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     shear = 1000*(25*s*pw(x,0,0) - s*pw(x,1,0) - 2*s*pw(x,2,
+0) - 3*s*pw(x,3,0) - 4*s*pw(x,4,0) - 5*s*pw(x,5,0) - 4*s*pw(x,6,0) - 3*s*pw(x,7
+,0) - 2*s*pw(x,8,0) - s*pw(x,9,0));[] 
+ []
+
+
+Overfull \hbox (708.07872pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*(25*s*pw(x,0,1) - 125*s*pw(x,0,0) - s*pw(x
+,1,1) - 2*s*pw(x,2,1) - 3*s*pw(x,3,1) - 4*s*pw(x,4,1) - 5*s*pw(x,5,1) - 4*s*pw(
+x,6,1) - 3*s*pw(x,7,1) - 2*s*pw(x,8,1) - s*pw(x,9,1));[] 
+ []
+
+
+Overfull \hbox (1066.2289pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     displacement = (1000*((25/6)*s*pw(x,0,3) - (125/2)*s*pw(
+x,0,2) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - 3*(s/6)*pw(x,3,3) - 4*(s/6)*pw(x
+,4,3) - 5*(s/6)*pw(x,5,3) - 4*(s/6)*pw(x,6,3) - 3*(s/6)*pw(x,7,3) - 2*(s/6)*pw(
+x,8,3) - (s/6)*pw(x,9,3)))/(E*I);[] 
+ []
+
+[54]
+Overfull \hbox (473.4286pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     shear = 1000*((3*s + 200)*pw(x,0,0) - s*pw(x,1,0) - 2*s*
+pw(x,2,0) - 100*pw(x,3,1) + 100*pw(x,7,1) - 2*s*pw(x,8,0)- s*pw(x,9,0) + (3*s+2
+00)*pw(x,10,0));[] 
+ []
+
+
+Overfull \hbox (467.2536pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*((3*s + 200)*pw(x,0,1) - s*pw(x,1,1) - 2*s
+*pw(x,2,1) - 50*pw(x,3,2) + 50*pw(x,7,2) - 2*s*pw(x,8,1)- s*pw(x,9,1) + (3*s+20
+0)*pw(x,10,1));[] 
+ []
+
+[55]
+Overfull \hbox (955.07884pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     displacement = (1000*(((3*s + 200)/6)*pw(x,0,3) - (s/6)*
+pw(x,1,3) - 2*(s/6)*pw(x,2,3) - (25/6)*pw(x,3,4) + (25/6)*pw(x,7,4) - 2*(s/6)*p
+w(x,8,3)- (s/6)*pw(x,9,3) + (-(41*s)/2 - 7100/3)*pw(x,0,1) + ((3*s+200)/6)*pw(x
+,10,3)))/(E*I);[] 
+ []
+
+[56]
+Overfull \hbox (615.45367pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/5)*pw(x,0,0) - 100*pw(x,1,0) - s*pw
+(x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) + 100*pw(x,6,0) + 200*pw(x,7,0) + 300*pw(
+x,8,0) + (((3*s)/5) - 400)*pw(x,10,0));[] 
+ []
+
+
+Overfull \hbox (621.62868pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/5)*pw(x,0,1) - 100*pw(x,1,1) - s*p
+w(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) + 100*pw(x,6,1) + 200*pw(x,7,1) + 300*pw
+(x,8,1) + (((3*s)/5) - 400)*pw(x,10,1));[] 
+ []
+
+[57]
+Overfull \hbox (837.75378pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/5)*pw(x,0,0) - 100*pw(x,1,0) - s*pw
+(x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) - ((3*s)/5 + 200)*pw(x,5,0) + 2*100*pw(x,
+6,0) + 2*200*pw(x,7,0) + 2*300*pw(x,8,0) + 2*(((3*s)/5) - 400)*pw(x,10,0));[] 
+ []
+
+
+Overfull \hbox (992.12886pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/5)*pw(x,0,1) - 100*pw(x,1,1) - s*p
+w(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) - ((3*s)/5 + 200)*pw(x,5,1) + (3*s - 600
+)*pw(x,5,0) + 2*100*pw(x,6,1) + 2*200*pw(x,7,1) + 2*300*pw(x,8,1) + 2*(((3*s)/5
+) - 400)*pw(x,10,1));[] 
+ []
+
+
+Overfull \hbox (1554.05414pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     displacement = (1000*(((7*s)/30)*pw(x,0,3) - (100/6)*pw(
+x,1,3) - (s/6)*pw(x,2,3) - (100/6)*pw(x,3,3) - (s/6)*pw(x,4,3) - (((3*s)/5 + 20
+0)/6)*pw(x,5,3) + ((3*s - 600)/2)*pw(x,5,2) + 2*(100/6)*pw(x,6,3) + 2*(200/6)*p
+w(x,7,3) + 2*(300/6)*pw(x,8,3) + (-(137*s)/10 + 2480)*pw(x,0,1) + 2*((((3*s)/5)
+ - 400)/6)*pw(x,10,3)))/(10*E*I);[] 
+ []
+
+[58]
+Overfull \hbox (627.80368pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     shear = 1000*(4.5*s*pw(x,0,0) - s*pw(x,1,0) - s*pw(x,2,0
+) - s*pw(x,3,0) - s*pw(x,4,0) - s*pw(x,5,0) - s*pw(x,6,0) - s*pw(x,7,0) - s*pw(
+x,8,0) - s*pw(x,9,0) + 4.5*s*pw(x,10,0));[] 
+ []
+
+
+Overfull \hbox (633.97868pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*(4.5*s*pw(x,0,1) - s*pw(x,1,1) - s*pw(x,2,
+1) - s*pw(x,3,1) - s*pw(x,4,1) - s*pw(x,5,1) - s*pw(x,6,1) - s*pw(x,7,1) - s*pw
+(x,8,1) - s*pw(x,9,1) + 4.5*s*pw(x,10,1));[] 
+ []
+
+[59]
+Overfull \hbox (899.50381pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     shear = 1000*(3*4.5*s*pw(x,0,0) - 3*s*pw(x,1,0) - 3*s*pw
+(x,2,0) - s*pw(x,3,0) - 5*s*pw(x,3,0) - s*pw(x,4,0) - s*pw(x,5,0) - s*pw(x,6,0)
+ - s*pw(x,7,0) - 5*s*pw(x,7,0) - 3*s*pw(x,8,0) - 3*s*pw(x,9,0) + 3*4.5*s*pw(x,1
+0,0));[] 
+ []
+
+
+Overfull \hbox (1115.62892pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     moment = 1000*(3*4.5*s*pw(x,0,1) - 3*s*pw(x,1,1) - 3*s*p
+w(x,2,1) - s*pw(x,3,1) - 5*s*pw(x,3,1) - 21*s*pw(x,3,0) - s*pw(x,4,1) - s*pw(x,
+5,1) - s*pw(x,6,1) - s*pw(x,7,1) - 5*s*pw(x,7,1) + 21*s*pw(x,7,0) - 3*s*pw(x,8,
+1) - 3*s*pw(x,9,1) + 3*4.5*s*pw(x,10,1));[] 
+ []
+
+[60]
+Overfull \hbox (1924.55432pt too wide) in paragraph at lines 1412--1412
+[]\OT1/cmtt/m/n/12     displacement = (1000*(3*4.5*(1/6)*s*pw(x,0,3) - 3*(1/6)*
+s*pw(x,1,3) - 3*(1/6)*s*pw(x,2,3) - s*(1/6)*pw(x,3,3) - 5*(1/6)*s*pw(x,3,3) - 2
+1*(1/2)*s*pw(x,3,2) - s*(1/6)*pw(x,4,3) - s*(1/6)*pw(x,5,3) - s*(1/6)*pw(x,6,3)
+ - s*(1/6)*pw(x,7,3) - 5*(1/6)*s*pw(x,7,3) + 21*(1/2)*s*pw(x,7,2) - 3*(1/6)*s*p
+w(x,8,3) - 3*(1/6)*s*pw(x,9,3) + (-76.75 * s)*pw(x,0,1) + 3*4.5*(1/6)*s*pw(x,10
+,3)))/(3*E*I);[] 
+ []
+
+
+Overfull \hbox (16.47838pt too wide) in paragraph at lines 1441--1441
+[]\OT1/cmtt/m/n/12 function [I1, I2] = getMoment(displacement, range_x, moment,
+ v_allowed, E, sY, k)[] 
+ []
+
+[61] (Almeida_Pedro_ISM_Project1.bbl [62]) [63] (Almeida_Pedro_ISM_Project1.aux
+)
+Package rerunfilecheck Info: File `Almeida_Pedro_ISM_Project1.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: ECE24B093489EB046F7F4333BEC95DDD;2959.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15657 strings out of 480864
- 244049 string characters out of 2904105
- 681062 words of memory out of 3000000
- 32901 multiletter control sequences out of 15000+600000
- 411938 words of font info for 60 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
- 70i,17n,81p,719b,1993s stack positions out of 5000i,500n,10000p,200000b,80000s
-</home/palmeida/.miktex/texmfs/install/fonts/type1/public/amsfo
-nts/cm/cmbx12.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/public/ams
-fonts/cm/cmex10.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/public/a
-msfonts/cm/cmmi10.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/public
-/amsfonts/cm/cmmi12.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/publ
-ic/amsfonts/cm/cmmi6.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/pub
-lic/amsfonts/cm/cmmi8.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/pu
-blic/amsfonts/cm/cmr10.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/p
-ublic/amsfonts/cm/cmr12.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmr6.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmr8.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmr9.pfb></home/palmeida/.miktex/texmfs/install/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></home/palmeida/.miktex/texmfs/install/fonts/type
-1/public/amsfonts/cm/cmti12.pfb></home/palmeida/.miktex/texmfs/install/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on Almeida_Pedro_ISM_Project1.pdf (30 pages, 1280953 bytes).
+ 15888 strings out of 478927
+ 250442 string characters out of 2852535
+ 692207 words of memory out of 3000000
+ 33295 multiletter control sequences out of 15000+600000
+ 412107 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 70i,17n,81p,719b,1989s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/almei/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/almei/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/almei/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/a
+lmei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:
+/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12
+.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr6.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr8.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr9.pfb><C:/Users/almei/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/almei/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/almei/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on Almeida_Pedro_ISM_Project1.pdf (64 pages, 1669139 bytes).
 PDF statistics:
- 499 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 248 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 167 named destinations out of 1000 (max. 500000)
+ 419 words of extra memory for PDF output out of 10000 (max. 10000000)
 

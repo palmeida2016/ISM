@@ -1,5 +1,5 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{8}{section.1}%
+\contentsline {section}{\numberline {1}Introduction}{9}{section.1}%
 \contentsline {section}{\numberline {2}Background Theory}{9}{section.2}%
 \contentsline {section}{\numberline {3}Problem Definition}{12}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Problem 1}{12}{subsection.3.1}%
@@ -9,8 +9,19 @@
 \contentsline {subsection}{\numberline {3.5}Problem 5}{20}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Problem 6}{22}{subsection.3.6}%
 \contentsline {subsection}{\numberline {3.7}Problem 7}{26}{subsection.3.7}%
-\contentsline {section}{\numberline {4}Results}{28}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Problem 1}{28}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Conclusions}{29}{section.5}%
-\contentsline {section}{\numberline {6}Appendix}{29}{section.6}%
-\contentsline {section}{References}{29}{section*.14}%
+\contentsline {section}{\numberline {4}Results}{31}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Problem 1}{31}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Problem 2}{33}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Problem 3}{36}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Problem 4}{38}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Problem 5}{41}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Problem 6}{44}{subsection.4.6}%
+\contentsline {subsection}{\numberline {4.7}Problem 7}{47}{subsection.4.7}%
+\contentsline {section}{\numberline {5}Conclusions}{48}{section.5}%
+\contentsline {section}{\numberline {6}Appendix}{48}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Main MATLAB Plotting}{48}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Piecewise Function}{61}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}getMoment Function}{61}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}getRadius Function}{62}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}getMax Function}{62}{subsection.6.5}%
+\contentsline {section}{References}{63}{section*.20}%
