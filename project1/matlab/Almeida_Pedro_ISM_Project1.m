@@ -8,7 +8,7 @@
 clc; clear; close all;
 s = 2;
 range_x = [0 10];
-run_problems = [1];
+run_problems = [4];
 
 
 %% Problem 1
@@ -163,7 +163,7 @@ if any(run_problems(:) == 4)
     k = 2; %Safety Factor
     sY = 276e6; %Yield Stress
     I = 1/E;
-    I = 3623.188406e-6; %
+%     I = 3623.188406e-6; %
 
     %Problem Solution
     syms x

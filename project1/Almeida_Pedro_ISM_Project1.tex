@@ -876,15 +876,15 @@ Using the deflection equation, the report finds the maximum displacement occurs 
 \label{prob4}
 \end{figure}
 
-Using the deflection equation, the report finds the maximum displacement occurs at $x = 10 m$, which has a downward displacement of $-5708330/EI$ as shown in Fig. \ref{prob2:results}. Given the maximum displacement allowed $v_a = L/400$, or 0.025 meters, and a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem2_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, a circular beam with a radius $c$ greater than $0.2540$ meters will suffice, or a Moment of Inertia $I > 3266.57 * 10^6\,{mm}^4$.
+Using the deflection equation, the report finds the maximum displacement occurs at $x = 10 m$, which has a downward displacement of $-5708330/EI$ as shown in Fig. \ref{prob2:results}. Given the maximum displacement allowed $v_a = L/400$, or 0.025 meters, and a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem4_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, a rectangular beam with a base $b$ of 10 centimeters requires a height h>43.48 centimeters, or a Moment of Inertia $I > 3623.19 * 10^6\,{mm}^4$.
 
 
 \begin{equation}
 \begin{split}
-& \frac{\pi r^4}{4} > \frac{v_{max}}{Ev_a} \\
-& r > 0.2540\,m \\
-& \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
-& r > 0.2606\,m \\
+& \frac{1}{12}bh^3 > \frac{v_{max}}{Ev_a} \\
+& h > 0.4348\,m \\
+& \frac{1}{12}bh^3 > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
+& h > 0.3920\,m \\
 \end{split}
 \label{problem4_beam_geo}
 \end{equation}
