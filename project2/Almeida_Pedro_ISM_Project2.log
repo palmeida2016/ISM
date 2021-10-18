@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  18 OCT 2021 00:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  18 OCT 2021 13:53
 entering extended mode
 **./Almeida_Pedro_ISM_Project2.tex
 (Almeida_Pedro_ISM_Project2.tex
@@ -847,7 +847,7 @@ Overfull \hbox (8.43219pt too wide) detected at line 299
  []
 
 [16]
-Overfull \hbox (50.25233pt too wide) detected at line 333
+Overfull \hbox (42.58824pt too wide) detected at line 333
 []
  []
 
@@ -857,32 +857,35 @@ File: FBD/FBD_5.jpg Graphic file (type jpg)
 <use FBD/FBD_5.jpg>
 Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 509.
 (pdftex.def)             Requested size: 483.69687pt x 194.24898pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[21] [22 <./FBD/FBD_5.jpg>] [23]
-<FBD/FBD_6.jpg, id=598, 482.80376pt x 210.7875pt>
+ [21 <./FBD/FBD_5.jpg>] [22]
+<FBD/FBD_6.jpg, id=591, 482.80376pt x 210.7875pt>
 File: FBD/FBD_6.jpg Graphic file (type jpg)
 <use FBD/FBD_6.jpg>
 Package pdftex.def Info: FBD/FBD_6.jpg  used on input line 588.
 (pdftex.def)             Requested size: 483.69687pt x 211.1858pt.
- [24 <./FBD/FBD_6.jpg>]
-<results/noneq6.jpg, id=611, 562.1pt x 421.575pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[23]
+<results/noneq6.jpg, id=604, 562.1pt x 421.575pt>
 File: results/noneq6.jpg Graphic file (type jpg)
 <use results/noneq6.jpg>
 Package pdftex.def Info: results/noneq6.jpg  used on input line 617.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
-<results/eq6.jpg, id=614, 562.1pt x 421.575pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<results/eq6.jpg, id=607, 562.1pt x 421.575pt>
 File: results/eq6.jpg Graphic file (type jpg)
 <use results/eq6.jpg>
 Package pdftex.def Info: results/eq6.jpg  used on input line 625.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<FBD/FBD_6_new.jpg, id=617, 492.84125pt x 210.7875pt>
+<FBD/FBD_6_new.jpg, id=610, 492.84125pt x 210.7875pt>
 File: FBD/FBD_6_new.jpg Graphic file (type jpg)
 <use FBD/FBD_6_new.jpg>
 Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 633.
@@ -890,32 +893,32 @@ Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 633.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25 <./results/noneq6.jpg>] [26 <./results/eq6.jpg>]
-<FBD/FBD_7.jpg, id=635, 515.9275pt x 195.73125pt>
+[24 <./FBD/FBD_6.jpg>] [25 <./results/noneq6.jpg>] [26 <./results/eq6.jpg>]
+<FBD/FBD_7.jpg, id=637, 515.9275pt x 195.73125pt>
 File: FBD/FBD_7.jpg Graphic file (type jpg)
 <use FBD/FBD_7.jpg>
 Package pdftex.def Info: FBD/FBD_7.jpg  used on input line 689.
 (pdftex.def)             Requested size: 483.69687pt x 183.50952pt.
- [27 <./FBD/FBD_6_new.jpg>]
-<results/noneq7.jpg, id=646, 562.1pt x 421.575pt>
+
+[27 <./FBD/FBD_6_new.jpg> <./FBD/FBD_7.jpg>]
+<results/noneq7.jpg, id=648, 562.1pt x 421.575pt>
 File: results/noneq7.jpg Graphic file (type jpg)
 <use results/noneq7.jpg>
 Package pdftex.def Info: results/noneq7.jpg  used on input line 718.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[28 <./FBD/FBD_7.jpg>]
-<results/eq7.jpg, id=658, 562.1pt x 421.575pt>
+<results/eq7.jpg, id=651, 562.1pt x 421.575pt>
 File: results/eq7.jpg Graphic file (type jpg)
 <use results/eq7.jpg>
 Package pdftex.def Info: results/eq7.jpg  used on input line 726.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<FBD/FBD_7_new.jpg, id=661, 493.845pt x 210.7875pt>
+<FBD/FBD_7_new.jpg, id=654, 493.845pt x 210.7875pt>
 File: FBD/FBD_7_new.jpg Graphic file (type jpg)
 <use FBD/FBD_7_new.jpg>
 Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 734.
@@ -923,18 +926,18 @@ Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 734.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29 <./results/noneq7.jpg>] [30 <./results/eq7.jpg>]
-<problems/prob_1.jpg, id=677, 439.6425pt x 218.8175pt>
+[28] [29 <./results/noneq7.jpg>] [30 <./results/eq7.jpg>]
+<problems/prob_1.jpg, id=679, 439.6425pt x 218.8175pt>
 File: problems/prob_1.jpg Graphic file (type jpg)
 <use problems/prob_1.jpg>
 Package pdftex.def Info: problems/prob_1.jpg  used on input line 789.
 (pdftex.def)             Requested size: 338.58632pt x 168.52338pt.
-<FBD/FBD_1.jpg, id=678, 482.80376pt x 218.8175pt>
+<FBD/FBD_1.jpg, id=680, 482.80376pt x 218.8175pt>
 File: FBD/FBD_1.jpg Graphic file (type jpg)
 <use FBD/FBD_1.jpg>
 Package pdftex.def Info: FBD/FBD_1.jpg  used on input line 795.
 (pdftex.def)             Requested size: 386.95897pt x 175.38478pt.
-<results/solution_1.jpg, id=679, 562.1pt x 421.575pt>
+<results/solution_1.jpg, id=681, 562.1pt x 421.575pt>
 File: results/solution_1.jpg Graphic file (type jpg)
 <use results/solution_1.jpg>
 Package pdftex.def Info: results/solution_1.jpg  used on input line 801.
@@ -944,58 +947,58 @@ Overfull \vbox (65.25581pt too high) has occurred while \output is active []
 
 
 [33 <./problems/prob_1.jpg> <./FBD/FBD_1.jpg> <./results/solution_1.jpg>]
-<problems/prob_2.jpg, id=698, 473.77pt x 190.7125pt>
+<problems/prob_2.jpg, id=697, 473.77pt x 190.7125pt>
 File: problems/prob_2.jpg Graphic file (type jpg)
 <use problems/prob_2.jpg>
 Package pdftex.def Info: problems/prob_2.jpg  used on input line 827.
 (pdftex.def)             Requested size: 338.58632pt x 136.30019pt.
-<FBD/FBD_2.jpg, id=699, 555.07375pt x 190.7125pt>
+<FBD/FBD_2.jpg, id=698, 555.07375pt x 190.7125pt>
 File: FBD/FBD_2.jpg Graphic file (type jpg)
 <use FBD/FBD_2.jpg>
 Package pdftex.def Info: FBD/FBD_2.jpg  used on input line 833.
 (pdftex.def)             Requested size: 386.95897pt x 132.95364pt.
-<results/solution_2.jpg, id=700, 562.1pt x 421.575pt>
+<results/solution_2.jpg, id=699, 562.1pt x 421.575pt>
 File: results/solution_2.jpg Graphic file (type jpg)
 <use results/solution_2.jpg>
 Package pdftex.def Info: results/solution_2.jpg  used on input line 839.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
 
 [34] [35 <./problems/prob_2.jpg> <./FBD/FBD_2.jpg> <./results/solution_2.jpg>]
-<problems/prob_3.jpg, id=712, 467.7475pt x 218.8175pt>
+<problems/prob_3.jpg, id=711, 467.7475pt x 218.8175pt>
 File: problems/prob_3.jpg Graphic file (type jpg)
 <use problems/prob_3.jpg>
 Package pdftex.def Info: problems/prob_3.jpg  used on input line 865.
 (pdftex.def)             Requested size: 338.58632pt x 158.40323pt.
-<FBD/FBD_3.jpg, id=713, 524.96124pt x 202.7575pt>
+<FBD/FBD_3.jpg, id=712, 524.96124pt x 202.7575pt>
 File: FBD/FBD_3.jpg Graphic file (type jpg)
 <use FBD/FBD_3.jpg>
 Package pdftex.def Info: FBD/FBD_3.jpg  used on input line 871.
 (pdftex.def)             Requested size: 386.95897pt x 149.46274pt.
-<results/solution_3.jpg, id=714, 562.1pt x 421.575pt>
+<results/solution_3.jpg, id=713, 562.1pt x 421.575pt>
 File: results/solution_3.jpg Graphic file (type jpg)
 <use results/solution_3.jpg>
 Package pdftex.def Info: results/solution_3.jpg  used on input line 877.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
 
 [36] [37 <./problems/prob_3.jpg> <./FBD/FBD_3.jpg> <./results/solution_3.jpg>]
-<problems/prob_4.jpg, id=727, 452.69125pt x 200.75pt>
+<problems/prob_4.jpg, id=726, 452.69125pt x 200.75pt>
 File: problems/prob_4.jpg Graphic file (type jpg)
 <use problems/prob_4.jpg>
 Package pdftex.def Info: problems/prob_4.jpg  used on input line 901.
 (pdftex.def)             Requested size: 338.58632pt x 150.14859pt.
-<FBD/FBD_4.jpg, id=728, 534.99875pt x 181.67876pt>
+<FBD/FBD_4.jpg, id=727, 534.99875pt x 181.67876pt>
 File: FBD/FBD_4.jpg Graphic file (type jpg)
 <use FBD/FBD_4.jpg>
 Package pdftex.def Info: FBD/FBD_4.jpg  used on input line 907.
 (pdftex.def)             Requested size: 386.95897pt x 131.41293pt.
-<results/solution_4.jpg, id=729, 562.1pt x 421.575pt>
+<results/solution_4.jpg, id=728, 562.1pt x 421.575pt>
 File: results/solution_4.jpg Graphic file (type jpg)
 <use results/solution_4.jpg>
 Package pdftex.def Info: results/solution_4.jpg  used on input line 913.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
 
 [38] [39 <./problems/prob_4.jpg> <./FBD/FBD_4.jpg> <./results/solution_4.jpg>]
-<problems/prob_5.jpg, id=741, 447.6725pt x 218.8175pt>
+<problems/prob_5.jpg, id=740, 447.6725pt x 218.8175pt>
 File: problems/prob_5.jpg Graphic file (type jpg)
 <use problems/prob_5.jpg>
 Package pdftex.def Info: problems/prob_5.jpg  used on input line 940.
@@ -1004,7 +1007,7 @@ File: FBD/FBD_5.jpg Graphic file (type jpg)
 <use FBD/FBD_5.jpg>
 Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 946.
 (pdftex.def)             Requested size: 386.95897pt x 155.3998pt.
-<results/solution_5.jpg, id=742, 562.1pt x 421.575pt>
+<results/solution_5.jpg, id=741, 562.1pt x 421.575pt>
 File: results/solution_5.jpg Graphic file (type jpg)
 <use results/solution_5.jpg>
 Package pdftex.def Info: results/solution_5.jpg  used on input line 952.
@@ -1015,7 +1018,7 @@ Overfull \vbox (7.02768pt too high) has occurred while \output is active []
 
 
 [42 <./problems/prob_5.jpg> <./results/solution_5.jpg>]
-<problems/prob_6.jpg, id=760, 437.635pt x 210.7875pt>
+<problems/prob_6.jpg, id=759, 437.635pt x 210.7875pt>
 File: problems/prob_6.jpg Graphic file (type jpg)
 <use problems/prob_6.jpg>
 Package pdftex.def Info: problems/prob_6.jpg  used on input line 979.
@@ -1024,7 +1027,7 @@ File: FBD/FBD_6_new.jpg Graphic file (type jpg)
 <use FBD/FBD_6_new.jpg>
 Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 985.
 (pdftex.def)             Requested size: 386.95897pt x 165.51036pt.
-<results/solution_6.jpg, id=761, 562.1pt x 421.575pt>
+<results/solution_6.jpg, id=760, 562.1pt x 421.575pt>
 File: results/solution_6.jpg Graphic file (type jpg)
 <use results/solution_6.jpg>
 Package pdftex.def Info: results/solution_6.jpg  used on input line 991.
@@ -1034,7 +1037,7 @@ Overfull \vbox (14.71858pt too high) has occurred while \output is active []
 
 
 [45 <./problems/prob_6.jpg> <./results/solution_6.jpg>]
-<problems/prob_7.jpg, id=777, 417.56pt x 210.7875pt>
+<problems/prob_7.jpg, id=776, 417.56pt x 210.7875pt>
 File: problems/prob_7.jpg Graphic file (type jpg)
 <use problems/prob_7.jpg>
 Package pdftex.def Info: problems/prob_7.jpg  used on input line 1016.
@@ -1043,7 +1046,7 @@ File: FBD/FBD_7_new.jpg Graphic file (type jpg)
 <use FBD/FBD_7_new.jpg>
 Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 1022.
 (pdftex.def)             Requested size: 386.95897pt x 165.163pt.
-<results/solution_7.jpg, id=778, 562.1pt x 421.575pt>
+<results/solution_7.jpg, id=777, 562.1pt x 421.575pt>
 File: results/solution_7.jpg Graphic file (type jpg)
 <use results/solution_7.jpg>
 Package pdftex.def Info: results/solution_7.jpg  used on input line 1028.
@@ -1258,7 +1261,7 @@ ged.
 Here is how much of TeX's memory you used:
  15882 strings out of 478927
  250213 string characters out of 2852535
- 692152 words of memory out of 3000000
+ 691152 words of memory out of 3000000
  33291 multiletter control sequences out of 15000+600000
  412107 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1280,9 +1283,9 @@ ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/almei/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/almei/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Almeida_Pedro_ISM_Project2.pdf (65 pages, 1439667 bytes).
+Output written on Almeida_Pedro_ISM_Project2.pdf (65 pages, 1439448 bytes).
 PDF statistics:
- 963 PDF objects out of 1000 (max. 8388607)
+ 962 PDF objects out of 1000 (max. 8388607)
  167 named destinations out of 1000 (max. 500000)
  411 words of extra memory for PDF output out of 10000 (max. 10000000)
 
