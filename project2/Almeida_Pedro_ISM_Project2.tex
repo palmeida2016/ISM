@@ -194,9 +194,9 @@ Given the problem is statically indeterminate, the static equations are insuffic
 
 \begin{equation}
 \begin{split}
-	& R_a = \frac{9}{10} \\
-	& R_b = \frac{11}{10} \\
-	& R_c = R_c \\
+	& R_a = \frac{R_b}{9} + 1 \\
+	& R_b = R_b \\
+	& R_c = -\frac{10R_b}{9} + 1 \\
 \end{split}
 \label{problem1_reaction_solution}
 \end{equation}
@@ -205,14 +205,16 @@ With the reactions determined, the moment and deflection equations can be constr
 
 \begin{equation}
     \begin{split}
-& EI \frac{\delta^2 v}{\delta x^2} = \frac{11}{10}\left<x-0\right>^1 - \left<x-0\right>^2 +  2\left<x-1\right>^2 - 2\left<x-2\right>^2 +  2\left<x-3\right>^2 - 2\left<x-4\right>^2  \\
-& +  2\left<x-5\right>^2 - 2\left<x-6\right>^2  +  2\left<x-7\right>^2 - 2\left<x-8\right>^2 + \left <x-9\right>^2 \\
+& EI \frac{\delta^2 v}{\delta x^2} = \left(\frac{R_b}{9} + 1\right)\left<x-0\right>^1 - \left<x-0\right>^2 +  2\left<x-1\right>^2 - 2\left<x-2\right>^2 +  2\left<x-3\right>^2 - 2\left<x-4\right>^2  \\
+& +  2\left<x-5\right>^2 - 2\left<x-6\right>^2  +  2\left<x-7\right>^2 - 2\left<x-8\right>^2 + \left <x-9\right>^2 - \left( \frac{10R_b}{9} + 1\right)\left<x-9\right>^1 \\
 & \\
-& EI \frac{\delta v}{\delta x} =  \frac{11}{20}\left<x-0\right>^2 - \frac{1}{3}\left<x-0\right>^3 +  \frac{2}{3}\left<x-1\right>^3 - \frac{2}{3}\left<x-2\right>^3 +  \frac{2}{3}\left<x-3\right>^3 - \frac{2}{3}\left<x-4\right>^3 \\
-&  +  \frac{2}{3}\left<x-5\right>^3 - \frac{2}{3}\left<x-6\right>^3  +  \frac{2}{3}\left<x-7\right>^3 - \frac{2}{3}\left<x-8\right>^3 +  \frac{1}{3}\left<x-9\right>^3 + C_1\\
+& EI \frac{\delta v}{\delta x} =  \frac{1}{2}\left(\frac{R_b}{9} + 1\right)\left<x-0\right>^2 - \frac{1}{3}\left<x-0\right>^3 +  \frac{2}{3}\left<x-1\right>^3 - \frac{2}{3}\left<x-2\right>^3 +  \frac{2}{3}\left<x-3\right>^3  \\
+& - \frac{2}{3}\left<x-4\right>^3  +  \frac{2}{3}\left<x-5\right>^3 - \frac{2}{3}\left<x-6\right>^3  +  \frac{2}{3}\left<x-7\right>^3 - \frac{2}{3}\left<x-8\right>^3 +  \frac{1}{3}\left<x-9\right>^3 \\
+& - \frac{1}{2}\left( \frac{10R_b}{9} + 1\right)\left<x-9\right>^2  + C_1\\
 & \\
-& EI v(x) = \frac{11}{60}\left<x-0\right>^3 - \frac{1}{12}\left<x-0\right>^4 +  \frac{1}{6}\left<x-1\right>^4 - \frac{1}{6}\left<x-2\right>^4 + \frac{1}{6}\left<x-3\right>^4 - \frac{1}{6}\left<x-4\right>^4  \\      
-& +  \frac{1}{6}\left<x-5\right>^4 - \frac{1}{6}\left<x-6\right>^4  +  \frac{1}{6}\left<x-7\right>^4 - \frac{1}{6}\left<x-8\right>^4 +  \frac{1}{12}\left<x-9\right>^4 + C_1x + C_2 \\
+& EI v(x) = \frac{1}{6}\left(\frac{R_b}{9} + 1\right)\left<x-0\right>^3 - \frac{1}{12}\left<x-0\right>^4 +  \frac{1}{6}\left<x-1\right>^4 - \frac{1}{6}\left<x-2\right>^4 + \frac{1}{6}\left<x-3\right>^4   \\      
+& - \frac{1}{6}\left<x-4\right>^4 +  \frac{1}{6}\left<x-5\right>^4 - \frac{1}{6}\left<x-6\right>^4  +  \frac{1}{6}\left<x-7\right>^4 - \frac{1}{6}\left<x-8\right>^4 +  \frac{1}{12}\left<x-9\right>^4  \\
+& - \frac{1}{6}\left( \frac{10R_b}{9} + 1\right)\left<x-9\right>^3 + C_1x + C_2 \\
     \end{split}
 \label{problem1_equations}
 \end{equation}
@@ -222,17 +224,21 @@ Following the integration of the singularity moment equation, the report solves 
 \begin{equation}
 \begin{split}
 	& v(0) = 0 \\
+	& v(9) = 0 \\
 	& v(10) = 0 \\
 \end{split}
 \label{problem1_constants_of_integration}
 \end{equation}
 
-Using the boundary conditions shown above, the report finds the constants of integration to the values shown in Eq. \ref{problem1_constants_of_integration_solution}.
+Using the boundary conditions shown above, the report finds the constants of integration and missing reaction value to the values shown in Eq. \ref{problem1_constants_of_integration_solution}.
 
 \begin{equation}
 \begin{split}
 	& C_2 = 0 \\
-	& C_1 = \frac{209}{240} \\
+	& C_1 = -\frac{11}{240} \\
+	& R_b = =-\frac{1}{40} \\
+	& R_c = \frac{37}{36}\\
+	& R_a = \frac{359}{360} \\
 \end{split}
 \label{problem1_constants_of_integration_solution}
 \end{equation}
@@ -241,11 +247,14 @@ After plugging in the boundary conditions, the report finds the deflection equat
 
 \begin{equation}
 \begin{split}
-  & EI v(x) = \frac{11}{60}\left<x-0\right>^3 - \frac{1}{12}\left<x-0\right>^4 +  \frac{1}{6}\left<x-1\right>^4 - \frac{1}{6}\left<x-2\right>^4 + \frac{1}{6}\left<x-3\right>^4 - \frac{1}{6}\left<x-4\right>^4 \\  	  
-&   +  \frac{1}{6}\left<x-5\right>^4 - \frac{1}{6}\left<x-6\right>^4  +  \frac{1}{6}\left<x-7\right>^4 - \frac{1}{6}\left<x-8\right>^4 +  \frac{1}{12}\left<x-9\right>^4 + \frac{209}{240}x\\
+  & EI v(x) = \frac{1}{6}\left(\frac{359}{360}\right)\left<x-0\right>^3 - \frac{1}{12}\left<x-0\right>^4 +  \frac{1}{6}\left<x-1\right>^4 - \frac{1}{6}\left<x-2\right>^4 + \frac{1}{6}\left<x-3\right>^4   \\      
+& - \frac{1}{6}\left<x-4\right>^4 +  \frac{1}{6}\left<x-5\right>^4 - \frac{1}{6}\left<x-6\right>^4  +  \frac{1}{6}\left<x-7\right>^4 - \frac{1}{6}\left<x-8\right>^4 +  \frac{1}{12}\left<x-9\right>^4  \\
+& - \frac{1}{6}\left( \frac{37}{36}\right)\left<x-9\right>^3 - \frac{1}{40}x \\
 \end{split}
 \label{problem1_final_equation}
 \end{equation}
+
+
 
 \subsection{Problem 2}
 
@@ -255,9 +264,9 @@ With the Free-Body Diagram completed, the report employs the static equations to
 
 \begin{equation}
 \begin{split}
-	&\uparrow \sum F_y = R_{ay} = 0 \\
+	&\uparrow \sum F_y = R_{ay} + R_b = 0 \\
  	&\rightarrow \sum F_x = R_{ax} = 0 \\
- 	&\circlearrowleft \sum M_A = -50 - 2 - 4 - 6 - 8 + 8 + 6 + 4 + 2 + M_a = 0
+ 	&\circlearrowleft \sum M_A = -R_b(10) -50 - 2 - 4 - 6 - 8 + 8 + 6 + 4 + 2 + M_a = 0
 \end{split}
 \label{problem2_reaction_equation}
 \end{equation}
@@ -266,9 +275,9 @@ Given the problem is statically determinate, the static equations are sufficient
 
 \begin{equation}
 \begin{split}
-	& M_a = 50 \\
-	& R_{ax} = 0 \\
-	& R_{ay} = 0 \\
+	& M_a = 10R_b + 50 \\
+	& R_{b} = R_b \\
+	& R_{ay} = - R_b \\
 \end{split}
 \label{problem2_reaction_solution}
 \end{equation}
@@ -277,13 +286,13 @@ With the reactions determined, the moment and deflection equations can be constr
 
 \begin{equation}
     \begin{split}
-& EI \frac{\delta^2 v}{\delta x^2} = 50\left<x-0\right>^0 + 2\left<x-1\right>^0 + 4\left<x-2\right>^0 + 6\left<x-3\right>^0 + 8\left<x-4\right>^0   -  8\left<x-5\right>^0 \\
-& - 6\left<x-6\right>^0 -  4\left<x-7\right>^0 - 2\left<x-8\right>^0 \\
+& EI \frac{\delta^2 v}{\delta x^2} = R_b\left<x-0\right>^1 + 50\left<x-0\right>^0 + 2\left<x-1\right>^0 + 4\left<x-2\right>^0 + 6\left<x-3\right>^0 + 8\left<x-4\right>^0    \\
+& -  8\left<x-5\right>^0 - 6\left<x-6\right>^0 -  4\left<x-7\right>^0 - 2\left<x-8\right>^0 \\
 & \\
-& EI \frac{\delta v}{\delta x} = 50\left<x-0\right>^1 + 2\left<x-1\right>^1 + 4\left<x-2\right>^1 +  6\left<x-3\right>^1 + 8\left<x-4\right>^1   -  8\left<x-5\right>^1 \\
-& - 6\left<x-6\right>^1 -  4\left<x-7\right>^1 - 2\left<x-8\right>^1 + C_1 \\
+& EI \frac{\delta v}{\delta x} = \frac{R_b}{2}\left<x-0\right>^2 + 50\left<x-0\right>^1 + 2\left<x-1\right>^1 + 4\left<x-2\right>^1 +  6\left<x-3\right>^1 + 8\left<x-4\right>^1  \\
+& -  8\left<x-5\right>^1 - 6\left<x-6\right>^1 -  4\left<x-7\right>^1 - 2\left<x-8\right>^1 + C_1 \\
 & \\
-& EI v(x) = 25\left<x-0\right>^2 + \left<x-1\right>^2 + 2\left<x-2\right>^2 +  3\left<x-3\right>^2 + 4\left<x-4\right>^2   -  4\left<x-5\right>^2 \\
+& EI v(x) = \frac{R_b}{6}\left<x-0\right>^3 + 25\left<x-0\right>^2 + \left<x-1\right>^2 + 2\left<x-2\right>^2 +  3\left<x-3\right>^2 + 4\left<x-4\right>^2   -  4\left<x-5\right>^2 \\
 & - 3\left<x-6\right>^2  -  2\left<x-7\right>^2 - \left<x-8\right>^2 + C_1 x + C_2 \\
     \end{split}
 \label{problem2_equations}
@@ -293,6 +302,7 @@ Following the integration of the singularity moment equation, the report solves 
 
 \begin{equation}
 \begin{split}
+	& v(0) = 0 \\
 	& v(10) = 0 \\
 	& \frac{\delta v(10)}{\delta x} = 0 \\
 \end{split}
@@ -303,8 +313,11 @@ Using the boundary conditions shown above, the report finds the constants of int
 
 \begin{equation}
 \begin{split}
-	& C_2 = 2770 \\
-	& C_1 = -560 \\
+	& C_2 = 0 \\
+	& C_1 = -\frac{289}{2} \\
+	& R_b = -\frac{831}{100} \\
+	& R_a = \frac{831}{100} \\
+	& R_b = \frac{331}{10} \\
 \end{split}
 \label{problem2_constants_of_integration_solution}
 \end{equation}
@@ -313,8 +326,8 @@ After plugging in the boundary conditions, the report finds the deflection equat
 
 \begin{equation}
 \begin{split}
-  & EI v(x) = 25\left<x-0\right>^2 + \left<x-1\right>^2 + 2\left<x-2\right>^2 + 3\left<x-3\right>^2 + 4\left<x-4\right>^2  -  4\left<x-5\right>^2 \\
-& - 3\left<x-6\right>^2  -  2\left<x-7\right>^2 - \left<x-8\right>^2 - 560 x + 2770 \\
+  & EI v(x) = \frac{1}{6}\left(-\frac{831}{100}\right)\left<x-0\right>^3 + 25\left<x-0\right>^2 + \left<x-1\right>^2 + 2\left<x-2\right>^2 + 3\left<x-3\right>^2 + 4\left<x-4\right>^2  -  4\left<x-5\right>^2 \\
+& - 3\left<x-6\right>^2  -  2\left<x-7\right>^2 - \left<x-8\right>^2 -\frac{289}{2} x \\
 \end{split}
 \label{problem2_final_equation}
 \end{equation}
@@ -774,14 +787,14 @@ After plugging in the boundary conditions, the report finds the deflection equat
 \label{prob1}
 \end{figure}
 
-Using the deflection equation, the report finds the maximum displacement occurs at $x = 5.8959 m$, which has a downward displacement of $6353.0/EI$ as shown in Fig. \ref{prob1:results}. Given the maximum displacement allowed $v_a = L/500$, or 0.02 meters, and a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem1_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, the W410 X 85 I-Beam would satisfy both the strength and stiffness requirements with a Moment of Inertia $I=17.9 * 10^6\,{mm}^4$.
+Using the deflection equation, the report finds the maximum displacement occurs at $x = 5.4855 m$, which has a downward displacement of $155.303/EI$ as shown in Fig. \ref{prob1:results}. Given the maximum displacement allowed $v_a = L/500$, or 0.02 meters, and a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem1_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, the W410 X 38.8 I-Beam would satisfy both the strength and stiffness requirements with a Moment of Inertia $I=3.99 * 10^6\,{mm}^4$.
 
 \begin{equation}
 \begin{split}
 & I > \frac{v_{max}}{Ev_a} \\
-& I > 4.544 * 10^6\,{mm}^2 \\
+& I > 0.111 * 10^6\,{mm}^2 \\
 & I > \frac{M_{max}}{\frac{1}{2}\sigma_{allowed}} = \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
-& I > 11.984 * 10^6\,{mm}^2 \\
+& I > 2.944 * 10^6\,{mm}^2 \\
 \end{split}
 \label{problem1_beam_geo}
 \end{equation}
@@ -812,15 +825,15 @@ Using the deflection equation, the report finds the maximum displacement occurs 
 \label{prob2}
 \end{figure}
 
-Using the deflection equation, the report finds the maximum displacement occurs at $x = 0 m$, which has a downward displacement of $2770000/EI$ as shown in Fig. \ref{prob2:results}. Given the maximum displacement allowed $v_a = L/400$, or 0.025 meters, and a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem2_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, any radius $c$ greater than $0.2120$ meters will suffice.
+Using the deflection equation, the report finds the maximum displacement occurs at $x = 3.7037 m$, which has a downward displacement of $248014/EI$ as shown in Fig. \ref{prob2:results}. Given the maximum displacement allowed $v_a = L/400$, or 0.025 meters, and a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem2_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, any radius $c$ greater than $0.1622$ meters will suffice.
 
 
 \begin{equation}
 \begin{split}
 & \frac{\pi r^4}{4} > \frac{v_{max}}{Ev_a} \\
-& r > 0.2120\,m \\
+& r > 0.1159\,m \\
 & \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
-& r > 0.1764\,m \\
+& r > 0.1622\,m \\
 \end{split}
 \label{problem2_beam_geo}
 \end{equation}
