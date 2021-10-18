@@ -8,7 +8,7 @@
 clc; clear; close all;
 s = 2;
 range_x = [0 10];
-run_problems = [2];
+run_problems = [3];
 
 
 %% Problem 1
@@ -117,15 +117,20 @@ if any(run_problems(:) == 3)
     v_allowed = L/400; %Allowed Displacement
     k = 1.5; %Safety Factor
     sY = 276e6; %Yield Stress
-    I = 1/E;
-%     I = 2908.086809e-6; %
+%     I = 1/E;
+    I = 676.240895e-6; %
 
     %Problem Solution
     syms x
-
+    
+    R_b = 279523/9600;
+    R_c = -5/3 * R_b + 2993/18;
+    R_a = 2/3 * R_b - 455/18;
+    C_1 = -28/3 * R_b + 186241/600;
+    
     %Shear Force Plot
     subplot(3,1,1)
-    shear = 1000*(((7*s)/60 + 41)*pw(x,0,0) - s*pw(x,1,0) + s*pw(x,2,0) - s*pw(x,3,0) + s*pw(x,4,0) - 70*pw(x,6,1) + 70*pw(x,8,1) - (s/2)*pw(x,9,2)  + ((23*s)/60 + 99)*pw(x,10,0));
+    shear = 1000*(R_a * pw(x,0,0) - s*pw(x,1,0) + s*pw(x,2,0) - s*pw(x,3,0) + s*pw(x,4,0) + R_c * pw(x,6,0) - 70*pw(x,6,1) + 70*pw(x,8,1) - (s/2)*pw(x,9,2) + R_b*pw(x,10,0));
     fplot(shear, range_x);
     title('Shear Force vs. x');
     xlabel('x [m]')
@@ -133,7 +138,7 @@ if any(run_problems(:) == 3)
 
     %Moment Plot
     subplot(3,1,2)
-    moment = 1000*(((7*s)/60 + 41)*pw(x,0,1) - s*pw(x,1,1) + s*pw(x,2,1) - s*pw(x,3,1) + s*pw(x,4,1) + (s+10)*pw(x,5,0) - 35*pw(x,6,2) + 35*pw(x,8,2) - (s/6)*pw(x,9,3) + ((23*s)/60 + 99)*pw(x,10,1));
+    moment = 1000*(R_a*pw(x,0,1) - s*pw(x,1,1) + s*pw(x,2,1) - s*pw(x,3,1) + s*pw(x,4,1) + (s+10)*pw(x,5,0) + R_c * pw(x,6,1) - 35*pw(x,6,2) + 35*pw(x,8,2) - (s/6)*pw(x,9,3) + R_b*pw(x,10,1));
     fplot(moment, range_x);
     title('Moment vs. x');
     xlabel('x [m]')
@@ -141,7 +146,7 @@ if any(run_problems(:) == 3)
 
     %Displacement Plot
     subplot(3,1,3)
-    displacement = (1000*((((7*s)/60 + 41)/6)*pw(x,0,3) - (s/6)*pw(x,1,3) + (s/6)*pw(x,2,3) - (s/6)*pw(x,3,3) + (s/6)*pw(x,4,3) + ((s+10)/2)*pw(x,5,2) - (35/12)*pw(x,6,4) + (35/12)*pw(x,8,4) - (s/120)*pw(x,9,5) + ((9143*s)/3600 - (3755/6))*pw(x,0,1) + (((23*s)/60 + 99)/6)*pw(x,10,3)))/(E*I);
+    displacement = 1000*(((R_a)/6)*pw(x,0,3) - (s/6)*pw(x,1,3) + (s/6)*pw(x,2,3) - (s/6)*pw(x,3,3) + (s/6)*pw(x,4,3) + ((s+10)/2)*pw(x,5,2) + R_c*(1/6)*pw(x,6,3) - (35/12)*pw(x,6,4) + (35/12)*pw(x,8,4) - (s/120)*pw(x,9,5) + C_1*pw(x,0,1) + ((R_b)/6)*pw(x,10,3))/(E*I);
     fplot(displacement, range_x);
     title('Displacement vs. x');
     xlabel('x [m]')
@@ -163,15 +168,15 @@ if any(run_problems(:) == 4)
     v_allowed = L/400; %Allowed Displacement
     k = 2; %Safety Factor
     sY = 276e6; %Yield Stress
-    I = 1/E;
-%     I = 3623.188406e-6; %
+%     I = 1/E;
+    I = 1141.304348e-6; %
 
     %Problem Solution
     syms x
 
     %Shear Force Plot
     subplot(3,1,1)
-    shear = 1000*(25*s*pw(x,0,0) - s*pw(x,1,0) - 2*s*pw(x,2,0) - 3*s*pw(x,3,0) - 4*s*pw(x,4,0) - 5*s*pw(x,5,0) - 4*s*pw(x,6,0) - 3*s*pw(x,7,0) - 2*s*pw(x,8,0) - s*pw(x,9,0));
+    shear = 1000*(263/8*pw(x,0,0) - s*pw(x,1,0) - 2*s*pw(x,2,0) - 3*s*pw(x,3,0) - 4*s*pw(x,4,0) - 5*s*pw(x,5,0) - 4*s*pw(x,6,0) - 3*s*pw(x,7,0) - 2*s*pw(x,8,0) - s*pw(x,9,0) + 137/8 * pw(x,10,0));
     fplot(shear, range_x);
     title('Shear Force vs. x');
     xlabel('x [m]')
@@ -179,7 +184,7 @@ if any(run_problems(:) == 4)
 
     %Moment Plot
     subplot(3,1,2)
-    moment = 1000*(25*s*pw(x,0,1) - 125*s*pw(x,0,0) - s*pw(x,1,1) - 2*s*pw(x,2,1) - 3*s*pw(x,3,1) - 4*s*pw(x,4,1) - 5*s*pw(x,5,1) - 4*s*pw(x,6,1) - 3*s*pw(x,7,1) - 2*s*pw(x,8,1) - s*pw(x,9,1));
+    moment = 1000*(263/8*pw(x,0,1) - 315/4*pw(x,0,0) - s*pw(x,1,1) - 2*s*pw(x,2,1) - 3*s*pw(x,3,1) - 4*s*pw(x,4,1) - 5*s*pw(x,5,1) - 4*s*pw(x,6,1) - 3*s*pw(x,7,1) - 2*s*pw(x,8,1) - s*pw(x,9,1) + 463/16 * pw(x,10,1));
     fplot(moment, range_x);
     title('Moment vs. x');
     xlabel('x [m]')
@@ -187,7 +192,7 @@ if any(run_problems(:) == 4)
 
     %Displacement Plot
     subplot(3,1,3)
-    displacement = (1000*((25/6)*s*pw(x,0,3) - (125/2)*s*pw(x,0,2) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - 3*(s/6)*pw(x,3,3) - 4*(s/6)*pw(x,4,3) - 5*(s/6)*pw(x,5,3) - 4*(s/6)*pw(x,6,3) - 3*(s/6)*pw(x,7,3) - 2*(s/6)*pw(x,8,3) - (s/6)*pw(x,9,3)))/(E*I);
+    displacement = 1000*( (263/8)/6 *pw(x,0,3) - (315/4)/2 *pw(x,0,2) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - 3*(s/6)*pw(x,3,3) - 4*(s/6)*pw(x,4,3) - 5*(s/6)*pw(x,5,3) - 4*(s/6)*pw(x,6,3) - 3*(s/6)*pw(x,7,3) - 2*(s/6)*pw(x,8,3) - (s/6)*pw(x,9,3) + 463/16*(1/6)*pw(x,10,3))/(E*I);
     fplot(displacement, range_x);
     title('Displacement vs. x');
     xlabel('x [m]')
@@ -210,7 +215,7 @@ if any(run_problems(:) == 5)
     k = 2; %Safety Factor
     sY = 276e6; %Yield Stress
     I = 1/E; %
-    I = 11739.112283e-6;
+%     I = 11739.112283e-6;
 
     %Problem Solution
     syms x
