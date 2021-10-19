@@ -184,7 +184,7 @@ if any(run_problems(:) == 4)
 
     %Moment Plot
     subplot(3,1,2)
-    moment = 1000*(263/8*pw(x,0,1) - 315/4*pw(x,0,0) - s*pw(x,1,1) - 2*s*pw(x,2,1) - 3*s*pw(x,3,1) - 4*s*pw(x,4,1) - 5*s*pw(x,5,1) - 4*s*pw(x,6,1) - 3*s*pw(x,7,1) - 2*s*pw(x,8,1) - s*pw(x,9,1) + 463/16 * pw(x,10,1));
+    moment = 1000*(263/8*pw(x,0,1) - 315/4*pw(x,0,0) - s*pw(x,1,1) - 2*s*pw(x,2,1) - 3*s*pw(x,3,1) - 4*s*pw(x,4,1) - 5*s*pw(x,5,1) - 4*s*pw(x,6,1) - 3*s*pw(x,7,1) - 2*s*pw(x,8,1) - s*pw(x,9,1) + 137/8 * pw(x,10,1));
     fplot(moment, range_x);
     title('Moment vs. x');
     xlabel('x [m]')
@@ -192,7 +192,7 @@ if any(run_problems(:) == 4)
 
     %Displacement Plot
     subplot(3,1,3)
-    displacement = 1000*( (263/8)/6 *pw(x,0,3) - (315/4)/2 *pw(x,0,2) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - 3*(s/6)*pw(x,3,3) - 4*(s/6)*pw(x,4,3) - 5*(s/6)*pw(x,5,3) - 4*(s/6)*pw(x,6,3) - 3*(s/6)*pw(x,7,3) - 2*(s/6)*pw(x,8,3) - (s/6)*pw(x,9,3) + 463/16*(1/6)*pw(x,10,3))/(E*I);
+    displacement = 1000*((263/8)/6 *pw(x,0,3) - (315/4)/2 *pw(x,0,2) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - 3*(s/6)*pw(x,3,3) - 4*(s/6)*pw(x,4,3) - 5*(s/6)*pw(x,5,3) - 4*(s/6)*pw(x,6,3) - 3*(s/6)*pw(x,7,3) - 2*(s/6)*pw(x,8,3) - (s/6)*pw(x,9,3) + 137/8*(1/6)*pw(x,10,3))/(E*I);
     fplot(displacement, range_x);
     title('Displacement vs. x');
     xlabel('x [m]')

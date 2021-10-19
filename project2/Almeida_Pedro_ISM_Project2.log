@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  18 OCT 2021 14:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  19 OCT 2021 00:13
 entering extended mode
 **./Almeida_Pedro_ISM_Project2.tex
 (Almeida_Pedro_ISM_Project2.tex
@@ -1251,9 +1251,6 @@ No file Almeida_Pedro_ISM_Project2.bbl.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `Almeida_Pedro_ISM_Project2.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: 872BA75E2D1203EFBC117162BBDCD7F2;2863.
@@ -1287,7 +1284,7 @@ ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/almei/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/almei/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Almeida_Pedro_ISM_Project2.pdf (65 pages, 1439647 bytes).
+Output written on Almeida_Pedro_ISM_Project2.pdf (65 pages, 1439463 bytes).
 PDF statistics:
  962 PDF objects out of 1000 (max. 8388607)
  167 named destinations out of 1000 (max. 500000)
