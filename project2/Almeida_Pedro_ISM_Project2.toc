@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {3.4}Problem 4}{19}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Problem 5}{21}{subsection.3.5}%
 \contentsline {subsection}{\numberline {3.6}Problem 6}{23}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Problem 7}{27}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.7}Problem 7}{28}{subsection.3.7}%
 \contentsline {section}{\numberline {4}Results}{33}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Problem 1}{33}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Problem 2}{35}{subsection.4.2}%

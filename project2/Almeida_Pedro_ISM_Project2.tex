@@ -597,19 +597,21 @@ With the Free-Body Diagram completed, the report employs the static equations to
 
 \begin{equation}
 \begin{split}
-	&\uparrow \sum F_y = R_a - 100 - 2 - 100 -2 + 100 + 200 + 300 + R_b = 0 \\
+	&\uparrow \sum F_y = R_a - 100 - 2 - 100 -2 + R_c + 100 + 200 + 300 + R_b = 0 \\
  	&\rightarrow \sum F_x = R_{ax} = 0 \\
- 	&\circlearrowleft \sum M_A = -100(1) - 2(2) -100(3) - 2(4) +100(6) + 200(7) + 300(8) + R_{by}(10) = 0 \\
+ 	&\circlearrowleft \sum M_A = -100(1) - 2(2) -100(3) - 2(4) + R_c(5) +100(6) + 200(7) + 300(8) \\
+	& + R_{by}(10) = 0\\
 \end{split}
 \label{problem6_reaction_equation}
 \end{equation}
 
-Given the problem is statically determinate, the static equations are sufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem6_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reactionary forces are those in the vertical direction, which will be named $R_a$ and $R_b$ henceforth.
+Given the problem is statically indeterminate, the static equations are insufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem6_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reactionary forces are those in the vertical direction, which will be named $R_a$ and $R_b$ henceforth.
 
 \begin{equation}
 \begin{split}
-	& R_b = -\frac{1994}{5} \\
-	& R_a = \frac{14}{5} \\
+	& R_a = R_b + \frac{2008}{5} \\
+    	& R_b = R_b \\
+    	& R_c = -2R_b -\frac{3988}{5} \\
 \end{split}
 \label{problem6_reaction_solution}
 \end{equation}
@@ -640,14 +642,17 @@ With the equivalent Shear Force and Moment Diagrams, the report constructs a new
 
 \begin{equation}
     \begin{split}
-& 2EI \frac{\delta^2 v}{\delta x^2} = \frac{14}{5}\left<x-0\right>^1 - 100\left<x-1\right>^1 -  2\left<x-2\right>^1 - 100\left<x-3\right>^1 - 2\left<x-4\right>^1 \\
-& - \frac{1006}{5}\left<x-5\right>^1 - 594\left<x-5\right>^0 + 200\left<x-6\right>^1 + 400\left<x-7\right>^1 + 600\left<x-8\right>^1 \\
+& 2EI \frac{\delta^2 v}{\delta x^2} = \left(R_b + \frac{2008}{5}\right)\left<x-0\right>^1 - 100\left<x-1\right>^1 -  2\left<x-2\right>^1 - 100\left<x-3\right>^1  \\
+& - 2\left<x-4\right>^1 - \left(3R_b + 197.6\right)\left<x-5\right>^1 - \left(5R_b + 1400\right)\left<x-5\right>^0 + 200\left<x-6\right>^1 \\
+& + 400\left<x-7\right>^1 + 600\left<x-8\right>^1  \\
 & \\
-& 2EI \frac{\delta v}{\delta x} = \frac{7}{5}\left<x-0\right>^2 - 50\left<x-1\right>^2 -  1\left<x-2\right>^2 - 50\left<x-3\right>^2 - \left<x-4\right>^2 \\
-& - \frac{503}{5}\left<x-5\right>^2 - 594\left<x-5\right>^1 + 100\left<x-6\right>^2 + 200\left<x-7\right>^2 + 300\left<x-8\right>^2 + C_1 \\
+& 2EI \frac{\delta v}{\delta x} = \frac{1}{2}\left(R_b + \frac{2008}{5}\right)\left<x-0\right>^2 - 50\left<x-1\right>^2 -  1\left<x-2\right>^2 - 50\left<x-3\right>^2 - \left<x-4\right>^2 \\
+& - \frac{1}{2}\left(3R_b + 197.6\right)\left<x-5\right>^2 - \left(5R_b + 1400\right)\left<x-5\right>^1 + 100\left<x-6\right>^2 + 200\left<x-7\right>^2 \\
+& + 300\left<x-8\right>^2 + C_1 \\
 & \\
-& 2EI v(x) = \frac{7}{15}\left<x-0\right>^3 - \frac{50}{3}\left<x-1\right>^3 -  \frac{1}{3}\left<x-2\right>^3 - \frac{50}{3}\left<x-3\right>^3 - \frac{1}{3}\left<x-4\right>^3 \\
-& - \frac{503}{15}\left<x-5\right>^3 - 297\left<x-5\right>^2 + \frac{100}{3}\left<x-6\right>^3 + \frac{200}{3}\left<x-7\right>^2 + 100\left<x-8\right>^3 + C_1x + C_2\\
+& 2EI v(x) = \frac{1}{6}\left(R_b + \frac{2008}{5}\right)\left<x-0\right>^3 - \frac{50}{3}\left<x-1\right>^3 -  \frac{1}{3}\left<x-2\right>^3 - \frac{50}{3}\left<x-3\right>^3  \\
+& - \frac{1}{3}\left<x-4\right>^3 - \frac{1}{6}\left(3R_b + 197.6\right)\left<x-5\right>^3 - \frac{1}{2}\left(5R_b + 1400\right)\left<x-5\right>^2 + \frac{100}{3}\left<x-6\right>^3  \\
+& + \frac{200}{3}\left<x-7\right>^2 + 100\left<x-8\right>^3 + C_1x + C_2 \\
     \end{split}
 \label{problem6_equations}
 \end{equation}
@@ -657,6 +662,7 @@ Following the integration of the singularity moment equation, the report solves 
 \begin{equation}
 \begin{split}
 	& v(0) = 0 \\
+	& v(5) = 0 \\
 	& v(10) = 0 \\
 \end{split}
 \label{problem6_constants_of_integration}
@@ -667,7 +673,10 @@ Using the boundary conditions shown above, the report finds the constants of int
 \begin{equation}
 \begin{split}
 	& C_2 = 0 \\
-	& C_1 = \frac{12263}{5} \\
+	& C_1 = -541.7111 \\
+	& R_b = -219.1413 \\
+	& R_c = -359.3173\\
+	& R_a = 182.4587\\
 \end{split}
 \label{problem6_constants_of_integration_solution}
 \end{equation}
@@ -676,8 +685,9 @@ After plugging in the boundary conditions, the report finds the deflection equat
 
 \begin{equation}
 \begin{split}
-  & 2EI v(x) = \frac{7}{15}\left<x-0\right>^3 - \frac{50}{3}\left<x-1\right>^3 -  \frac{1}{3}\left<x-2\right>^3 - \frac{50}{3}\left<x-3\right>^3 - \frac{1}{3}\left<x-4\right>^3 \\
-  & - \frac{503}{15}\left<x-5\right>^3 - 297\left<x-5\right>^2 + \frac{100}{3}\left<x-6\right>^3 + \frac{200}{3}\left<x-7\right>^2 + 100\left<x-8\right>^3 + \frac{12263}{5}x\\
+& 2EI v(x) = \frac{1}{6}\left(182.4587\right)\left<x-0\right>^3 - \frac{50}{3}\left<x-1\right>^3 -  \frac{1}{3}\left<x-2\right>^3 - \frac{50}{3}\left<x-3\right>^3  \\
+& - \frac{1}{3}\left<x-4\right>^3 - \frac{1}{6}\left(-459.8240\right)\left<x-5\right>^3 - \frac{1}{2}\left(304.2933\right)\left<x-5\right>^2 + \frac{100}{3}\left<x-6\right>^3  \\
+& + \frac{200}{3}\left<x-7\right>^2 + 100\left<x-8\right>^3 + C_1x + C_2 \\
 \end{split}
 \label{problem6_final_equation}
 \end{equation}
@@ -705,12 +715,13 @@ With the Free-Body Diagram completed, the report employs the static equations to
 \label{problem7_reaction_equation}
 \end{equation}
 
-Given the problem is statically determinate, the static equations are sufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem7_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reactionary forces are those in the vertical direction, which will be named $R_a$ and $R_b$ henceforth.
+Given the problem is statically indeterminate, the static equations are insufficient to find the reaction forces for the supports, which are shown in Eq. \ref{problem7_reaction_solution}. Since there are no horizontal forces applied, the only non-zero reactionary forces are those in the vertical direction, which will be named $R_a$ and $R_b$ henceforth.
 
 \begin{equation}
 \begin{split}
-	& R_b = 9 \\
-	& R_a = 9 \\
+	& R_a = R_b\\
+    	& R_b = R_b \\
+    	& R_c = -2R_b + 18 \\
 \end{split}
 \label{problem7_reaction_solution}
 \end{equation}
@@ -998,14 +1009,14 @@ Assuming the beam chosen has a Moment of Inertia $I = 4493.65 * 10^6\,{mm}^4$, t
 \label{prob6}
 \end{figure}
 
-Using the deflection equation, the report finds the maximum displacement occurs at $x = 5.0 m$, which has a downward displacement of $11930984/EI$ as shown in Fig. \ref{prob6:results}. Assuming an aluminum beam with a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem6_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, a circular beam with a radius $c$ greater than $0.3969$ meters will suffice, or a Moment of Inertia $I > 19480.35 * 10^6\,{mm}^4$.
+Using the deflection equation, the report finds the maximum displacement occurs at $x = 7.6777 m$, which has a downward displacement of $439500/EI$ as shown in Fig. \ref{prob6:results}. Assuming an aluminum beam with a maximum yield stress of 276 MPa, the report uses Eq. \ref{problem6_beam_geo} and a safety factor $k=1.5$ to find the required Moment of Inertia $I$ of the beam. As such, a circular beam with a radius $c$ greater than $0.3318$ meters will suffice, or a Moment of Inertia $I > 9524.36 * 10^6\,{mm}^4$.
 
 \begin{equation}
 \begin{split}
 & \frac{\pi r^4}{4} > \frac{v_{max}}{Ev_a} \\
-& r > 0.3053\,m \\
+& r > 0.1591\,m \\
 & \frac{\pi r^4}{4} > \frac{M_{max}}{\frac{1}{2}\sigma_Y/ k}\\
-& r > 0.3969\,m \\
+& r > 0.3318\,m \\
 \end{split}
 \label{problem6_beam_geo}
 \end{equation}

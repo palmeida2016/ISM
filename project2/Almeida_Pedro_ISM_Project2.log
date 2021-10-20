@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  19 OCT 2021 00:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  20 OCT 2021 01:48
 entering extended mode
 **./Almeida_Pedro_ISM_Project2.tex
 (Almeida_Pedro_ISM_Project2.tex
@@ -871,77 +871,80 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <results/noneq6.jpg, id=603, 562.1pt x 421.575pt>
 File: results/noneq6.jpg Graphic file (type jpg)
 <use results/noneq6.jpg>
-Package pdftex.def Info: results/noneq6.jpg  used on input line 620.
+Package pdftex.def Info: results/noneq6.jpg  used on input line 622.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<results/eq6.jpg, id=606, 562.1pt x 421.575pt>
+[24 <./FBD/FBD_6.jpg>]
+<results/eq6.jpg, id=614, 562.1pt x 421.575pt>
 File: results/eq6.jpg Graphic file (type jpg)
 <use results/eq6.jpg>
-Package pdftex.def Info: results/eq6.jpg  used on input line 628.
+Package pdftex.def Info: results/eq6.jpg  used on input line 630.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
-[24 <./FBD/FBD_6.jpg>]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<FBD/FBD_6_new.jpg, id=617, 492.84125pt x 210.7875pt>
+<FBD/FBD_6_new.jpg, id=617, 460.72125pt x 210.7875pt>
 File: FBD/FBD_6_new.jpg Graphic file (type jpg)
 <use FBD/FBD_6_new.jpg>
-Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 636.
-(pdftex.def)             Requested size: 483.69687pt x 206.88554pt.
+Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 638.
+(pdftex.def)             Requested size: 483.69687pt x 221.29802pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[25 <./results/noneq6.jpg>] [26 <./results/eq6.jpg>]
-<FBD/FBD_7.jpg, id=634, 515.9275pt x 195.73125pt>
+[25 <./results/noneq6.jpg>]
+Overfull \vbox (6.23038pt too high) has occurred while \output is active []
+
+
+[26 <./results/eq6.jpg>] [27 <./FBD/FBD_6_new.jpg>]
+<FBD/FBD_7.jpg, id=641, 515.9275pt x 195.73125pt>
 File: FBD/FBD_7.jpg Graphic file (type jpg)
 <use FBD/FBD_7.jpg>
-Package pdftex.def Info: FBD/FBD_7.jpg  used on input line 692.
+Package pdftex.def Info: FBD/FBD_7.jpg  used on input line 702.
 (pdftex.def)             Requested size: 483.69687pt x 183.50952pt.
- [27 <./FBD/FBD_6_new.jpg>]
-<results/noneq7.jpg, id=645, 562.1pt x 421.575pt>
+ [28 <./FBD/FBD_7.jpg>]
+<results/noneq7.jpg, id=653, 562.1pt x 421.575pt>
 File: results/noneq7.jpg Graphic file (type jpg)
 <use results/noneq7.jpg>
-Package pdftex.def Info: results/noneq7.jpg  used on input line 721.
+Package pdftex.def Info: results/noneq7.jpg  used on input line 732.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[28 <./FBD/FBD_7.jpg>]
-<results/eq7.jpg, id=657, 562.1pt x 421.575pt>
+<results/eq7.jpg, id=656, 562.1pt x 421.575pt>
 File: results/eq7.jpg Graphic file (type jpg)
 <use results/eq7.jpg>
-Package pdftex.def Info: results/eq7.jpg  used on input line 729.
+Package pdftex.def Info: results/eq7.jpg  used on input line 740.
 (pdftex.def)             Requested size: 483.69687pt x 362.77257pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<FBD/FBD_7_new.jpg, id=660, 493.845pt x 210.7875pt>
+[29 <./results/noneq7.jpg>]
+<FBD/FBD_7_new.jpg, id=665, 493.845pt x 210.7875pt>
 File: FBD/FBD_7_new.jpg Graphic file (type jpg)
 <use FBD/FBD_7_new.jpg>
-Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 737.
+Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 748.
 (pdftex.def)             Requested size: 483.69687pt x 206.45454pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29 <./results/noneq7.jpg>] [30 <./results/eq7.jpg>]
+[30 <./results/eq7.jpg>]
 <problems/prob_1.jpg, id=676, 439.6425pt x 218.8175pt>
 File: problems/prob_1.jpg Graphic file (type jpg)
 <use problems/prob_1.jpg>
-Package pdftex.def Info: problems/prob_1.jpg  used on input line 792.
+Package pdftex.def Info: problems/prob_1.jpg  used on input line 803.
 (pdftex.def)             Requested size: 338.58632pt x 168.52338pt.
 <FBD/FBD_1.jpg, id=677, 482.80376pt x 218.8175pt>
 File: FBD/FBD_1.jpg Graphic file (type jpg)
 <use FBD/FBD_1.jpg>
-Package pdftex.def Info: FBD/FBD_1.jpg  used on input line 798.
+Package pdftex.def Info: FBD/FBD_1.jpg  used on input line 809.
 (pdftex.def)             Requested size: 386.95897pt x 175.38478pt.
 <results/solution_1.jpg, id=678, 562.1pt x 421.575pt>
 File: results/solution_1.jpg Graphic file (type jpg)
 <use results/solution_1.jpg>
-Package pdftex.def Info: results/solution_1.jpg  used on input line 804.
+Package pdftex.def Info: results/solution_1.jpg  used on input line 815.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
  [31 <./FBD/FBD_7_new.jpg>] [32]
 Overfull \vbox (65.25581pt too high) has occurred while \output is active []
@@ -951,67 +954,67 @@ Overfull \vbox (65.25581pt too high) has occurred while \output is active []
 <problems/prob_2.jpg, id=697, 473.77pt x 190.7125pt>
 File: problems/prob_2.jpg Graphic file (type jpg)
 <use problems/prob_2.jpg>
-Package pdftex.def Info: problems/prob_2.jpg  used on input line 830.
+Package pdftex.def Info: problems/prob_2.jpg  used on input line 841.
 (pdftex.def)             Requested size: 338.58632pt x 136.30019pt.
 <FBD/FBD_2.jpg, id=698, 555.07375pt x 190.7125pt>
 File: FBD/FBD_2.jpg Graphic file (type jpg)
 <use FBD/FBD_2.jpg>
-Package pdftex.def Info: FBD/FBD_2.jpg  used on input line 836.
+Package pdftex.def Info: FBD/FBD_2.jpg  used on input line 847.
 (pdftex.def)             Requested size: 386.95897pt x 132.95364pt.
 <results/solution_2.jpg, id=699, 562.1pt x 421.575pt>
 File: results/solution_2.jpg Graphic file (type jpg)
 <use results/solution_2.jpg>
-Package pdftex.def Info: results/solution_2.jpg  used on input line 842.
+Package pdftex.def Info: results/solution_2.jpg  used on input line 853.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
 
 [34] [35 <./problems/prob_2.jpg> <./FBD/FBD_2.jpg> <./results/solution_2.jpg>]
 <problems/prob_3.jpg, id=711, 467.7475pt x 218.8175pt>
 File: problems/prob_3.jpg Graphic file (type jpg)
 <use problems/prob_3.jpg>
-Package pdftex.def Info: problems/prob_3.jpg  used on input line 868.
+Package pdftex.def Info: problems/prob_3.jpg  used on input line 879.
 (pdftex.def)             Requested size: 338.58632pt x 158.40323pt.
 <FBD/FBD_3.jpg, id=712, 524.96124pt x 202.7575pt>
 File: FBD/FBD_3.jpg Graphic file (type jpg)
 <use FBD/FBD_3.jpg>
-Package pdftex.def Info: FBD/FBD_3.jpg  used on input line 874.
+Package pdftex.def Info: FBD/FBD_3.jpg  used on input line 885.
 (pdftex.def)             Requested size: 386.95897pt x 149.46274pt.
 <results/solution_3.jpg, id=713, 562.1pt x 421.575pt>
 File: results/solution_3.jpg Graphic file (type jpg)
 <use results/solution_3.jpg>
-Package pdftex.def Info: results/solution_3.jpg  used on input line 880.
+Package pdftex.def Info: results/solution_3.jpg  used on input line 891.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
 
 [36] [37 <./problems/prob_3.jpg> <./FBD/FBD_3.jpg> <./results/solution_3.jpg>]
 <problems/prob_4.jpg, id=726, 452.69125pt x 200.75pt>
 File: problems/prob_4.jpg Graphic file (type jpg)
 <use problems/prob_4.jpg>
-Package pdftex.def Info: problems/prob_4.jpg  used on input line 904.
+Package pdftex.def Info: problems/prob_4.jpg  used on input line 915.
 (pdftex.def)             Requested size: 338.58632pt x 150.14859pt.
 <FBD/FBD_4.jpg, id=727, 534.99875pt x 181.67876pt>
 File: FBD/FBD_4.jpg Graphic file (type jpg)
 <use FBD/FBD_4.jpg>
-Package pdftex.def Info: FBD/FBD_4.jpg  used on input line 910.
+Package pdftex.def Info: FBD/FBD_4.jpg  used on input line 921.
 (pdftex.def)             Requested size: 386.95897pt x 131.41293pt.
 <results/solution_4.jpg, id=728, 562.1pt x 421.575pt>
 File: results/solution_4.jpg Graphic file (type jpg)
 <use results/solution_4.jpg>
-Package pdftex.def Info: results/solution_4.jpg  used on input line 916.
+Package pdftex.def Info: results/solution_4.jpg  used on input line 927.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
 
 [38] [39 <./problems/prob_4.jpg> <./FBD/FBD_4.jpg> <./results/solution_4.jpg>]
 <problems/prob_5.jpg, id=740, 447.6725pt x 218.8175pt>
 File: problems/prob_5.jpg Graphic file (type jpg)
 <use problems/prob_5.jpg>
-Package pdftex.def Info: problems/prob_5.jpg  used on input line 943.
+Package pdftex.def Info: problems/prob_5.jpg  used on input line 954.
 (pdftex.def)             Requested size: 338.58632pt x 165.50168pt.
 File: FBD/FBD_5.jpg Graphic file (type jpg)
 <use FBD/FBD_5.jpg>
-Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 949.
+Package pdftex.def Info: FBD/FBD_5.jpg  used on input line 960.
 (pdftex.def)             Requested size: 386.95897pt x 155.3998pt.
 <results/solution_5.jpg, id=741, 562.1pt x 421.575pt>
 File: results/solution_5.jpg Graphic file (type jpg)
 <use results/solution_5.jpg>
-Package pdftex.def Info: results/solution_5.jpg  used on input line 955.
+Package pdftex.def Info: results/solution_5.jpg  used on input line 966.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
 
 [40] [41]
@@ -1022,49 +1025,49 @@ Overfull \vbox (7.02768pt too high) has occurred while \output is active []
 <problems/prob_6.jpg, id=759, 437.635pt x 210.7875pt>
 File: problems/prob_6.jpg Graphic file (type jpg)
 <use problems/prob_6.jpg>
-Package pdftex.def Info: problems/prob_6.jpg  used on input line 982.
+Package pdftex.def Info: problems/prob_6.jpg  used on input line 993.
 (pdftex.def)             Requested size: 338.58632pt x 163.08202pt.
 File: FBD/FBD_6_new.jpg Graphic file (type jpg)
 <use FBD/FBD_6_new.jpg>
-Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 988.
-(pdftex.def)             Requested size: 386.95897pt x 165.51036pt.
+Package pdftex.def Info: FBD/FBD_6_new.jpg  used on input line 999.
+(pdftex.def)             Requested size: 386.95897pt x 177.03778pt.
 <results/solution_6.jpg, id=760, 562.1pt x 421.575pt>
 File: results/solution_6.jpg Graphic file (type jpg)
 <use results/solution_6.jpg>
-Package pdftex.def Info: results/solution_6.jpg  used on input line 994.
+Package pdftex.def Info: results/solution_6.jpg  used on input line 1005.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
  [43] [44]
-Overfull \vbox (14.71858pt too high) has occurred while \output is active []
+Overfull \vbox (26.246pt too high) has occurred while \output is active []
 
 
 [45 <./problems/prob_6.jpg> <./results/solution_6.jpg>]
 <problems/prob_7.jpg, id=776, 417.56pt x 210.7875pt>
 File: problems/prob_7.jpg Graphic file (type jpg)
 <use problems/prob_7.jpg>
-Package pdftex.def Info: problems/prob_7.jpg  used on input line 1019.
+Package pdftex.def Info: problems/prob_7.jpg  used on input line 1030.
 (pdftex.def)             Requested size: 338.58632pt x 170.92992pt.
 File: FBD/FBD_7_new.jpg Graphic file (type jpg)
 <use FBD/FBD_7_new.jpg>
-Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 1025.
+Package pdftex.def Info: FBD/FBD_7_new.jpg  used on input line 1036.
 (pdftex.def)             Requested size: 386.95897pt x 165.163pt.
 <results/solution_7.jpg, id=777, 562.1pt x 421.575pt>
 File: results/solution_7.jpg Graphic file (type jpg)
 <use results/solution_7.jpg>
-Package pdftex.def Info: results/solution_7.jpg  used on input line 1031.
+Package pdftex.def Info: results/solution_7.jpg  used on input line 1042.
 (pdftex.def)             Requested size: 420.8139pt x 315.60796pt.
  [46] [47]
 Overfull \vbox (22.21912pt too high) has occurred while \output is active []
 
 
 [48 <./problems/prob_7.jpg> <./results/solution_7.jpg>] [49]
-Overfull \hbox (813.05377pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (813.05377pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     shear = 1000*(.55*s*pw(x,0,0) -s*pw(x,0,1) + 2*s*pw(x,1,
 1) - 2*s*pw(x,2,1) + 2*s*pw(x,3,1) - 2*s*pw(x,4,1) + 2*s*pw(x,5,1) - 2*s*pw(x,6
 ,1) + 2*s*pw(x,7,1) - 2*s*pw(x,8,1) + s*pw(x,9,1) + 0.45*s*pw(x,10,0));[] 
  []
 
 [50]
-Overfull \hbox (1072.4039pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (1072.4039pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*(0.55*s*pw(x,0,1) -(s/2)*pw(x,0,2) + 2*(s/
 2)*pw(x,1,2) - 2*(s/2)*pw(x,2,2) + 2*(s/2)*pw(x,3,2) - 2*(s/2)*pw(x,4,2) + 2*(s
 /2)*pw(x,5,2) - 2*(s/2)*pw(x,6,2) + 2*(s/2)*pw(x,7,2) - 2*(s/2)*pw(x,8,2) + (s/
@@ -1072,7 +1075,7 @@ Overfull \hbox (1072.4039pt too wide) in paragraph at lines 1457--1457
  []
 
 
-Overfull \hbox (1405.85406pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (1405.85406pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     displacement = 1000*(0.55*(s/6)*pw(x,0,3) -(s/24)*pw(x,0
 ,4) + 2*(s/24)*pw(x,1,4) - 2*(s/24)*pw(x,2,4) + 2*(s/24)*pw(x,3,4) - 2*(s/24)*p
 w(x,4,4) + 2*(s/24)*pw(x,5,4) - 2*(s/24)*pw(x,6,4) + 2*(s/24)*pw(x,7,4) - 2*(s/
@@ -1081,14 +1084,14 @@ w(x,4,4) + 2*(s/24)*pw(x,5,4) - 2*(s/24)*pw(x,6,4) + 2*(s/24)*pw(x,7,4) - 2*(s/
  []
 
 [51]
-Overfull \hbox (584.57866pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (584.57866pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*(50*pw(x,0,0) + s*pw(x,1,0) + 2*s*pw(x,2,0
 ) + 3*s*pw(x,3,0) + 4*s*pw(x,4,0) - 4*s*pw(x,5,0) - 3*s*pw(x,6,0) - 2*s*pw(x,7,
 0) - s*pw(x,8,0) - 50*pw(x,10,0));[] 
  []
 
 
-Overfull \hbox (1134.15393pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (1134.15393pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     displacement = (1000*(25*pw(x,0,2) + (s/2)*pw(x,1,2) + 2
 *(s/2)*pw(x,2,2) + 3*(s/2)*pw(x,3,2) + 4*(s/2)*pw(x,4,2) - 4*(s/2)*pw(x,5,2) - 
 3*(s/2)*pw(x,6,2) - 2*(s/2)*pw(x,7,2) - (s/2)*pw(x,8,2) + (-500 - 30*s)*pw(x,0,
@@ -1096,21 +1099,21 @@ Overfull \hbox (1134.15393pt too wide) in paragraph at lines 1457--1457
  []
 
 [52]
-Overfull \hbox (627.80368pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (627.80368pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/60 + 41)*pw(x,0,0) - s*pw(x,1,0) + 
 s*pw(x,2,0) - s*pw(x,3,0) + s*pw(x,4,0) - 70*pw(x,6,1) + 70*pw(x,8,1) - (s/2)*p
 w(x,9,2)  + ((23*s)/60 + 99)*pw(x,10,0));[] 
  []
 
 [53]
-Overfull \hbox (745.12874pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (745.12874pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/60 + 41)*pw(x,0,1) - s*pw(x,1,1) +
  s*pw(x,2,1) - s*pw(x,3,1) + s*pw(x,4,1) + (s+10)*pw(x,5,0) - 35*pw(x,6,2) + 35
 *pw(x,8,2) - (s/6)*pw(x,9,3) + ((23*s)/60 + 99)*pw(x,10,1));[] 
  []
 
 
-Overfull \hbox (1319.40402pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (1319.40402pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     displacement = (1000*((((7*s)/60 + 41)/6)*pw(x,0,3) - (s
 /6)*pw(x,1,3) + (s/6)*pw(x,2,3) - (s/6)*pw(x,3,3) + (s/6)*pw(x,4,3) + ((s+10)/2
 )*pw(x,5,2) - (35/12)*pw(x,6,4) + (35/12)*pw(x,8,4) - (s/120)*pw(x,9,5) + ((914
@@ -1118,21 +1121,21 @@ Overfull \hbox (1319.40402pt too wide) in paragraph at lines 1457--1457
  []
 
 [54]
-Overfull \hbox (590.75366pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (590.75366pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     shear = 1000*(25*s*pw(x,0,0) - s*pw(x,1,0) - 2*s*pw(x,2,
 0) - 3*s*pw(x,3,0) - 4*s*pw(x,4,0) - 5*s*pw(x,5,0) - 4*s*pw(x,6,0) - 3*s*pw(x,7
 ,0) - 2*s*pw(x,8,0) - s*pw(x,9,0));[] 
  []
 
 
-Overfull \hbox (708.07872pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (708.07872pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*(25*s*pw(x,0,1) - 125*s*pw(x,0,0) - s*pw(x
 ,1,1) - 2*s*pw(x,2,1) - 3*s*pw(x,3,1) - 4*s*pw(x,4,1) - 5*s*pw(x,5,1) - 4*s*pw(
 x,6,1) - 3*s*pw(x,7,1) - 2*s*pw(x,8,1) - s*pw(x,9,1));[] 
  []
 
 
-Overfull \hbox (1066.2289pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (1066.2289pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     displacement = (1000*((25/6)*s*pw(x,0,3) - (125/2)*s*pw(
 x,0,2) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - 3*(s/6)*pw(x,3,3) - 4*(s/6)*pw(x
 ,4,3) - 5*(s/6)*pw(x,5,3) - 4*(s/6)*pw(x,6,3) - 3*(s/6)*pw(x,7,3) - 2*(s/6)*pw(
@@ -1140,21 +1143,21 @@ x,8,3) - (s/6)*pw(x,9,3)))/(E*I);[]
  []
 
 [55]
-Overfull \hbox (473.4286pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (473.4286pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     shear = 1000*((3*s + 200)*pw(x,0,0) - s*pw(x,1,0) - 2*s*
 pw(x,2,0) - 100*pw(x,3,1) + 100*pw(x,7,1) - 2*s*pw(x,8,0)- s*pw(x,9,0) + (3*s+2
 00)*pw(x,10,0));[] 
  []
 
 [56]
-Overfull \hbox (467.2536pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (467.2536pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*((3*s + 200)*pw(x,0,1) - s*pw(x,1,1) - 2*s
 *pw(x,2,1) - 50*pw(x,3,2) + 50*pw(x,7,2) - 2*s*pw(x,8,1)- s*pw(x,9,1) + (3*s+20
 0)*pw(x,10,1));[] 
  []
 
 
-Overfull \hbox (955.07884pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (955.07884pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     displacement = (1000*(((3*s + 200)/6)*pw(x,0,3) - (s/6)*
 pw(x,1,3) - 2*(s/6)*pw(x,2,3) - (25/6)*pw(x,3,4) + (25/6)*pw(x,7,4) - 2*(s/6)*p
 w(x,8,3)- (s/6)*pw(x,9,3) + (-(41*s)/2 - 7100/3)*pw(x,0,1) + ((3*s+200)/6)*pw(x
@@ -1162,28 +1165,28 @@ w(x,8,3)- (s/6)*pw(x,9,3) + (-(41*s)/2 - 7100/3)*pw(x,0,1) + ((3*s+200)/6)*pw(x
  []
 
 [57]
-Overfull \hbox (615.45367pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (615.45367pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/5)*pw(x,0,0) - 100*pw(x,1,0) - s*pw
 (x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) + 100*pw(x,6,0) + 200*pw(x,7,0) + 300*pw(
 x,8,0) + (((3*s)/5) - 400)*pw(x,10,0));[] 
  []
 
 
-Overfull \hbox (621.62868pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (621.62868pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/5)*pw(x,0,1) - 100*pw(x,1,1) - s*p
 w(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) + 100*pw(x,6,1) + 200*pw(x,7,1) + 300*pw
 (x,8,1) + (((3*s)/5) - 400)*pw(x,10,1));[] 
  []
 
 [58]
-Overfull \hbox (837.75378pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (837.75378pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/5)*pw(x,0,0) - 100*pw(x,1,0) - s*pw
 (x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) - ((3*s)/5 + 200)*pw(x,5,0) + 2*100*pw(x,
 6,0) + 2*200*pw(x,7,0) + 2*300*pw(x,8,0) + 2*(((3*s)/5) - 400)*pw(x,10,0));[] 
  []
 
 
-Overfull \hbox (992.12886pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (992.12886pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/5)*pw(x,0,1) - 100*pw(x,1,1) - s*p
 w(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) - ((3*s)/5 + 200)*pw(x,5,1) + (3*s - 600
 )*pw(x,5,0) + 2*100*pw(x,6,1) + 2*200*pw(x,7,1) + 2*300*pw(x,8,1) + 2*(((3*s)/5
@@ -1191,7 +1194,7 @@ w(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) - ((3*s)/5 + 200)*pw(x,5,1) + (3*s - 600
  []
 
 
-Overfull \hbox (1554.05414pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (1554.05414pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     displacement = (1000*(((7*s)/30)*pw(x,0,3) - (100/6)*pw(
 x,1,3) - (s/6)*pw(x,2,3) - (100/6)*pw(x,3,3) - (s/6)*pw(x,4,3) - (((3*s)/5 + 20
 0)/6)*pw(x,5,3) + ((3*s - 600)/2)*pw(x,5,2) + 2*(100/6)*pw(x,6,3) + 2*(200/6)*p
@@ -1200,21 +1203,21 @@ w(x,7,3) + 2*(300/6)*pw(x,8,3) + (-(137*s)/10 + 2480)*pw(x,0,1) + 2*((((3*s)/5)
  []
 
 [59]
-Overfull \hbox (627.80368pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (627.80368pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     shear = 1000*(4.5*s*pw(x,0,0) - s*pw(x,1,0) - s*pw(x,2,0
 ) - s*pw(x,3,0) - s*pw(x,4,0) - s*pw(x,5,0) - s*pw(x,6,0) - s*pw(x,7,0) - s*pw(
 x,8,0) - s*pw(x,9,0) + 4.5*s*pw(x,10,0));[] 
  []
 
 [60]
-Overfull \hbox (633.97868pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (633.97868pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*(4.5*s*pw(x,0,1) - s*pw(x,1,1) - s*pw(x,2,
 1) - s*pw(x,3,1) - s*pw(x,4,1) - s*pw(x,5,1) - s*pw(x,6,1) - s*pw(x,7,1) - s*pw
 (x,8,1) - s*pw(x,9,1) + 4.5*s*pw(x,10,1));[] 
  []
 
 
-Overfull \hbox (899.50381pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (899.50381pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     shear = 1000*(3*4.5*s*pw(x,0,0) - 3*s*pw(x,1,0) - 3*s*pw
 (x,2,0) - s*pw(x,3,0) - 5*s*pw(x,3,0) - s*pw(x,4,0) - s*pw(x,5,0) - s*pw(x,6,0)
  - s*pw(x,7,0) - 5*s*pw(x,7,0) - 3*s*pw(x,8,0) - 3*s*pw(x,9,0) + 3*4.5*s*pw(x,1
@@ -1222,7 +1225,7 @@ Overfull \hbox (899.50381pt too wide) in paragraph at lines 1457--1457
  []
 
 [61]
-Overfull \hbox (1115.62892pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (1115.62892pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     moment = 1000*(3*4.5*s*pw(x,0,1) - 3*s*pw(x,1,1) - 3*s*p
 w(x,2,1) - s*pw(x,3,1) - 5*s*pw(x,3,1) - 21*s*pw(x,3,0) - s*pw(x,4,1) - s*pw(x,
 5,1) - s*pw(x,6,1) - s*pw(x,7,1) - 5*s*pw(x,7,1) + 21*s*pw(x,7,0) - 3*s*pw(x,8,
@@ -1230,7 +1233,7 @@ w(x,2,1) - s*pw(x,3,1) - 5*s*pw(x,3,1) - 21*s*pw(x,3,0) - s*pw(x,4,1) - s*pw(x,
  []
 
 
-Overfull \hbox (1924.55432pt too wide) in paragraph at lines 1457--1457
+Overfull \hbox (1924.55432pt too wide) in paragraph at lines 1468--1468
 []\OT1/cmtt/m/n/12     displacement = (1000*(3*4.5*(1/6)*s*pw(x,0,3) - 3*(1/6)*
 s*pw(x,1,3) - 3*(1/6)*s*pw(x,2,3) - s*(1/6)*pw(x,3,3) - 5*(1/6)*s*pw(x,3,3) - 2
 1*(1/2)*s*pw(x,3,2) - s*(1/6)*pw(x,4,3) - s*(1/6)*pw(x,5,3) - s*(1/6)*pw(x,6,3)
@@ -1240,7 +1243,7 @@ w(x,8,3) - 3*(1/6)*s*pw(x,9,3) + (-76.75 * s)*pw(x,0,1) + 3*4.5*(1/6)*s*pw(x,10
  []
 
 
-Overfull \hbox (16.47838pt too wide) in paragraph at lines 1486--1486
+Overfull \hbox (16.47838pt too wide) in paragraph at lines 1497--1497
 []\OT1/cmtt/m/n/12 function [I1, I2] = getMoment(displacement, range_x, moment,
  v_allowed, E, sY, k)[] 
  []
@@ -1262,7 +1265,7 @@ ged.
 Here is how much of TeX's memory you used:
  15882 strings out of 478927
  250213 string characters out of 2852535
- 691152 words of memory out of 3000000
+ 691153 words of memory out of 3000000
  33291 multiletter control sequences out of 15000+600000
  412107 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1284,7 +1287,7 @@ ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/almei/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/almei/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Almeida_Pedro_ISM_Project2.pdf (65 pages, 1439463 bytes).
+Output written on Almeida_Pedro_ISM_Project2.pdf (65 pages, 1441973 bytes).
 PDF statistics:
  962 PDF objects out of 1000 (max. 8388607)
  167 named destinations out of 1000 (max. 500000)
