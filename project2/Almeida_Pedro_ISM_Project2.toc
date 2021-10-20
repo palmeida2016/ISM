@@ -1,26 +1,19 @@
 \babel@toc {english}{}\relax 
 \contentsline {section}{\numberline {1}Introduction}{9}{section.1}%
-\contentsline {section}{\numberline {2}Background Theory}{9}{section.2}%
-\contentsline {section}{\numberline {3}Problem Definition}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Problem 1}{12}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Problem 2}{15}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Problem 3}{17}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Problem 4}{19}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Problem 5}{21}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Problem 6}{23}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Problem 7}{28}{subsection.3.7}%
-\contentsline {section}{\numberline {4}Results}{34}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Problem 1}{34}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Problem 2}{36}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Problem 3}{38}{subsection.4.3}%
-\contentsline {subsection}{\numberline {4.4}Problem 4}{40}{subsection.4.4}%
-\contentsline {subsection}{\numberline {4.5}Problem 5}{43}{subsection.4.5}%
-\contentsline {subsection}{\numberline {4.6}Problem 6}{46}{subsection.4.6}%
-\contentsline {subsection}{\numberline {4.7}Problem 7}{49}{subsection.4.7}%
-\contentsline {section}{\numberline {5}Conclusions}{50}{section.5}%
-\contentsline {section}{\numberline {6}Appendix}{50}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Main MATLAB Plotting}{50}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Piecewise Function}{64}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}getMoment Function}{64}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}getRadius Function}{65}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}getMax Function}{65}{subsection.6.5}%
+\contentsline {section}{\numberline {2}Problem Definition}{9}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Problem 1}{9}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Problem 2}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Problem 3}{13}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Problem 4}{15}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Problem 5}{17}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Problem 6}{20}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Problem 7}{24}{subsection.2.7}%
+\contentsline {section}{\numberline {3}Results}{31}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Problem 1}{31}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Problem 2}{33}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Problem 3}{35}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Problem 4}{37}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Problem 5}{40}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Problem 6}{43}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Problem 7}{46}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Conclusions}{47}{section.4}%
