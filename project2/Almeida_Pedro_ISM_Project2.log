@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  20 OCT 2021 03:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.9.15)  20 OCT 2021 03:38
 entering extended mode
 **./Almeida_Pedro_ISM_Project2.tex
 (Almeida_Pedro_ISM_Project2.tex
@@ -1060,197 +1060,201 @@ Overfull \vbox (22.56648pt too high) has occurred while \output is active []
 
 
 [49 <./problems/prob_7.jpg> <./results/solution_7.jpg>] [50]
-Overfull \hbox (813.05377pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     shear = 1000*(.55*s*pw(x,0,0) -s*pw(x,0,1) + 2*s*pw(x,1,
-1) - 2*s*pw(x,2,1) + 2*s*pw(x,3,1) - 2*s*pw(x,4,1) + 2*s*pw(x,5,1) - 2*s*pw(x,6
-,1) + 2*s*pw(x,7,1) - 2*s*pw(x,8,1) + s*pw(x,9,1) + 0.45*s*pw(x,10,0));[] 
+Overfull \hbox (967.42885pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     shear = 1000*(359/360 * pw(x,0,0) - s*pw(x,0,1) + 2*s*pw
+(x,1,1) - 2*s*pw(x,2,1) + 2*s*pw(x,3,1) - 2*s*pw(x,4,1) + 2*s*pw(x,5,1) - 2*s*p
+w(x,6,1) + 2*s*pw(x,7,1) - 2*s*pw(x,8,1) + s*pw(x,9,1) + (37/36)*pw(x,9,0) - (1
+/40)*pw(x,10,0));[] 
  []
 
 [51]
-Overfull \hbox (1072.4039pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*(0.55*s*pw(x,0,1) -(s/2)*pw(x,0,2) + 2*(s/
-2)*pw(x,1,2) - 2*(s/2)*pw(x,2,2) + 2*(s/2)*pw(x,3,2) - 2*(s/2)*pw(x,4,2) + 2*(s
-/2)*pw(x,5,2) - 2*(s/2)*pw(x,6,2) + 2*(s/2)*pw(x,7,2) - 2*(s/2)*pw(x,8,2) + (s/
-2)*pw(x,9,2) + 0.45*s*pw(x,10,1));[] 
+Overfull \hbox (1220.60397pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(359/360 * pw(x,0,1) - (s/2)*pw(x,0,2) + 2
+*(s/2)*pw(x,1,2) - 2*(s/2)*pw(x,2,2) + 2*(s/2)*pw(x,3,2) - 2*(s/2)*pw(x,4,2) + 
+2*(s/2)*pw(x,5,2) - 2*(s/2)*pw(x,6,2) + 2*(s/2)*pw(x,7,2) - 2*(s/2)*pw(x,8,2) +
+ (s/2)*pw(x,9,2) + (37/36)*pw(x,9,1) - (1/40)*pw(x,10,1));[] 
  []
 
 
-Overfull \hbox (1405.85406pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     displacement = 1000*(0.55*(s/6)*pw(x,0,3) -(s/24)*pw(x,0
-,4) + 2*(s/24)*pw(x,1,4) - 2*(s/24)*pw(x,2,4) + 2*(s/24)*pw(x,3,4) - 2*(s/24)*p
-w(x,4,4) + 2*(s/24)*pw(x,5,4) - 2*(s/24)*pw(x,6,4) + 2*(s/24)*pw(x,7,4) - 2*(s/
-24)*pw(x,8,4) + (s/24)*pw(x,9,4) - (209/240)*s*pw(x,0,1) + 0.45*(s/6)*pw(x,10,3
-))/(E*I);[] 
+Overfull \hbox (1578.75415pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     displacement = 1000*(359/360*(1/6)*pw(x,0,3) -(s/24)*pw(
+x,0,4) + 2*(s/24)*pw(x,1,4) - 2*(s/24)*pw(x,2,4) + 2*(s/24)*pw(x,3,4) - 2*(s/24
+)*pw(x,4,4) + 2*(s/24)*pw(x,5,4) - 2*(s/24)*pw(x,6,4) + 2*(s/24)*pw(x,7,4) - 2*
+(s/24)*pw(x,8,4) + (s/24)*pw(x,9,4) + (37/36)*(1/6)*pw(x,9,3) - (11/240)*pw(x,0
+,1) - (1/40)*(1/6)*pw(x,10,3))/(E*I);[] 
  []
 
 [52]
-Overfull \hbox (584.57866pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*(50*pw(x,0,0) + s*pw(x,1,0) + 2*s*pw(x,2,0
-) + 3*s*pw(x,3,0) + 4*s*pw(x,4,0) - 4*s*pw(x,5,0) - 3*s*pw(x,6,0) - 2*s*pw(x,7,
-0) - s*pw(x,8,0) - 50*pw(x,10,0));[] 
- []
-
-
-Overfull \hbox (1134.15393pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     displacement = (1000*(25*pw(x,0,2) + (s/2)*pw(x,1,2) + 2
-*(s/2)*pw(x,2,2) + 3*(s/2)*pw(x,3,2) + 4*(s/2)*pw(x,4,2) - 4*(s/2)*pw(x,5,2) - 
-3*(s/2)*pw(x,6,2) - 2*(s/2)*pw(x,7,2) - (s/2)*pw(x,8,2) + (-500 - 30*s)*pw(x,0,
-1) + (2500 + 135*s) - 25*pw(x,10,2)))/(E*I);[] 
+Overfull \hbox (880.9788pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(-831/100 * pw(x,0,1) + 50*pw(x,0,0) + s*p
+w(x,1,0) + 2*s*pw(x,2,0) + 3*s*pw(x,3,0) + 4*s*pw(x,4,0) - 4*s*pw(x,5,0) - 3*s*
+pw(x,6,0) - 2*s*pw(x,7,0) - s*pw(x,8,0) + 331/10*pw(x,10,0) + 831/100*pw(x,10,1
+));[] 
  []
 
 [53]
-Overfull \hbox (627.80368pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/60 + 41)*pw(x,0,0) - s*pw(x,1,0) + 
-s*pw(x,2,0) - s*pw(x,3,0) + s*pw(x,4,0) - 70*pw(x,6,1) + 70*pw(x,8,1) - (s/2)*p
-w(x,9,2)  + ((23*s)/60 + 99)*pw(x,10,0));[] 
+Overfull \hbox (1399.67906pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     displacement = (1000*(-831/100 * (1/6) * pw(x,0,3) + 25*
+pw(x,0,2) + (s/2)*pw(x,1,2) + 2*(s/2)*pw(x,2,2) + 3*(s/2)*pw(x,3,2) + 4*(s/2)*p
+w(x,4,2) - 4*(s/2)*pw(x,5,2) - 3*(s/2)*pw(x,6,2) - 2*(s/2)*pw(x,7,2) - (s/2)*pw
+(x,8,2) - 289/2*pw(x,0,1) + 331/10*(1/2)*pw(x,10,2) + 831/100*(1/6)*pw(x,10,3))
+)/(E*I);[] 
  []
 
 [54]
-Overfull \hbox (745.12874pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/60 + 41)*pw(x,0,1) - s*pw(x,1,1) +
- s*pw(x,2,1) - s*pw(x,3,1) + s*pw(x,4,1) + (s+10)*pw(x,5,0) - 35*pw(x,6,2) + 35
-*pw(x,8,2) - (s/6)*pw(x,9,3) + ((23*s)/60 + 99)*pw(x,10,1));[] 
+Overfull \hbox (590.75366pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     shear = 1000*(R_a * pw(x,0,0) - s*pw(x,1,0) + s*pw(x,2,0
+) - s*pw(x,3,0) + s*pw(x,4,0) + R_c * pw(x,6,0) - 70*pw(x,6,1) + 70*pw(x,8,1) -
+ (s/2)*pw(x,9,2) + R_b*pw(x,10,0));[] 
  []
 
 
-Overfull \hbox (1319.40402pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     displacement = (1000*((((7*s)/60 + 41)/6)*pw(x,0,3) - (s
-/6)*pw(x,1,3) + (s/6)*pw(x,2,3) - (s/6)*pw(x,3,3) + (s/6)*pw(x,4,3) + ((s+10)/2
-)*pw(x,5,2) - (35/12)*pw(x,6,4) + (35/12)*pw(x,8,4) - (s/120)*pw(x,9,5) + ((914
-3*s)/3600 - (3755/6))*pw(x,0,1) + (((23*s)/60 + 99)/6)*pw(x,10,3)))/(E*I);[] 
+Overfull \hbox (701.90372pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(R_a*pw(x,0,1) - s*pw(x,1,1) + s*pw(x,2,1)
+ - s*pw(x,3,1) + s*pw(x,4,1) + (s+10)*pw(x,5,0) + R_c * pw(x,6,1) - 35*pw(x,6,2
+) + 35*pw(x,8,2) - (s/6)*pw(x,9,3) + R_b*pw(x,10,1));[] 
+ []
+
+
+Overfull \hbox (1171.20395pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     displacement = 1000*(((R_a)/6)*pw(x,0,3) - (s/6)*pw(x,1,
+3) + (s/6)*pw(x,2,3) - (s/6)*pw(x,3,3) + (s/6)*pw(x,4,3) + ((s+10)/2)*pw(x,5,2)
+ + R_c*(1/6)*pw(x,6,3) - (35/12)*pw(x,6,4) + (35/12)*pw(x,8,4) - (s/120)*pw(x,9
+,5) + C_1*pw(x,0,1) + ((R_b)/6)*pw(x,10,3))/(E*I);[] 
  []
 
 [55]
-Overfull \hbox (590.75366pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     shear = 1000*(25*s*pw(x,0,0) - s*pw(x,1,0) - 2*s*pw(x,2,
-0) - 3*s*pw(x,3,0) - 4*s*pw(x,4,0) - 5*s*pw(x,5,0) - 4*s*pw(x,6,0) - 3*s*pw(x,7
-,0) - 2*s*pw(x,8,0) - s*pw(x,9,0));[] 
+Overfull \hbox (726.60373pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     shear = 1000*(263/8*pw(x,0,0) - s*pw(x,1,0) - 2*s*pw(x,2
+,0) - 3*s*pw(x,3,0) - 4*s*pw(x,4,0) - 5*s*pw(x,5,0) - 4*s*pw(x,6,0) - 3*s*pw(x,
+7,0) - 2*s*pw(x,8,0) - s*pw(x,9,0) + 137/8 * pw(x,10,0));[] 
  []
 
 
-Overfull \hbox (708.07872pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*(25*s*pw(x,0,1) - 125*s*pw(x,0,0) - s*pw(x
-,1,1) - 2*s*pw(x,2,1) - 3*s*pw(x,3,1) - 4*s*pw(x,4,1) - 5*s*pw(x,5,1) - 4*s*pw(
-x,6,1) - 3*s*pw(x,7,1) - 2*s*pw(x,8,1) - s*pw(x,9,1));[] 
- []
+Overfull \hbox (843.92879pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(263/8*pw(x,0,1) - 315/4*pw(x,0,0) - s*pw(
+x,1,1) - 2*s*pw(x,2,1) - 3*s*pw(x,3,1) - 4*s*pw(x,4,1) - 5*s*pw(x,5,1) - 4*s*pw
+(x,6,1) - 3*s*pw(x,7,1) - 2*s*pw(x,8,1) - s*pw(x,9,1) + 137/8 * pw(x,10,1));[] 
 
-
-Overfull \hbox (1066.2289pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     displacement = (1000*((25/6)*s*pw(x,0,3) - (125/2)*s*pw(
-x,0,2) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - 3*(s/6)*pw(x,3,3) - 4*(s/6)*pw(x
-,4,3) - 5*(s/6)*pw(x,5,3) - 4*(s/6)*pw(x,6,3) - 3*(s/6)*pw(x,7,3) - 2*(s/6)*pw(
-x,8,3) - (s/6)*pw(x,9,3)))/(E*I);[] 
  []
 
 [56]
-Overfull \hbox (473.4286pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     shear = 1000*((3*s + 200)*pw(x,0,0) - s*pw(x,1,0) - 2*s*
-pw(x,2,0) - 100*pw(x,3,1) + 100*pw(x,7,1) - 2*s*pw(x,8,0)- s*pw(x,9,0) + (3*s+2
-00)*pw(x,10,0));[] 
+Overfull \hbox (1226.77898pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     displacement = 1000*((263/8)/6 *pw(x,0,3) - (315/4)/2 *p
+w(x,0,2) - (s/6)*pw(x,1,3) - 2*(s/6)*pw(x,2,3) - 3*(s/6)*pw(x,3,3) - 4*(s/6)*pw
+(x,4,3) - 5*(s/6)*pw(x,5,3) - 4*(s/6)*pw(x,6,3) - 3*(s/6)*pw(x,7,3) - 2*(s/6)*p
+w(x,8,3) - (s/6)*pw(x,9,3) + 137/8*(1/6)*pw(x,10,3))/(E*I);[] 
  []
 
 [57]
-Overfull \hbox (467.2536pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*((3*s + 200)*pw(x,0,1) - s*pw(x,1,1) - 2*s
-*pw(x,2,1) - 50*pw(x,3,2) + 50*pw(x,7,2) - 2*s*pw(x,8,1)- s*pw(x,9,1) + (3*s+20
-0)*pw(x,10,1));[] 
+Overfull \hbox (485.77861pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     shear = 1000*(R_a*pw(x,0,0) - s*pw(x,1,0) - 2*s*pw(x,2,0
+) - 100*pw(x,3,1) + R_c*pw(x,5,0) + 100*pw(x,7,1) - 2*s*pw(x,8,0)- s*pw(x,9,0) 
++ R_b*pw(x,10,0));[] 
  []
 
 
-Overfull \hbox (955.07884pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     displacement = (1000*(((3*s + 200)/6)*pw(x,0,3) - (s/6)*
-pw(x,1,3) - 2*(s/6)*pw(x,2,3) - (25/6)*pw(x,3,4) + (25/6)*pw(x,7,4) - 2*(s/6)*p
-w(x,8,3)- (s/6)*pw(x,9,3) + (-(41*s)/2 - 7100/3)*pw(x,0,1) + ((3*s+200)/6)*pw(x
-,10,3)))/(E*I);[] 
+Overfull \hbox (479.6036pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(R_a*pw(x,0,1) - s*pw(x,1,1) - 2*s*pw(x,2,
+1) - 50*pw(x,3,2) + R_c*pw(x,5,1) + 50*pw(x,7,2) - 2*s*pw(x,8,1)- s*pw(x,9,1) +
+ R_b*pw(x,10,1));[] 
+ []
+
+
+Overfull \hbox (868.6288pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     displacement = (1000*((R_a/6)*pw(x,0,3) - (s/6)*pw(x,1,3
+) - 2*(s/6)*pw(x,2,3) - (25/6)*pw(x,3,4) + R_c/6*pw(x,5,3) + (25/6)*pw(x,7,4) -
+ 2*(s/6)*pw(x,8,3)- (s/6)*pw(x,9,3) + C1*pw(x,0,1) + (R_b/6)*pw(x,10,3)))/(E*I)
+;[] 
  []
 
 [58]
-Overfull \hbox (615.45367pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/5)*pw(x,0,0) - 100*pw(x,1,0) - s*pw
-(x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) + 100*pw(x,6,0) + 200*pw(x,7,0) + 300*pw(
-x,8,0) + (((3*s)/5) - 400)*pw(x,10,0));[] 
- []
-
-
-Overfull \hbox (621.62868pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/5)*pw(x,0,1) - 100*pw(x,1,1) - s*p
-w(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) + 100*pw(x,6,1) + 200*pw(x,7,1) + 300*pw
-(x,8,1) + (((3*s)/5) - 400)*pw(x,10,1));[] 
+Overfull \hbox (701.90372pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     shear = 1000*(-1978/375*pw(x,0,0) - 100*pw(x,1,0) - s*pw
+(x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) + 6056/375*pw(x,5,0) + 100*pw(x,6,0) + 20
+0*pw(x,7,0) + 300*pw(x,8,0) - 152578/375*pw(x,10,0));[] 
  []
 
 [59]
-Overfull \hbox (837.75378pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     shear = 1000*(((7*s)/5)*pw(x,0,0) - 100*pw(x,1,0) - s*pw
-(x,2,0) - 100*pw(x,3,0) - s*pw(x,4,0) - ((3*s)/5 + 200)*pw(x,5,0) + 2*100*pw(x,
-6,0) + 2*200*pw(x,7,0) + 2*300*pw(x,8,0) + 2*(((3*s)/5) - 400)*pw(x,10,0));[] 
- []
-
-
-Overfull \hbox (992.12886pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*(((7*s)/5)*pw(x,0,1) - 100*pw(x,1,1) - s*p
-w(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) - ((3*s)/5 + 200)*pw(x,5,1) + (3*s - 600
-)*pw(x,5,0) + 2*100*pw(x,6,1) + 2*200*pw(x,7,1) + 2*300*pw(x,8,1) + 2*(((3*s)/5
-) - 400)*pw(x,10,1));[] 
- []
-
-
-Overfull \hbox (1554.05414pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     displacement = (1000*(((7*s)/30)*pw(x,0,3) - (100/6)*pw(
-x,1,3) - (s/6)*pw(x,2,3) - (100/6)*pw(x,3,3) - (s/6)*pw(x,4,3) - (((3*s)/5 + 20
-0)/6)*pw(x,5,3) + ((3*s - 600)/2)*pw(x,5,2) + 2*(100/6)*pw(x,6,3) + 2*(200/6)*p
-w(x,7,3) + 2*(300/6)*pw(x,8,3) + (-(137*s)/10 + 2480)*pw(x,0,1) + 2*((((3*s)/5)
- - 400)/6)*pw(x,10,3)))/(10*E*I);[] 
+Overfull \hbox (708.07872pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(-1978/375*pw(x,0,1) - 100*pw(x,1,1) - s*p
+w(x,2,1) - 100*pw(x,3,1) - s*pw(x,4,1) + 6056/375*pw(x,5,1) + 100*pw(x,6,1) + 2
+00*pw(x,7,1) + 300*pw(x,8,1) - 152578/375*pw(x,10,1));[] 
  []
 
 [60]
-Overfull \hbox (627.80368pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     shear = 1000*(4.5*s*pw(x,0,0) - s*pw(x,1,0) - s*pw(x,2,0
-) - s*pw(x,3,0) - s*pw(x,4,0) - s*pw(x,5,0) - s*pw(x,6,0) - s*pw(x,7,0) - s*pw(
-x,8,0) - s*pw(x,9,0) + 4.5*s*pw(x,10,0));[] 
+Overfull \hbox (788.35376pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     shear = 1000*(R_a*pw(x,0,0) - 100*pw(x,1,0) - s*pw(x,2,0
+) - 100*pw(x,3,0) - s*pw(x,4,0) + R_c*pw(x,5,0) - (R_b+600)*pw(x,5,0) + 2*100*p
+w(x,6,0) + 2*200*pw(x,7,0) + 2*300*pw(x,8,0) + 2*R_b/6*pw(x,10,0));[] 
+ []
+
+
+Overfull \hbox (961.25385pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(R_a*pw(x,0,1) - 100*pw(x,1,1) - s*pw(x,2,
+1) - 100*pw(x,3,1) - s*pw(x,4,1) + R_c*pw(x,5,1) - (R_b+600)*pw(x,5,1) + (5*R_b
+ + 1400)*pw(x,5,0) + 2*100*pw(x,6,1) + 2*200*pw(x,7,1) + 2*300*pw(x,8,1) + 2*R_
+b/6*pw(x,10,1));[] 
+ []
+
+
+Overfull \hbox (1319.40402pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     displacement = 1000*(R_a/6*pw(x,0,3) - (100/6)*pw(x,1,3)
+ - (s/6)*pw(x,2,3) - (100/6)*pw(x,3,3) - (s/6)*pw(x,4,3) + R_c/6*pw(x,5,3) - (R
+_b+600)/6*pw(x,5,3) + (5*R_b + 1400)/2*pw(x,5,2) + 2*(100/6)*pw(x,6,3) + 2*(200
+/6)*pw(x,7,3) + 2*(300/6)*pw(x,8,3) + C_1*x + 2*R_b/6*pw(x,10,3))/(2*E*I);[] 
  []
 
 [61]
-Overfull \hbox (633.97868pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*(4.5*s*pw(x,0,1) - s*pw(x,1,1) - s*pw(x,2,
-1) - s*pw(x,3,1) - s*pw(x,4,1) - s*pw(x,5,1) - s*pw(x,6,1) - s*pw(x,7,1) - s*pw
-(x,8,1) - s*pw(x,9,1) + 4.5*s*pw(x,10,1));[] 
+Overfull \hbox (701.90372pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     shear = 1000*(R_a*pw(x,0,0) - s*pw(x,1,0) - s*pw(x,2,0) 
+- s*pw(x,3,0) - s*pw(x,4,0) - s*pw(x,5,0) + R_c*pw(x,5,0) - s*pw(x,6,0) - s*pw(
+x,7,0) - s*pw(x,8,0) - s*pw(x,9,0) + R_b*pw(x,10,0));[] 
  []
 
 
-Overfull \hbox (899.50381pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     shear = 1000*(3*4.5*s*pw(x,0,0) - 3*s*pw(x,1,0) - 3*s*pw
-(x,2,0) - s*pw(x,3,0) - 5*s*pw(x,3,0) - s*pw(x,4,0) - s*pw(x,5,0) - s*pw(x,6,0)
- - s*pw(x,7,0) - 5*s*pw(x,7,0) - 3*s*pw(x,8,0) - 3*s*pw(x,9,0) + 3*4.5*s*pw(x,1
-0,0));[] 
+Overfull \hbox (708.07872pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(R_a*pw(x,0,1) - s*pw(x,1,1) - s*pw(x,2,1)
+ - s*pw(x,3,1) - s*pw(x,4,1) - s*pw(x,5,1) + R_c*pw(x,5,1) - s*pw(x,6,1) - s*pw
+(x,7,1) - s*pw(x,8,1) - s*pw(x,9,1) + R_b*pw(x,10,1));[] 
  []
 
 [62]
-Overfull \hbox (1115.62892pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     moment = 1000*(3*4.5*s*pw(x,0,1) - 3*s*pw(x,1,1) - 3*s*p
-w(x,2,1) - s*pw(x,3,1) - 5*s*pw(x,3,1) - 21*s*pw(x,3,0) - s*pw(x,4,1) - s*pw(x,
-5,1) - s*pw(x,6,1) - s*pw(x,7,1) - 5*s*pw(x,7,1) + 21*s*pw(x,7,0) - 3*s*pw(x,8,
-1) - 3*s*pw(x,9,1) + 3*4.5*s*pw(x,10,1));[] 
+Overfull \hbox (1084.7539pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     shear = 1000*(3*R_a*pw(x,0,0) - 3*s*pw(x,1,0) - 3*s*pw(x
+,2,0) - 3*s*pw(x,3,0) + (12-2*R_a)*pw(x,3,0) - s*pw(x,4,0) + R_c*pw(x,5,0) - s*
+pw(x,5,0) - s*pw(x,6,0) - 3*s*pw(x,7,0) + (12-2*R_b)*pw(x,7,0) - 3*s*pw(x,8,0) 
+- 3*s*pw(x,9,0) + 3*R_b*pw(x,10,0));[] 
+ []
+
+[63]
+Overfull \hbox (1399.67906pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     moment = 1000*(3*R_a*pw(x,0,1) - 3*s*pw(x,1,1) - 3*s*pw(
+x,2,1) - 3*s*pw(x,3,1) + (12-2*R_a)*pw(x,3,1) - (2*R_a + 24)*pw(x,3,0) - s*pw(x
+,4,1) + R_c*pw(x,5,1) - s*pw(x,5,1) - s*pw(x,6,1) - 3*s*pw(x,7,1) + (12-2*R_a)*
+pw(x,7,1) + (2*R_a + 24)*pw(x,7,0) - 3*s*pw(x,8,1) - 3*s*pw(x,9,1) + 3*R_b*pw(x
+,10,1));[] 
  []
 
 
-Overfull \hbox (1924.55432pt too wide) in paragraph at lines 1476--1476
-[]\OT1/cmtt/m/n/12     displacement = (1000*(3*4.5*(1/6)*s*pw(x,0,3) - 3*(1/6)*
-s*pw(x,1,3) - 3*(1/6)*s*pw(x,2,3) - s*(1/6)*pw(x,3,3) - 5*(1/6)*s*pw(x,3,3) - 2
-1*(1/2)*s*pw(x,3,2) - s*(1/6)*pw(x,4,3) - s*(1/6)*pw(x,5,3) - s*(1/6)*pw(x,6,3)
- - s*(1/6)*pw(x,7,3) - 5*(1/6)*s*pw(x,7,3) + 21*(1/2)*s*pw(x,7,2) - 3*(1/6)*s*p
-w(x,8,3) - 3*(1/6)*s*pw(x,9,3) + (-76.75 * s)*pw(x,0,1) + 3*4.5*(1/6)*s*pw(x,10
-,3)))/(3*E*I);[] 
+Overfull \hbox (2165.37944pt too wide) in paragraph at lines 1504--1504
+[]\OT1/cmtt/m/n/12     displacement = (1000*(3*R_a*(1/6)*pw(x,0,3) - 3*(1/6)*s*
+pw(x,1,3) - 3*(1/6)*s*pw(x,2,3) - 3*s*(1/6)*pw(x,3,3) + (12-2*R_a)*(1/6)*pw(x,3
+,3) - (2*R_a + 24)*(1/2)*pw(x,3,2) - s*(1/6)*pw(x,4,3) + R_c/6*pw(x,5,3) - s*(1
+/6)*pw(x,5,3) - s*(1/6)*pw(x,6,3) - 3*s*(1/6)*pw(x,7,3) + (12-2*R_b)*(1/6)*pw(x
+,7,3) + (2*R_a + 24)*(1/2)*pw(x,7,2) - 3*(1/6)*s*pw(x,8,3) - 3*(1/6)*s*pw(x,9,3
+) + C_1*pw(x,0,1) + 3*R_b*(1/6)*pw(x,10,3)))/(3*E*I);[] 
  []
 
 
-Overfull \hbox (16.47838pt too wide) in paragraph at lines 1505--1505
+Overfull \hbox (16.47838pt too wide) in paragraph at lines 1533--1533
 []\OT1/cmtt/m/n/12 function [I1, I2] = getMoment(displacement, range_x, moment,
  v_allowed, E, sY, k)[] 
  []
 
-[63] [64]
+[64] [65]
 No file Almeida_Pedro_ISM_Project2.bbl.
-[65] (Almeida_Pedro_ISM_Project2.aux)
+[66] (Almeida_Pedro_ISM_Project2.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1263,9 +1267,9 @@ ged.
 ### semi simple group (level 1) entered at line 32 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 15883 strings out of 478927
- 250220 string characters out of 2852535
- 691155 words of memory out of 3000000
+ 15884 strings out of 478927
+ 250227 string characters out of 2852535
+ 692017 words of memory out of 3000000
  33291 multiletter control sequences out of 15000+600000
  412107 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1287,9 +1291,9 @@ ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/almei/AppData/Local/Programs/MiKTe
 X/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/almei/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/almei/AppData/Lo
 cal/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Almeida_Pedro_ISM_Project2.pdf (66 pages, 1446756 bytes).
+Output written on Almeida_Pedro_ISM_Project2.pdf (67 pages, 1449906 bytes).
 PDF statistics:
- 966 PDF objects out of 1000 (max. 8388607)
- 168 named destinations out of 1000 (max. 500000)
+ 972 PDF objects out of 1000 (max. 8388607)
+ 169 named destinations out of 1000 (max. 500000)
  411 words of extra memory for PDF output out of 10000 (max. 10000000)
 

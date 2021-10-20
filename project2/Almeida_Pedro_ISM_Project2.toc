@@ -20,7 +20,7 @@
 \contentsline {section}{\numberline {5}Conclusions}{50}{section.5}%
 \contentsline {section}{\numberline {6}Appendix}{50}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Main MATLAB Plotting}{50}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Piecewise Function}{63}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Piecewise Function}{64}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}getMoment Function}{64}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}getRadius Function}{64}{subsection.6.4}%
-\contentsline {subsection}{\numberline {6.5}getMax Function}{64}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.4}getRadius Function}{65}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}getMax Function}{65}{subsection.6.5}%
