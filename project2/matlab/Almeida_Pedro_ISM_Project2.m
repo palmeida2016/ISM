@@ -388,19 +388,19 @@ if any(run_problems(:) == 72)
     k = 1.5; %Safety Factor
     sY = 276e6; %Yield Stress
     I = 1/(3*E);
-%     I = 683.640162e-6/3;
+%     I = 261.663640e-6/3;
 
-    R_b = 1;
+    R_b = 1286/275;
     R_a = R_b;
-    R_c = -6*R_b + 42;
-    C_1 = -127*R_b/6 + 556/3;
+    R_c = -2*R_b + 18;
+    C_1 = -59*R_b/2 + 112;
     
     %Problem Solution
     syms x
 
     %Shear Force Plot
     subplot(3,1,1)
-    shear = 1000*(3*R_a*pw(x,0,0) - 3*s*pw(x,1,0) - 3*s*pw(x,2,0) - 3*s*pw(x,3,0) + (6+2*R_a)*pw(x,3,0) - s*pw(x,4,0) + R_c*pw(x,5,0) - s*pw(x,5,0) - s*pw(x,6,0) - 3*s*pw(x,7,0) + (6+2*R_b)*pw(x,7,0) - 3*s*pw(x,8,0) - 3*s*pw(x,9,0) + 3*R_b*pw(x,10,0));
+    shear = 1000*(3*R_a*pw(x,0,0) - 3*s*pw(x,1,0) - 3*s*pw(x,2,0) - 3*s*pw(x,3,0) + (12-2*R_a)*pw(x,3,0) - s*pw(x,4,0) + R_c*pw(x,5,0) - s*pw(x,5,0) - s*pw(x,6,0) - 3*s*pw(x,7,0) + (12-2*R_b)*pw(x,7,0) - 3*s*pw(x,8,0) - 3*s*pw(x,9,0) + 3*R_b*pw(x,10,0));
     fplot(shear, range_x);
     title('Shear Force vs. x');
     xlabel('x [m]')
@@ -408,7 +408,7 @@ if any(run_problems(:) == 72)
 
     %Moment Plot
     subplot(3,1,2)
-    moment = 1000*(3*R_a*pw(x,0,1) - 3*s*pw(x,1,1) - 3*s*pw(x,2,1) - 3*s*pw(x,3,1) + (6+2*R_a)*pw(x,3,1) - (2*R_a + 24)*pw(x,3,0) - s*pw(x,4,1) + R_c*pw(x,5,1) - s*pw(x,5,1) - s*pw(x,6,1) - 3*s*pw(x,7,1) + (2*R_a + 24)*pw(x,7,0) + (6+2*R_b)*pw(x,7,1) - 3*s*pw(x,8,1) - 3*s*pw(x,9,1) + 3*R_b*pw(x,10,1));
+    moment = 1000*(3*R_a*pw(x,0,1) - 3*s*pw(x,1,1) - 3*s*pw(x,2,1) - 3*s*pw(x,3,1) + (12-2*R_a)*pw(x,3,1) - (2*R_a + 24)*pw(x,3,0) - s*pw(x,4,1) + R_c*pw(x,5,1) - s*pw(x,5,1) - s*pw(x,6,1) - 3*s*pw(x,7,1) + (12-2*R_a)*pw(x,7,1) + (2*R_a + 24)*pw(x,7,0) - 3*s*pw(x,8,1) - 3*s*pw(x,9,1) + 3*R_b*pw(x,10,1));
     fplot(moment, range_x);
     title('Moment vs. x');
     xlabel('x [m]')
@@ -416,7 +416,7 @@ if any(run_problems(:) == 72)
     
     %Displacement Plot
     subplot(3,1,3)
-    displacement = (1000*(3*R_a*(1/6)*s*pw(x,0,3) - 3*(1/6)*s*pw(x,1,3) - 3*(1/6)*s*pw(x,2,3) - 3*s*(1/6)*pw(x,3,3) - (8+2*R_a)*(1/6)*s*pw(x,3,3) - (2*R_a + 24)*(1/2)*s*pw(x,3,2) - s*(1/6)*pw(x,4,3) - s*(1/6)*pw(x,5,3) - s*(1/6)*pw(x,6,3) - 3*s*(1/6)*pw(x,7,3) - (8+2*R_b)*(1/6)*s*pw(x,7,3) + (2*R_a + 24)*(1/2)*s*pw(x,7,2) - 3*(1/6)*s*pw(x,8,3) - 3*(1/6)*s*pw(x,9,3) + 0*pw(x,0,1) + 3*R_b*(1/6)*pw(x,10,3)))/(3*E*I);
+    displacement = (1000*(3*R_a*(1/6)*pw(x,0,3) - 3*(1/6)*s*pw(x,1,3) - 3*(1/6)*s*pw(x,2,3) - 3*s*(1/6)*pw(x,3,3) + (12-2*R_a)*(1/6)*pw(x,3,3) - (2*R_a + 24)*(1/2)*pw(x,3,2) - s*(1/6)*pw(x,4,3) + R_c/6*pw(x,5,3) - s*(1/6)*pw(x,5,3) - s*(1/6)*pw(x,6,3) - 3*s*(1/6)*pw(x,7,3) + (12-2*R_b)*(1/6)*pw(x,7,3) + (2*R_a + 24)*(1/2)*pw(x,7,2) - 3*(1/6)*s*pw(x,8,3) - 3*(1/6)*s*pw(x,9,3) + C_1*pw(x,0,1) + 3*R_b*(1/6)*pw(x,10,3)))/(3*E*I);
     fplot(displacement, range_x);
     title('Displacement vs. x');
     xlabel('x [m]')
