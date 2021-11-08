@@ -1,6 +1,6 @@
 %% Header
 % Name: Pedro Almeida
-% Date: October 1st, 2021
+% Date: November 8th, 2021
 % Course: EGM 4523C – Intermediate Strength of Materials
 % Serial Number: 2
 
@@ -12,7 +12,7 @@ run_problems = [72];
 
 
 %% Problem 1
-if any(run_problems(:) == 1)
+if any(run_problems(:) == 1
     figure(1)
 
     %Constants
